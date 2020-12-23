@@ -56,7 +56,7 @@ def sort_songs_by_album(genius, songs, existing_songs=[]):
                 if 'album' in song_data and song_data['lyrics_state'] == 'complete':
                     album_name = song_data['album']['name'].strip() if song_data['album'] else None
                     lyrics = genius.lyrics(song_data['url'])
-                    if lyrics and album_name:
+                    if lyrics and album_name and is_song(lyrics):
                         s = Song(genius, song_data, lyrics)
                         if album_name not in songs_by_album:
                             songs_by_album[album_name] = []
@@ -83,6 +83,15 @@ def albums_to_songs_csv(songs_by_album, existing_df=None):
     if existing_df is not None:
         song_df = pd.concat([existing_df, song_df])
     song_df.to_csv(CSV_PATH, index=False)
+
+def is_song(lyrics):
+    if lyrics[:len('[Intro')] == '[Intro':
+        return True
+    elif lyrics[:len('[Verse')] == '[Verse':
+        return True
+    elif lyrics[:len('[Chorus')] == '[Chorus':
+        return True
+    return False
 
 if __name__ == '__main__':
     main()
