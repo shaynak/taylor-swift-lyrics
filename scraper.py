@@ -17,6 +17,7 @@ ARTIST_ID = 1177
 API_PATH = "https://api.genius.com"
 ARTIST_URL = API_PATH + "/artists/" + str(ARTIST_ID)
 CSV_PATH = 'songs.csv'
+LYRIC_PATH = 'lyrics.csv'
 
 def main():
     parser = argparse.ArgumentParser()
@@ -30,6 +31,7 @@ def main():
     songs = get_songs(genius)
     songs_by_album = sort_songs_by_album(genius, songs, existing_songs)
     albums_to_songs_csv(songs_by_album, existing_df)
+    songs_to_lyrics()
 
 def get_songs(genius):
     print('Getting songs...')
@@ -56,7 +58,7 @@ def sort_songs_by_album(genius, songs, existing_songs=[]):
                 if 'album' in song_data and song_data['lyrics_state'] == 'complete':
                     album_name = song_data['album']['name'].strip() if song_data['album'] else None
                     lyrics = genius.lyrics(song_data['url'])
-                    if lyrics and album_name and is_song(lyrics):
+                    if lyrics and album_name and has_song_identifier(lyrics):
                         s = Song(genius, song_data, lyrics)
                         if album_name not in songs_by_album:
                             songs_by_album[album_name] = []
@@ -84,7 +86,7 @@ def albums_to_songs_csv(songs_by_album, existing_df=None):
         song_df = pd.concat([existing_df, song_df])
     song_df.to_csv(CSV_PATH, index=False)
 
-def is_song(lyrics):
+def has_song_identifier(lyrics):
     if lyrics[:len('[Intro')] == '[Intro':
         return True
     elif lyrics[:len('[Verse')] == '[Verse':
@@ -92,6 +94,52 @@ def is_song(lyrics):
     elif lyrics[:len('[Chorus')] == '[Chorus':
         return True
     return False
+
+class Lyric:
+    def __init__(self, lyric, prev_lyric=None, next_lyric=None):
+        self.lyric = lyric
+        self.prev = prev_lyric
+        self.next = next_lyric
+    
+    def __eq__(self, other):
+        return self.lyric == other.lyric and self.prev == other.prev and self.next == other.next
+        
+    def __repr__(self):
+        return self.lyric
+
+def songs_to_lyrics():
+    print('Generating lyrics CSV...')
+    song_data = pd.read_csv(CSV_PATH)
+    lyric_records = []
+    for song in song_data.to_records(index=False):
+        title, album, lyrics = song
+        lyric_list = get_lyric_list(lyrics)
+        for lyric in lyric_list:
+            lyric_record = {
+                'Song': title,
+                'Album': album,
+                'Lyric': lyric.lyric,
+                'Previous Lyric': lyric.prev,
+                'Next Lyric': lyric.next,
+            }
+            lyric_records.append(lyric_record)
+    lyric_df = pd.DataFrame.from_records(lyric_records)
+    lyric_df.to_csv(LYRIC_PATH, index=False)
+
+        
+def get_lyric_list(lyrics):
+    line = None
+    lines = lyrics.split('\n')
+    lyric_list = []
+    for i in range(len(lines)):
+        if len(lines[i]) > 0 and lines[i][0] != '[':
+            prev_line = line
+            line = lines[i]
+            next_line = lines[i + 1] if i + 1 < len(lines) and lines[i + 1] != '[' else None
+            lyric = Lyric(line, prev_line, next_line)
+            if lyric not in lyric_list:
+                lyric_list.append(lyric)
+    return lyric_list
 
 if __name__ == '__main__':
     main()
