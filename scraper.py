@@ -1,6 +1,7 @@
 import argparse
 import json
 import lyricsgenius
+import math
 import pandas as pd
 import requests
 from lyricsgenius.types import Song
@@ -18,6 +19,7 @@ API_PATH = "https://api.genius.com"
 ARTIST_URL = API_PATH + "/artists/" + str(ARTIST_ID)
 CSV_PATH = 'songs.csv'
 LYRIC_PATH = 'lyrics.csv'
+LYRIC_JSON_PATH = 'lyrics.json'
 
 def main():
     parser = argparse.ArgumentParser()
@@ -32,6 +34,7 @@ def main():
     songs_by_album = sort_songs_by_album(genius, songs, existing_songs)
     albums_to_songs_csv(songs_by_album, existing_df)
     songs_to_lyrics()
+    lyrics_to_json()
 
 def get_songs(genius):
     print('Getting songs...')
@@ -140,6 +143,26 @@ def get_lyric_list(lyrics):
             if lyric not in lyric_list:
                 lyric_list.append(lyric)
     return lyric_list
+
+def lyrics_to_json():
+    print('Generating lyrics JSON...')
+    lyric_dict = {}
+    lyric_data = pd.read_csv(LYRIC_PATH)
+    for lyric in lyric_data.to_records(index=False):
+        title, album, lyric, prev_lyric, next_lyric = lyric
+        if album not in lyric_dict:
+            lyric_dict[album] = {}
+        if title not in lyric_dict[album]:
+            lyric_dict[album][title] = []
+        lyric_dict[album][title].append({
+            'lyric': lyric,
+            'prev': "" if prev_lyric != prev_lyric else prev_lyric, # replace NaN
+            'next': "" if next_lyric != next_lyric else next_lyric
+        })
+    lyric_json = json.dumps(lyric_dict, indent=4)
+    with open(LYRIC_JSON_PATH, 'w') as f:
+        f.write(lyric_json)
+        f.close()
 
 if __name__ == '__main__':
     main()
