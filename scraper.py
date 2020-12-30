@@ -9,16 +9,31 @@ from lyricsgenius.types import Song
 from local import *
 
 ALBUMS = [
-    '1989', '1989 (Deluxe)', 'Beautiful Eyes - EP',
-    'Cats: Highlights From the Motion Picture Soundtrack', 'Fearless',
-    'Fearless (Platinum Edition)', 'Hannah Montana: The Movie', 'Lover',
-    'One Chance (Original Motion Picture Soundtrack)', 'Red (Deluxe Edition)',
-    'Speak Now', 'Speak Now (Deluxe)', 'Taylor Swift', 'Taylor Swift (Deluxe)',
+    '1989',
+    '1989 (Deluxe)',
+    '2004-2005 Demo CD',
+    'Beautiful Eyes - EP',
+    'Cats: Highlights From the Motion Picture Soundtrack',
+    'Fearless',
+    'Fearless (Platinum Edition)',
+    'Hannah Montana: The Movie',
+    'Lover',
+    'One Chance (Original Motion Picture Soundtrack)',
+    'Red (Deluxe Edition)',
+    'Speak Now',
+    'Speak Now (Deluxe)',
+    'Taylor Swift',
+    'Taylor Swift (Deluxe)',
     'The Hunger Games: Songs from District 12 and Beyond',
-    'The Taylor Swift Holiday Collection - EP', 'Unreleased Songs',
-    'Valentine’s Day (Original Motion Picture Soundtrack)', 'evermore',
-    'evermore (deluxe version)', 'folklore', 'folklore (deluxe version)',
-    'reputation', 'Uncategorized',
+    'The Taylor Swift Holiday Collection - EP',
+    'Unreleased Songs',
+    'Valentine’s Day (Original Motion Picture Soundtrack)',
+    'evermore',
+    'evermore (deluxe version)',
+    'folklore',
+    'folklore (deluxe version)',
+    'reputation',
+    'Uncategorized',
 ]
 
 ARTIST_ID = 1177
@@ -56,7 +71,6 @@ def get_songs(genius):
         song_data = json.loads(r.text)
         songs.extend(song_data['response']['songs'])
         next_page = song_data['response']['next_page']
-
     return [
         song for song in songs if song['primary_artist']['id'] == ARTIST_ID
     ]
