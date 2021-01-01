@@ -9,31 +9,27 @@ from lyricsgenius.types import Song
 from local import *
 
 ALBUMS = [
-    '1989',
-    '1989 (Deluxe)',
-    '2004-2005 Demo CD',
-    'Beautiful Eyes - EP',
-    'Cats: Highlights From the Motion Picture Soundtrack',
-    'Fearless',
+    '1989', '1989 (Deluxe)', '2004-2005 Demo CD', 'Beautiful Eyes - EP',
+    'Cats: Highlights From the Motion Picture Soundtrack', 'Fearless',
     'Fearless (Platinum Edition)',
-    'Hannah Montana: The Movie',
-    'Lover',
-    'One Chance (Original Motion Picture Soundtrack)',
-    'Red (Deluxe Edition)',
-    'Speak Now',
-    'Speak Now (Deluxe)',
-    'Taylor Swift',
-    'Taylor Swift (Deluxe)',
+    'Fifty Shades Darker (Original Motion Picture Soundtrack)',
+    'Hannah Montana: The Movie', 'Lover',
+    'One Chance (Original Motion Picture Soundtrack)', 'Red (Deluxe Edition)',
+    'Speak Now', 'Speak Now (Deluxe)', 'Taylor Swift', 'Taylor Swift (Deluxe)',
     'The Hunger Games: Songs from District 12 and Beyond',
-    'The Taylor Swift Holiday Collection - EP',
-    'Unreleased Songs',
-    'Valentine’s Day (Original Motion Picture Soundtrack)',
-    'evermore',
-    'evermore (deluxe version)',
-    'folklore',
-    'folklore (deluxe version)',
-    'reputation',
-    'Uncategorized',
+    'The Taylor Swift Holiday Collection - EP', 'Unreleased Songs',
+    'Valentine’s Day (Original Motion Picture Soundtrack)', 'evermore',
+    'evermore (deluxe version)', 'folklore', 'folklore (deluxe version)',
+    'reputation', 'Uncategorized', ''
+]
+
+# Songs that don't have an album or for which Taylor Swift is not the primary artist
+OTHER_SONGS = [
+    'Only The Young',
+    'Christmas Tree Farm',
+    # 'Monologue Song (La La La)',
+    'Ronan',
+    "I Don't Wanna Live Forever",
 ]
 
 ARTIST_ID = 1177
@@ -72,7 +68,8 @@ def get_songs(genius):
         songs.extend(song_data['response']['songs'])
         next_page = song_data['response']['next_page']
     return [
-        song for song in songs if song['primary_artist']['id'] == ARTIST_ID
+        song for song in songs
+        if song['primary_artist']['id'] == ARTIST_ID or song in OTHER_SONGS
     ]
 
 
@@ -80,6 +77,7 @@ def sort_songs_by_album(genius, songs, existing_songs=[]):
     print('Sorting songs by album...')
     songs_by_album = {}
     for song in songs:
+        lyrics = None
         if song['title'] not in existing_songs:
             try:
                 request_url = API_PATH + song['api_path']
@@ -95,8 +93,11 @@ def sort_songs_by_album(genius, songs, existing_songs=[]):
                     if album_name == "Taylor Swift" and album_name != song_data[
                             'album']['name']:
                         album_name = "Uncategorized"
+                    if album_name is None:
+                        album_name = ""
                     lyrics = genius.lyrics(song_data['url'])
-                    if lyrics and album_name and has_song_identifier(lyrics):
+                    if lyrics and has_song_identifier(lyrics) and (
+                            album_name or song['title'] in OTHER_SONGS):
                         lyrics = clean_lyrics(lyrics)
                         s = Song(genius, song_data, lyrics)
                         if album_name not in songs_by_album:
@@ -150,6 +151,9 @@ class Lyric:
     def __repr__(self):
         return self.lyric
 
+    def __hash__(self):
+        return hash((self.prev or "") + self.lyric + (self.next or ""))
+
 
 def songs_to_lyrics():
     print('Generating lyrics CSV...')
@@ -157,14 +161,15 @@ def songs_to_lyrics():
     lyric_records = []
     for song in song_data.to_records(index=False):
         title, album, lyrics = song
-        lyric_list = get_lyric_list(lyrics)
-        for lyric in lyric_list:
+        lyric_dict = get_lyric_list(lyrics)
+        for lyric in lyric_dict:
             lyric_record = {
                 'Song': title,
                 'Album': album,
                 'Lyric': lyric.lyric,
                 'Previous Lyric': lyric.prev,
                 'Next Lyric': lyric.next,
+                'Multiplicity': lyric_dict[lyric]
             }
             lyric_records.append(lyric_record)
     lyric_df = pd.DataFrame.from_records(lyric_records)
@@ -174,7 +179,7 @@ def songs_to_lyrics():
 def get_lyric_list(lyrics):
     line = None
     lines = lyrics.split('\n')
-    lyric_list = []
+    lyric_dict = {}
     for i in range(len(lines)):
         if len(lines[i]) > 0 and lines[i][0] != '[':
             prev_line = line
@@ -182,9 +187,11 @@ def get_lyric_list(lyrics):
             next_line = lines[
                 i + 1] if i + 1 < len(lines) and lines[i + 1] != '[' else None
             lyric = Lyric(line, prev_line, next_line)
-            if lyric not in lyric_list:
-                lyric_list.append(lyric)
-    return lyric_list
+            if lyric not in lyric_dict:
+                lyric_dict[lyric] = 1
+            else:
+                lyric_dict[lyric] = lyric_dict[lyric] + 1
+    return lyric_dict
 
 
 def lyrics_to_json():
@@ -192,7 +199,7 @@ def lyrics_to_json():
     lyric_dict = {}
     lyric_data = pd.read_csv(LYRIC_PATH)
     for lyric in lyric_data.to_records(index=False):
-        title, album, lyric, prev_lyric, next_lyric = lyric
+        title, album, lyric, prev_lyric, next_lyric, multiplicity = lyric
         if album not in lyric_dict:
             lyric_dict[album] = {}
         if title not in lyric_dict[album]:
@@ -203,7 +210,9 @@ def lyrics_to_json():
             'prev':
             "" if prev_lyric != prev_lyric else prev_lyric,  # replace NaN
             'next':
-            "" if next_lyric != next_lyric else next_lyric
+            "" if next_lyric != next_lyric else next_lyric,
+            'multiplicity':
+            int(multiplicity),
         })
     lyric_json = json.dumps(lyric_dict, indent=4)
     with open(LYRIC_JSON_PATH, 'w') as f:
