@@ -9,9 +9,10 @@ from lyricsgenius.types import Song
 from local import *
 
 ALBUMS = [
-    '1989', '1989 (Deluxe)', '2004-2005 Demo CD', 'Beautiful Eyes - EP',
-    'Cats: Highlights From the Motion Picture Soundtrack', 'Fearless',
-    'Fearless (Platinum Edition)',
+    '1989', '1989 (Deluxe)', "1989 (Taylor’s Version)", '2004-2005 Demo CD',
+    'Beautiful Eyes - EP',
+    'Cats: Highlights From the Motion Picture Soundtrack',
+    'Fearless (Taylor’s Version)',
     'Fifty Shades Darker (Original Motion Picture Soundtrack)',
     'Hannah Montana: The Movie', 'Lover',
     'One Chance (Original Motion Picture Soundtrack)', 'Red (Deluxe Edition)',
@@ -27,10 +28,14 @@ ALBUMS = [
 OTHER_SONGS = [
     'Only The Young',
     'Christmas Tree Farm',
+    'Renegade',
     # 'Monologue Song (La La La)',
     'Ronan',
     "I Don't Wanna Live Forever",
 ]
+
+# Songs that are somehow duplicates / etc. Currently used so there aren't two love stories!
+IGNORE_SONGS = ['Wildest Dreams']
 
 ARTIST_ID = 1177
 API_PATH = "https://api.genius.com"
@@ -38,6 +43,7 @@ ARTIST_URL = API_PATH + "/artists/" + str(ARTIST_ID)
 CSV_PATH = 'songs.csv'
 LYRIC_PATH = 'lyrics.csv'
 LYRIC_JSON_PATH = 'lyrics.json'
+SONG_LIST_PATH = 'song_titles.txt'
 
 
 def main():
@@ -49,14 +55,14 @@ def main():
         existing_df = pd.read_csv(CSV_PATH)
         existing_songs = list(existing_df['Title'])
     genius = lyricsgenius.Genius(access_token)
-    songs = get_songs(genius)
+    songs = get_songs()
     songs_by_album = sort_songs_by_album(genius, songs, existing_songs)
     albums_to_songs_csv(songs_by_album, existing_df)
     songs_to_lyrics()
     lyrics_to_json()
 
 
-def get_songs(genius):
+def get_songs():
     print('Getting songs...')
     songs = []
     next_page = 1
@@ -78,7 +84,8 @@ def sort_songs_by_album(genius, songs, existing_songs=[]):
     songs_by_album = {}
     for song in songs:
         lyrics = None
-        if song['title'] not in existing_songs:
+        if song['title'] not in existing_songs and song[
+                'title'] not in IGNORE_SONGS:
             try:
                 request_url = API_PATH + song['api_path']
                 r = requests.get(
@@ -98,8 +105,8 @@ def sort_songs_by_album(genius, songs, existing_songs=[]):
                     lyrics = genius.lyrics(song_data['url'])
                     if lyrics and has_song_identifier(lyrics) and (
                             album_name or song['title'] in OTHER_SONGS):
-                        lyrics = clean_lyrics(lyrics)
-                        s = Song(genius, song_data, lyrics)
+                        cleaned_lyrics = clean_lyrics(lyrics)
+                        s = Song(genius, song_data, cleaned_lyrics)
                         if album_name not in songs_by_album:
                             songs_by_album[album_name] = []
                         songs_by_album[album_name].append(s)
@@ -159,8 +166,10 @@ def songs_to_lyrics():
     print('Generating lyrics CSV...')
     song_data = pd.read_csv(CSV_PATH)
     lyric_records = []
+    song_titles = []
     for song in song_data.to_records(index=False):
         title, album, lyrics = song
+        song_titles.append(title)
         lyric_dict = get_lyric_list(lyrics)
         for lyric in lyric_dict:
             lyric_record = {
@@ -174,6 +183,10 @@ def songs_to_lyrics():
             lyric_records.append(lyric_record)
     lyric_df = pd.DataFrame.from_records(lyric_records)
     lyric_df.to_csv(LYRIC_PATH, index=False)
+    # Writing song list to make it easy to compare changes
+    with open(SONG_LIST_PATH, 'w') as f:
+        f.write('\n'.join(sorted(set(song_titles))))
+        f.close()
 
 
 def get_lyric_list(lyrics):
@@ -230,6 +243,9 @@ def clean_lyrics(lyrics):
         " ", lyrics)
     # Replace dashes with space and single hyphen
     lyrics = re.sub(r'\u2013|\u2014', " - ", lyrics)
+    # Replace hyperlink text
+    lyrics = re.sub(r"[0-9]*URLCopyEmbedCopy", '', lyrics)
+    lyrics = re.sub(r"[0-9]*EmbedShare", '', lyrics)
     return lyrics
 
 
