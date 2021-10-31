@@ -9,33 +9,40 @@ from lyricsgenius.types import Song
 from local import *
 
 ALBUMS = [
-    '1989', '1989 (Deluxe)', "1989 (Taylor’s Version)", '2004-2005 Demo CD',
-    'Beautiful Eyes - EP',
+    '1989', '1989 (Deluxe)', "1989 (Taylor’s Version)", 'Beautiful Eyes - EP',
     'Cats: Highlights From the Motion Picture Soundtrack',
     'Fearless (Taylor’s Version)',
     'Fifty Shades Darker (Original Motion Picture Soundtrack)',
     'Hannah Montana: The Movie', 'Lover',
+    'How Long Do You Think It’s Gonna Last?',
+    "Lily’s Driftwood Bay 2: One Crazy Summer (Original Motion Picture Soundtrack)",
     'One Chance (Original Motion Picture Soundtrack)', 'Red (Deluxe Edition)',
     'Speak Now', 'Speak Now (Deluxe)', 'Taylor Swift', 'Taylor Swift (Deluxe)',
+    "Taylor Swift (Best Buy Exclusive)",
     'The Hunger Games: Songs from District 12 and Beyond',
-    'The Taylor Swift Holiday Collection - EP', 'Unreleased Songs',
-    'Valentine’s Day (Original Motion Picture Soundtrack)', 'evermore',
+    'The Taylor Swift Holiday Collection - EP', 'Unreleased Songs', 'evermore',
     'evermore (deluxe version)', 'folklore', 'folklore (deluxe version)',
-    'reputation', 'Uncategorized', ''
+    'reputation', ''
 ]
 
 # Songs that don't have an album or for which Taylor Swift is not the primary artist
 OTHER_SONGS = [
-    'Only The Young',
-    'Christmas Tree Farm',
-    'Renegade',
-    # 'Monologue Song (La La La)',
-    'Ronan',
-    "I Don't Wanna Live Forever",
+    'Only The Young', 'Christmas Tree Farm', 'Renegade', 'Ronan',
+    "I Don’t Wanna Live Forever", 'Beautiful Eyes'
 ]
 
-# Songs that are somehow duplicates / etc. Currently used so there aren't two love stories!
-IGNORE_SONGS = ['Wildest Dreams']
+# Songs for which there is trouble retrieving them by name - temporary fix for Look What You Made Me Do
+EXTRA_SONG_API_PATHS = [
+    "/songs/3210592",
+]
+
+# Songs that are somehow duplicates / etc.
+IGNORE_SONGS = [
+    'Wildest Dreams', 'Should’ve Said No (Alternate Version)',
+    'State of Grace (Acoustic Version)',
+    'Love Story (Taylor’s Version) [Elvira Remix]',
+    'Forever & Always (Piano Version) [Taylor’s Version]'
+]
 
 ARTIST_ID = 1177
 API_PATH = "https://api.genius.com"
@@ -74,12 +81,25 @@ def get_songs():
         songs.extend(song_data['response']['songs'])
         next_page = song_data['response']['next_page']
     return [
-        song for song in songs
-        if song['primary_artist']['id'] == ARTIST_ID or song in OTHER_SONGS
+        song for song in songs if song['primary_artist']['id'] == ARTIST_ID
+        or song['title'] in OTHER_SONGS
     ]
 
 
 def sort_songs_by_album(genius, songs, existing_songs=[]):
+    def get_song_data(api_path):
+        request_url = API_PATH + api_path
+        r = requests.get(request_url,
+                         headers={'Authorization': "Bearer " + access_token})
+        return json.loads(r.text)['response']['song']
+
+    def clean_lyrics_and_append(song_data, album_name, lyrics, songs_by_album):
+        cleaned_lyrics = clean_lyrics(lyrics)
+        s = Song(genius, song_data, cleaned_lyrics)
+        if album_name not in songs_by_album:
+            songs_by_album[album_name] = []
+        songs_by_album[album_name].append(s)
+
     print('Sorting songs by album...')
     songs_by_album = {}
     for song in songs:
@@ -87,11 +107,7 @@ def sort_songs_by_album(genius, songs, existing_songs=[]):
         if song['title'] not in existing_songs and song[
                 'title'] not in IGNORE_SONGS:
             try:
-                request_url = API_PATH + song['api_path']
-                r = requests.get(
-                    request_url,
-                    headers={'Authorization': "Bearer " + access_token})
-                song_data = json.loads(r.text)['response']['song']
+                song_data = get_song_data(song['api_path'])
                 if 'album' in song_data and song_data[
                         'lyrics_state'] == 'complete':
                     album_name = song_data['album']['name'].strip(
@@ -103,17 +119,22 @@ def sort_songs_by_album(genius, songs, existing_songs=[]):
                     if album_name is None:
                         album_name = ""
                     lyrics = genius.lyrics(song_data['url'])
+                    # Ensure that
                     if lyrics and has_song_identifier(lyrics) and (
                             album_name or song['title'] in OTHER_SONGS):
-                        cleaned_lyrics = clean_lyrics(lyrics)
-                        s = Song(genius, song_data, cleaned_lyrics)
-                        if album_name not in songs_by_album:
-                            songs_by_album[album_name] = []
-                        songs_by_album[album_name].append(s)
+                        clean_lyrics_and_append(song_data, album_name, lyrics, songs_by_album)
             except requests.exceptions.Timeout:
                 print('Failed receiving song', song['title'],
                       '-- saving songs so far')
                 return songs_by_album
+
+    for api_path in EXTRA_SONG_API_PATHS:
+        song_data = get_song_data(api_path)
+        lyrics = genius.lyrics(song_data['url'])
+        album_name = song_data['album']['name'].strip(
+        ) if song_data['album'] else None
+        clean_lyrics_and_append(song_data, album_name, lyrics, songs_by_album)
+
     return songs_by_album
 
 
@@ -129,6 +150,15 @@ def albums_to_songs_csv(songs_by_album, existing_df=None):
                     'Lyrics': song.lyrics,
                 }
                 songs_records.append(record)
+        else:
+            for song in songs_by_album[album]:
+                if song in OTHER_SONGS:
+                    record = {
+                        'Title': song.title,
+                        'Album': album,
+                        'Lyrics': song.lyrics,
+                    }
+                    songs_records.append(record)
 
     song_df = pd.DataFrame.from_records(songs_records)
     if existing_df is not None:
@@ -194,16 +224,21 @@ def get_lyric_list(lyrics):
     lines = lyrics.split('\n')
     lyric_dict = {}
     for i in range(len(lines)):
-        if len(lines[i]) > 0 and lines[i][0] != '[':
+        curr_line = lines[i].strip()
+        if len(curr_line) > 0 and curr_line[0] != '[':
             prev_line = line
-            line = lines[i]
+            line = curr_line
             next_line = lines[
-                i + 1] if i + 1 < len(lines) and lines[i + 1] != '[' else None
+                i + 1] if i + 1 < len(lines) and len(lines[i + 1]) > 0 and lines[i + 1][0] != '[' else None
             lyric = Lyric(line, prev_line, next_line)
             if lyric not in lyric_dict:
                 lyric_dict[lyric] = 1
             else:
                 lyric_dict[lyric] = lyric_dict[lyric] + 1
+        # If there is a chorus / etc. indicator then set current line to "None"
+        # if the previous line was not already set
+        elif line is not None:
+            line = None
     return lyric_dict
 
 
