@@ -13,11 +13,12 @@ ALBUMS = [
     'Cats: Highlights From the Motion Picture Soundtrack',
     'Fearless (Taylor’s Version)',
     'Fifty Shades Darker (Original Motion Picture Soundtrack)',
-    'Hannah Montana: The Movie', 'Lover',
+    'Hannah Montana: The Movie', 'Lover (Target Exclusive)',
     'How Long Do You Think It’s Gonna Last?',
     "Lily’s Driftwood Bay 2: One Crazy Summer (Original Motion Picture Soundtrack)",
-    'One Chance (Original Motion Picture Soundtrack)', 'Red (Deluxe Edition)',
-    'Speak Now', 'Speak Now (Deluxe)', 'Taylor Swift', 'Taylor Swift (Deluxe)',
+    'One Chance (Original Motion Picture Soundtrack)',
+    'Red (Taylor’s Version)', 'Speak Now', 'Speak Now (Deluxe)',
+    'Taylor Swift', 'Taylor Swift (Deluxe)',
     "Taylor Swift (Best Buy Exclusive)",
     'The Hunger Games: Songs from District 12 and Beyond',
     'The Taylor Swift Holiday Collection - EP', 'Unreleased Songs', 'evermore',
@@ -27,21 +28,19 @@ ALBUMS = [
 
 # Songs that don't have an album or for which Taylor Swift is not the primary artist
 OTHER_SONGS = [
-    'Only The Young', 'Christmas Tree Farm', 'Renegade', 'Ronan',
+    'Only The Young', 'Christmas Tree Farm', 'Renegade',
     "I Don’t Wanna Live Forever", 'Beautiful Eyes'
 ]
 
-# Songs for which there is trouble retrieving them by name - temporary fix for Look What You Made Me Do
-EXTRA_SONG_API_PATHS = [
-    "/songs/3210592",
-]
+# Songs for which there is trouble retrieving them by name - temporary fix for Look What You Made Me Do & Blank Space
+EXTRA_SONG_API_PATHS = ["/songs/3210592", "/songs/542389"]
 
 # Songs that are somehow duplicates / etc.
 IGNORE_SONGS = [
     'Wildest Dreams', 'Should’ve Said No (Alternate Version)',
-    'State of Grace (Acoustic Version)',
+    'State Of Grace (Acoustic Version) (Taylor’s Version)',
     'Love Story (Taylor’s Version) [Elvira Remix]',
-    'Forever & Always (Piano Version) [Taylor’s Version]'
+    'Forever & Always (Piano Version) [Taylor’s Version]', 'Ronan'
 ]
 
 ARTIST_ID = 1177
@@ -122,7 +121,8 @@ def sort_songs_by_album(genius, songs, existing_songs=[]):
                     # Ensure that
                     if lyrics and has_song_identifier(lyrics) and (
                             album_name or song['title'] in OTHER_SONGS):
-                        clean_lyrics_and_append(song_data, album_name, lyrics, songs_by_album)
+                        clean_lyrics_and_append(song_data, album_name, lyrics,
+                                                songs_by_album)
             except requests.exceptions.Timeout:
                 print('Failed receiving song', song['title'],
                       '-- saving songs so far')
@@ -146,7 +146,8 @@ def albums_to_songs_csv(songs_by_album, existing_df=None):
             for song in songs_by_album[album]:
                 record = {
                     'Title': song.title,
-                    'Album': album,
+                    'Album':
+                    album if album != 'Lover (Target Exclusive)' else 'Lover',
                     'Lyrics': song.lyrics,
                 }
                 songs_records.append(record)
@@ -228,8 +229,8 @@ def get_lyric_list(lyrics):
         if len(curr_line) > 0 and curr_line[0] != '[':
             prev_line = line
             line = curr_line
-            next_line = lines[
-                i + 1] if i + 1 < len(lines) and len(lines[i + 1]) > 0 and lines[i + 1][0] != '[' else None
+            next_line = lines[i + 1] if i + 1 < len(lines) and len(
+                lines[i + 1]) > 0 and lines[i + 1][0] != '[' else None
             lyric = Lyric(line, prev_line, next_line)
             if lyric not in lyric_dict:
                 lyric_dict[lyric] = 1
