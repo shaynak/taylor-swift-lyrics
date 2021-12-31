@@ -32,13 +32,20 @@ OTHER_SONGS = [
     "I Don’t Wanna Live Forever", 'Beautiful Eyes'
 ]
 
-# Songs for which there is trouble retrieving them by name - temporary fix for Look What You Made Me Do & Blank Space
-EXTRA_SONG_API_PATHS = ["/songs/3210592", "/songs/542389"]
+# Songs for which there is trouble retrieving them by name
+EXTRA_SONG_API_PATHS = {
+    "/songs/542389": '1989 (Deluxe)',
+    "/songs/187445": 'Fearless (Taylor’s Version)',
+    '/songs/187017': 'Beautiful Eyes - EP',
+    '/songs/132092': 'Taylor Swift',
+    '/songs/6263242': 'evermore (deluxe version)',
+    '/songs/6260178': 'evermore (deluxe version)',
+}
 
 # Songs that are somehow duplicates / etc.
 IGNORE_SONGS = [
     'Wildest Dreams', 'Should’ve Said No (Alternate Version)',
-    'State Of Grace (Acoustic Version) (Taylor’s Version)',
+    'State Of Grace (Acoustic Version) [Taylor’s Version]',
     'Love Story (Taylor’s Version) [Elvira Remix]',
     'Forever & Always (Piano Version) [Taylor’s Version]', 'Ronan'
 ]
@@ -54,14 +61,18 @@ SONG_LIST_PATH = 'song_titles.txt'
 
 def main():
     parser = argparse.ArgumentParser()
+    # Only look for songs that aren't already existing
     parser.add_argument('--append', action='store_true')
+    # Append songs specifically in EXTRA_SONG_API_PATHS
+    parser.add_argument('--appendpaths', action='store_true')
     args = parser.parse_args()
     existing_df, existing_songs = None, []
     if args.append:
         existing_df = pd.read_csv(CSV_PATH)
         existing_songs = list(existing_df['Title'])
+        print(existing_df.groupby('Album')['Title'].unique())
     genius = lyricsgenius.Genius(access_token)
-    songs = get_songs()
+    songs = get_songs() if not args.appendpaths else []
     songs_by_album = sort_songs_by_album(genius, songs, existing_songs)
     albums_to_songs_csv(songs_by_album, existing_df)
     songs_to_lyrics()
@@ -130,10 +141,11 @@ def sort_songs_by_album(genius, songs, existing_songs=[]):
 
     for api_path in EXTRA_SONG_API_PATHS:
         song_data = get_song_data(api_path)
-        lyrics = genius.lyrics(song_data['url'])
-        album_name = song_data['album']['name'].strip(
-        ) if song_data['album'] else None
-        clean_lyrics_and_append(song_data, album_name, lyrics, songs_by_album)
+        if song_data['title'] not in existing_songs:
+            lyrics = genius.lyrics(song_data['url'])
+            album_name = EXTRA_SONG_API_PATHS[api_path]
+            clean_lyrics_and_append(song_data, album_name, lyrics,
+                                    songs_by_album)
 
     return songs_by_album
 
