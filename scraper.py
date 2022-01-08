@@ -23,13 +23,15 @@ ALBUMS = [
     'The Hunger Games: Songs from District 12 and Beyond',
     'The Taylor Swift Holiday Collection - EP', 'Unreleased Songs', 'evermore',
     'evermore (deluxe version)', 'folklore', 'folklore (deluxe version)',
-    'reputation', ''
+    'reputation', 'Two Lanes of Freedom (Accelerated Deluxe)', 'Love Drunk', 
+    'Women in Music Pt. III (Expanded Edition)', ''
 ]
 
 # Songs that don't have an album or for which Taylor Swift is not the primary artist
 OTHER_SONGS = [
     'Only The Young', 'Christmas Tree Farm', 'Renegade',
-    "I Don’t Wanna Live Forever", 'Beautiful Eyes'
+    "I Don’t Wanna Live Forever", 'Beautiful Eyes', "Highway Don’t Care",
+    'Two Is Better Than One', 'Gasoline (Remix)'
 ]
 
 # Songs for which there is trouble retrieving them by name
@@ -40,6 +42,10 @@ EXTRA_SONG_API_PATHS = {
     '/songs/132092': 'Taylor Swift',
     '/songs/6263242': 'evermore (deluxe version)',
     '/songs/6260178': 'evermore (deluxe version)',
+    '/songs/187143': 'Hannah Montana: The Movie',
+    '/songs/132082': 'Taylor Swift',
+    '/songs/132098': 'Taylor Swift',
+    '/songs/186861': 'The Taylor Swift Holiday Collection - EP',
 }
 
 # Songs that are somehow duplicates / etc.
@@ -70,7 +76,7 @@ def main():
     if args.append:
         existing_df = pd.read_csv(CSV_PATH)
         existing_songs = list(existing_df['Title'])
-        print(existing_df.groupby('Album')['Title'].unique())
+        [print(album) for album in existing_df.groupby('Album')['Title'].unique().index]
     genius = lyricsgenius.Genius(access_token)
     songs = get_songs() if not args.appendpaths else []
     songs_by_album = sort_songs_by_album(genius, songs, existing_songs)

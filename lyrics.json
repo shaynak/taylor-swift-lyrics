@@ -19015,6 +19015,346 @@
                 "next": "",
                 "multiplicity": 1
             }
+        ],
+        "Cold as You": [
+            {
+                "lyric": "You have a way of coming easily to me",
+                "prev": "",
+                "next": "And when you take, you take the very best of me",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And when you take, you take the very best of me",
+                "prev": "You have a way of coming easily to me",
+                "next": "So I start a fight cause I need to feel something",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "So I start a fight cause I need to feel something",
+                "prev": "And when you take, you take the very best of me",
+                "next": "And you do what you want 'cause I'm not what you wanted",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And you do what you want 'cause I'm not what you wanted",
+                "prev": "So I start a fight cause I need to feel something",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Oh, what a shame, what a rainy ending given to a perfect day",
+                "prev": "",
+                "next": "Just walk away, ain't no use defending words that you will never say",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Just walk away, ain't no use defending words that you will never say",
+                "prev": "Oh, what a shame, what a rainy ending given to a perfect day",
+                "next": "And now that I'm sitting here thinking it through",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And now that I'm sitting here thinking it through",
+                "prev": "Just walk away, ain't no use defending words that you will never say",
+                "next": "I've never been anywhere cold as you",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I've never been anywhere cold as you",
+                "prev": "And now that I'm sitting here thinking it through",
+                "next": "",
+                "multiplicity": 3
+            },
+            {
+                "lyric": "You put up walls and paint them all a shade of gray",
+                "prev": "",
+                "next": "And I stood there loving you and wished them all away",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And I stood there loving you and wished them all away",
+                "prev": "You put up walls and paint them all a shade of gray",
+                "next": "And you come away with a great little story",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And you come away with a great little story",
+                "prev": "And I stood there loving you and wished them all away",
+                "next": "Of a mess of a dreamer with the nerve to adore you",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Of a mess of a dreamer with the nerve to adore you",
+                "prev": "And you come away with a great little story",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Oh, what a shame, what a rainy ending given to a perfect day",
+                "prev": "",
+                "next": "So just walk away, ain't no use defending words that you will never say",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "So just walk away, ain't no use defending words that you will never say",
+                "prev": "Oh, what a shame, what a rainy ending given to a perfect day",
+                "next": "And now that I'm sitting here thinking it through",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And now that I'm sitting here thinking it through",
+                "prev": "So just walk away, ain't no use defending words that you will never say",
+                "next": "I've never been anywhere cold as you",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You never did give a damn thing, honey, but I cried, cried for you",
+                "prev": "",
+                "next": "And I know you wouldn't have told nobody if I died, died for you",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And I know you wouldn't have told nobody if I died, died for you",
+                "prev": "You never did give a damn thing, honey, but I cried, cried for you",
+                "next": "(Died for you)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "(Died for you)",
+                "prev": "And I know you wouldn't have told nobody if I died, died for you",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Oh, what a shame, what a rainy ending given to a perfect day",
+                "prev": "",
+                "next": "Every smile you fake is so condescending",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Every smile you fake is so condescending",
+                "prev": "Oh, what a shame, what a rainy ending given to a perfect day",
+                "next": "Counting all the scars you made",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Counting all the scars you made",
+                "prev": "Every smile you fake is so condescending",
+                "next": "And now that I'm sitting here thinking it through",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And now that I'm sitting here thinking it through",
+                "prev": "Counting all the scars you made",
+                "next": "I've never been anywhere cold as you ",
+                "multiplicity": 1
+            }
+        ],
+        "I\u2019m Only Me When I\u2019m with You": [
+            {
+                "lyric": "Friday night beneath the stars",
+                "prev": "",
+                "next": "In a field behind your yard",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "In a field behind your yard",
+                "prev": "Friday night beneath the stars",
+                "next": "You and I are painting pictures in the sky",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You and I are painting pictures in the sky",
+                "prev": "In a field behind your yard",
+                "next": "And sometimes we don't say a thing",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And sometimes we don't say a thing",
+                "prev": "You and I are painting pictures in the sky",
+                "next": "Just listen to the crickets sing",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Just listen to the crickets sing",
+                "prev": "And sometimes we don't say a thing",
+                "next": "Everything I need is right here by my side",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Everything I need is right here by my side",
+                "prev": "Just listen to the crickets sing",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And I know everything about you",
+                "prev": "",
+                "next": "I don't wanna live without you",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I don't wanna live without you",
+                "prev": "And I know everything about you",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I'm only up when you're not down",
+                "prev": "",
+                "next": "Don't wanna fly if you're still on the ground",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "Don't wanna fly if you're still on the ground",
+                "prev": "I'm only up when you're not down",
+                "next": "It's like no matter what I do",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "It's like no matter what I do",
+                "prev": "Don't wanna fly if you're still on the ground",
+                "next": "Well you drive me crazy half the time",
+                "multiplicity": 3
+            },
+            {
+                "lyric": "Well you drive me crazy half the time",
+                "prev": "It's like no matter what I do",
+                "next": "The other half, I'm only tryin' to",
+                "multiplicity": 3
+            },
+            {
+                "lyric": "The other half, I'm only tryin' to",
+                "prev": "Well you drive me crazy half the time",
+                "next": "Let you know that what I feel is true",
+                "multiplicity": 3
+            },
+            {
+                "lyric": "Let you know that what I feel is true",
+                "prev": "The other half, I'm only tryin' to",
+                "next": "And I'm only me when I'm with you",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "And I'm only me when I'm with you",
+                "prev": "Let you know that what I feel is true",
+                "next": "",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "Just a small-town boy and girl",
+                "prev": "",
+                "next": "Livin' in a crazy world",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Livin' in a crazy world",
+                "prev": "Just a small-town boy and girl",
+                "next": "Tryna figure out what is and isn't true",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Tryna figure out what is and isn't true",
+                "prev": "Livin' in a crazy world",
+                "next": "And I don't try to hide my tears",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And I don't try to hide my tears",
+                "prev": "Tryna figure out what is and isn't true",
+                "next": "My secrets or my deepest fears",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "My secrets or my deepest fears",
+                "prev": "And I don't try to hide my tears",
+                "next": "Through it all, nobody gets me like you do",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Through it all, nobody gets me like you do",
+                "prev": "My secrets or my deepest fears",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And you know everything about me",
+                "prev": "",
+                "next": "You say that you can't live without me",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You say that you can't live without me",
+                "prev": "And you know everything about me",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "When I'm with anybody else",
+                "prev": "",
+                "next": "It's so hard to be myself",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "It's so hard to be myself",
+                "prev": "When I'm with anybody else",
+                "next": "And only you can tell",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And only you can tell",
+                "prev": "It's so hard to be myself",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "That I'm only up when you're not down",
+                "prev": "",
+                "next": "Don't wanna fly if you're still on the ground",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Don't wanna fly if you're still on the ground",
+                "prev": "That I'm only up when you're not down",
+                "next": "It's like no matter what I do",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Let you know that what I feel is true",
+                "prev": "The other half, I'm only tryin' to",
+                "next": "And I'm only me",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And I'm only me",
+                "prev": "Let you know that what I feel is true",
+                "next": "Who I wanna be",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Who I wanna be",
+                "prev": "And I'm only me",
+                "next": "Well I'm only me when I'm with you",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Well I'm only me when I'm with you",
+                "prev": "Who I wanna be",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "With you",
+                "prev": "",
+                "next": "Uh-huh-huh, yeah ",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Uh-huh-huh, yeah",
+                "prev": "With you",
+                "next": "",
+                "multiplicity": 1
+            }
         ]
     },
     "folklore": {
@@ -43299,6 +43639,224 @@
                 "next": "And may all your Christmases be white ",
                 "multiplicity": 1
             }
+        ],
+        "Christmas Must Be Something More": [
+            {
+                "lyric": "What if ribbons and bows didn't mean a thing?",
+                "prev": "",
+                "next": "Would the song still survive without five golden rings?",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Would the song still survive without five golden rings?",
+                "prev": "What if ribbons and bows didn't mean a thing?",
+                "next": "Would you still wanna kiss without mistletoe?",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Would you still wanna kiss without mistletoe?",
+                "prev": "Would the song still survive without five golden rings?",
+                "next": "What would happen if God never let it snow?",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "What would happen if God never let it snow?",
+                "prev": "Would you still wanna kiss without mistletoe?",
+                "next": "What would happen if Christmas carols told a lie?",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "What would happen if Christmas carols told a lie?",
+                "prev": "What would happen if God never let it snow?",
+                "next": "Tell me, what would you find?",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Tell me, what would you find?",
+                "prev": "What would happen if Christmas carols told a lie?",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You'd see that today holds something special",
+                "prev": "",
+                "next": "Something holy, not superficial",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "Something holy, not superficial",
+                "prev": "You'd see that today holds something special",
+                "next": "So here's to the birthday boy who saved our lives",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "So here's to the birthday boy who saved our lives",
+                "prev": "Something holy, not superficial",
+                "next": "It's something we all try to ignore",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "It's something we all try to ignore",
+                "prev": "So here's to the birthday boy who saved our lives",
+                "next": "And put a wreath up on your door",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "And put a wreath up on your door",
+                "prev": "It's something we all try to ignore",
+                "next": "So here's something you should know that is for sure",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "So here's something you should know that is for sure",
+                "prev": "And put a wreath up on your door",
+                "next": "Christmas must be something more",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "Christmas must be something more",
+                "prev": "So here's something you should know that is for sure",
+                "next": "",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "What if angels did not pay attention to",
+                "prev": "",
+                "next": "All the things that we wished they would always do?",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "All the things that we wished they would always do?",
+                "prev": "What if angels did not pay attention to",
+                "next": "What if happiness came in a cardboard box?",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "What if happiness came in a cardboard box?",
+                "prev": "All the things that we wished they would always do?",
+                "next": "Then I think there is something we all forgot",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Then I think there is something we all forgot",
+                "prev": "What if happiness came in a cardboard box?",
+                "next": "What would happen if presents all went away?",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "What would happen if presents all went away?",
+                "prev": "Then I think there is something we all forgot",
+                "next": "Tell me, what would you find?",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Tell me, what would you find?",
+                "prev": "What would happen if presents all went away?",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "We get so caught up in all of it",
+                "prev": "",
+                "next": "Business and relationships",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Business and relationships",
+                "prev": "We get so caught up in all of it",
+                "next": "Hundred-mile-an-hour lives",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Hundred-mile-an-hour lives",
+                "prev": "Business and relationships",
+                "next": "And it's this time of year",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And it's this time of year",
+                "prev": "Hundred-mile-an-hour lives",
+                "next": "And everybody's here",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And everybody's here",
+                "prev": "And it's this time of year",
+                "next": "It seems the last thing on your mind",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "It seems the last thing on your mind",
+                "prev": "And everybody's here",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Is that the day holds something special",
+                "prev": "",
+                "next": "Something holy, not superficial",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Something holy, not superficial",
+                "prev": "Is that the day holds something special",
+                "next": "So here's to Jesus Christ who saved our lives",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "So here's to Jesus Christ who saved our lives",
+                "prev": "Something holy, not superficial",
+                "next": "It's something we all try to ignore",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "It's something we all try to ignore",
+                "prev": "So here's to Jesus Christ who saved our lives",
+                "next": "And put a wreath up on your door",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And put a wreath up on your door",
+                "prev": "It's something we all try to ignore",
+                "next": "But here's something you should know that is for sure",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "But here's something you should know that is for sure",
+                "prev": "And put a wreath up on your door",
+                "next": "Christmas must be something",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Christmas must be something",
+                "prev": "But here's something you should know that is for sure",
+                "next": "Christmas must be something",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Christmas must be something",
+                "prev": "Christmas must be something",
+                "next": "Christmas must be something more",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Christmas must be something more",
+                "prev": "Christmas must be something",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "There's gotta be more",
+                "prev": "",
+                "next": "There's gotta be more ",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "There's gotta be more",
+                "prev": "There's gotta be more",
+                "next": "",
+                "multiplicity": 1
+            }
         ]
     },
     "The Hunger Games: Songs from District 12 and Beyond": {
@@ -46932,6 +47490,790 @@
             {
                 "lyric": "You just go",
                 "prev": "Then you go",
+                "next": "",
+                "multiplicity": 1
+            }
+        ]
+    },
+    "Hannah Montana: The Movie": {
+        "Crazier": [
+            {
+                "lyric": "I'd never gone with the wind, just let it flow",
+                "prev": "",
+                "next": "Let it take me where it wants to go",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Let it take me where it wants to go",
+                "prev": "I'd never gone with the wind, just let it flow",
+                "next": "'Til you open the door, there's so much more",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "'Til you open the door, there's so much more",
+                "prev": "Let it take me where it wants to go",
+                "next": "I'd never seen it before",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I'd never seen it before",
+                "prev": "'Til you open the door, there's so much more",
+                "next": "I was tryin' to fly but I couldn't find wings",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I was tryin' to fly but I couldn't find wings",
+                "prev": "I'd never seen it before",
+                "next": "But you came along and you changed everything",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "But you came along and you changed everything",
+                "prev": "I was tryin' to fly but I couldn't find wings",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You lift my feet off the ground",
+                "prev": "",
+                "next": "You spin me around",
+                "multiplicity": 3
+            },
+            {
+                "lyric": "You spin me around",
+                "prev": "You lift my feet off the ground",
+                "next": "You make me crazier, crazier",
+                "multiplicity": 3
+            },
+            {
+                "lyric": "You make me crazier, crazier",
+                "prev": "You spin me around",
+                "next": "Feels like I'm fallin' and I am lost in your eyes",
+                "multiplicity": 3
+            },
+            {
+                "lyric": "Feels like I'm fallin' and I am lost in your eyes",
+                "prev": "You make me crazier, crazier",
+                "next": "You make me crazier, crazier, crazier",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "You make me crazier, crazier, crazier",
+                "prev": "Feels like I'm fallin' and I am lost in your eyes",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I've watched from a distance as you made life your own",
+                "prev": "",
+                "next": "Every sky was your own kind of blue",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Every sky was your own kind of blue",
+                "prev": "I've watched from a distance as you made life your own",
+                "next": "And I wanted to know how that would feel",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And I wanted to know how that would feel",
+                "prev": "Every sky was your own kind of blue",
+                "next": "And you made it so real",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And you made it so real",
+                "prev": "And I wanted to know how that would feel",
+                "next": "You showed me somethin' that I couldn't see",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You showed me somethin' that I couldn't see",
+                "prev": "And you made it so real",
+                "next": "You opened my eyes",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You opened my eyes",
+                "prev": "You showed me somethin' that I couldn't see",
+                "next": "And you made me believe",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And you made me believe",
+                "prev": "You opened my eyes",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Feels like I'm fallin' and I am lost in your eyes",
+                "prev": "You make me crazier, crazier",
+                "next": "You make me crazier, crazier, crazier, oh",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You make me crazier, crazier, crazier, oh",
+                "prev": "Feels like I'm fallin' and I am lost in your eyes",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Baby, you showed me what livin' is for",
+                "prev": "",
+                "next": "I don't wanna hide anymore",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I don't wanna hide anymore",
+                "prev": "Baby, you showed me what livin' is for",
+                "next": "Oh-oh",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Oh-oh",
+                "prev": "I don't wanna hide anymore",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You make me crazier, crazier, crazier",
+                "prev": "Feels like I'm fallin' and I am lost in your eyes",
+                "next": "Crazier, crazier ",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Crazier, crazier",
+                "prev": "You make me crazier, crazier, crazier",
+                "next": "",
+                "multiplicity": 1
+            }
+        ]
+    },
+    "Women in Music Pt. III (Expanded Edition)": {
+        "Gasoline (Remix)": [
+            {
+                "lyric": "You took me back",
+                "prev": "",
+                "next": "But you shouldn't have",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "But you shouldn't have",
+                "prev": "You took me back",
+                "next": "Now it's your fault if I mess around",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Now it's your fault if I mess around",
+                "prev": "But you shouldn't have",
+                "next": "I took a drag",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I took a drag",
+                "prev": "Now it's your fault if I mess around",
+                "next": "But I shouldn't have",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "But I shouldn't have",
+                "prev": "I took a drag",
+                "next": "Now I'm coughing up like I",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Now I'm coughing up like I",
+                "prev": "But I shouldn't have",
+                "next": "Never smoked a pack",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Never smoked a pack",
+                "prev": "Now I'm coughing up like I",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Gasoline, pretty please",
+                "prev": "",
+                "next": "I want to get off",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "I want to get off",
+                "prev": "Gasoline, pretty please",
+                "next": "But you're such a tease",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "But you're such a tease",
+                "prev": "I want to get off",
+                "next": "Throw the keys back to me",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Throw the keys back to me",
+                "prev": "But you're such a tease",
+                "next": "Go on and kick off your boots",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Go on and kick off your boots",
+                "prev": "Throw the keys back to me",
+                "next": "In the passenger seat",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "In the passenger seat",
+                "prev": "Go on and kick off your boots",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I get sad, you know I get sad",
+                "prev": "",
+                "next": "And I can't look past what I'm sad about",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And I can't look past what I'm sad about",
+                "prev": "I get sad, you know I get sad",
+                "next": "You did me bad (Did me bad, did me bad)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You did me bad (Did me bad, did me bad)",
+                "prev": "And I can't look past what I'm sad about",
+                "next": "And I did it back (Did it back, did it back)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And I did it back (Did it back, did it back)",
+                "prev": "You did me bad (Did me bad, did me bad)",
+                "next": "You needed ass, well, what's",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You needed ass, well, what's",
+                "prev": "And I did it back (Did it back, did it back)",
+                "next": "Wrong with that?",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Wrong with that?",
+                "prev": "You needed ass, well, what's",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Gasoline (Gasoline), pretty please (Pretty please)",
+                "prev": "",
+                "next": "I want to get off (Gasoline)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I want to get off (Gasoline)",
+                "prev": "Gasoline (Gasoline), pretty please (Pretty please)",
+                "next": "But you're such a tease",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "But you're such a tease",
+                "prev": "I want to get off (Gasoline)",
+                "next": "Throw the keys (Throw the keys) back to me (Back to me)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Throw the keys (Throw the keys) back to me (Back to me)",
+                "prev": "But you're such a tease",
+                "next": "Go on and kick off your boots (Gasoline)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Go on and kick off your boots (Gasoline)",
+                "prev": "Throw the keys (Throw the keys) back to me (Back to me)",
+                "next": "In the passenger seat",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "In the passenger seat",
+                "prev": "Go on and kick off your boots (Gasoline)",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Strike a match, strike a match, watch it blow",
+                "prev": "",
+                "next": "We're watching the sunrise from the kitchen counter",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "We're watching the sunrise from the kitchen counter",
+                "prev": "Strike a match, strike a match, watch it blow",
+                "next": "Want you bad, want you bad, don't you know?",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Want you bad, want you bad, don't you know?",
+                "prev": "We're watching the sunrise from the kitchen counter",
+                "next": "When you're lying between my legs it doesn't matter",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "When you're lying between my legs it doesn't matter",
+                "prev": "Want you bad, want you bad, don't you know?",
+                "next": "Strike a match, strike a match, watch it blow",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Strike a match, strike a match, watch it blow",
+                "prev": "When you're lying between my legs it doesn't matter",
+                "next": "You say you wanna go slower but I wanna go faster",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You say you wanna go slower but I wanna go faster",
+                "prev": "Strike a match, strike a match, watch it blow",
+                "next": "Want you bad, want you bad, don't you know?",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Want you bad, want you bad, don't you know?",
+                "prev": "You say you wanna go slower but I wanna go faster",
+                "next": "Faster and faster",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Faster and faster",
+                "prev": "Want you bad, want you bad, don't you know?",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I want to get off",
+                "prev": "Gasoline, pretty please",
+                "next": "But you're such a tease ",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "But you're such a tease",
+                "prev": "I want to get off",
+                "next": "",
+                "multiplicity": 1
+            }
+        ]
+    },
+    "Two Lanes of Freedom (Accelerated Deluxe)": {
+        "Highway Don\u2019t Care": [
+            {
+                "lyric": "Bet your window's rolled down and your hair's pulled back",
+                "prev": "",
+                "next": "And I bet you got no idea you're going way too fast",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And I bet you got no idea you're going way too fast",
+                "prev": "Bet your window's rolled down and your hair's pulled back",
+                "next": "You're trying not to think about what went wrong",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You're trying not to think about what went wrong",
+                "prev": "And I bet you got no idea you're going way too fast",
+                "next": "Trying not to stop 'til you get where you goin'",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Trying not to stop 'til you get where you goin'",
+                "prev": "You're trying not to think about what went wrong",
+                "next": "You're trying to stay awake so I bet you turn on the radio",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You're trying to stay awake so I bet you turn on the radio",
+                "prev": "Trying not to stop 'til you get where you goin'",
+                "next": "And the song goes",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And the song goes",
+                "prev": "You're trying to stay awake so I bet you turn on the radio",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I can't live without you, I can't live without you, baby",
+                "prev": "",
+                "next": "I can't live without you, I can't live without you, baby, oh, baby",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I can't live without you, I can't live without you, baby, oh, baby",
+                "prev": "I can't live without you, I can't live without you, baby",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "The highway won't hold you tonight",
+                "prev": "",
+                "next": "The highway don't know you're alive",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "The highway don't know you're alive",
+                "prev": "The highway won't hold you tonight",
+                "next": "The highway don't care if you're all alone",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "The highway don't care if you're all alone",
+                "prev": "The highway don't know you're alive",
+                "next": "But I do, I do",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "But I do, I do",
+                "prev": "The highway don't care if you're all alone",
+                "next": "The highway won't dry your tears",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "The highway won't dry your tears",
+                "prev": "But I do, I do",
+                "next": "The highway don't need you here",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "The highway don't need you here",
+                "prev": "The highway won't dry your tears",
+                "next": "The highway don't care if you're coming home",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "The highway don't care if you're coming home",
+                "prev": "The highway don't need you here",
+                "next": "But I do, I do",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "But I do, I do",
+                "prev": "The highway don't care if you're coming home",
+                "next": "",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "I bet you got a dead cell phone in your shotgun seat",
+                "prev": "",
+                "next": "Yeah, I bet you're bending God's ear talking 'bout me",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Yeah, I bet you're bending God's ear talking 'bout me",
+                "prev": "I bet you got a dead cell phone in your shotgun seat",
+                "next": "You're trying not to let the first tear fall out",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You're trying not to let the first tear fall out",
+                "prev": "Yeah, I bet you're bending God's ear talking 'bout me",
+                "next": "You're trying not to think about turning around",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You're trying not to think about turning around",
+                "prev": "You're trying not to let the first tear fall out",
+                "next": "You're trying not to get lost in the sound but that song is always on",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You're trying not to get lost in the sound but that song is always on",
+                "prev": "You're trying not to think about turning around",
+                "next": "So you sing along",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "So you sing along",
+                "prev": "You're trying not to get lost in the sound but that song is always on",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I can't live without you, I can't live without you, baby",
+                "prev": "",
+                "next": "I can't live without you, I can't live without you, baby, oh baby",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "I can't live without you, I can't live without you, baby, oh baby",
+                "prev": "I can't live without you, I can't live without you, baby",
+                "next": "",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "The highway don't care",
+                "prev": "",
+                "next": "The highway don't care",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "The highway don't care",
+                "prev": "The highway don't care",
+                "next": "The highway don't care",
+                "multiplicity": 4
+            },
+            {
+                "lyric": "The highway don't care",
+                "prev": "The highway don't care",
+                "next": "But I do, I do",
+                "multiplicity": 4
+            },
+            {
+                "lyric": "But I do, I do",
+                "prev": "The highway don't care",
+                "next": "I can't live without you, I can't live without you, baby",
+                "multiplicity": 3
+            },
+            {
+                "lyric": "I can't live without you, I can't live without you, baby",
+                "prev": "But I do, I do",
+                "next": "I can't live without I can't live without you, baby, oh baby",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "I can't live without I can't live without you, baby, oh baby",
+                "prev": "I can't live without you, I can't live without you, baby",
+                "next": "The highway don't care",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "The highway don't care",
+                "prev": "I can't live without I can't live without you, baby, oh baby",
+                "next": "The highway don't care",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "I can't live without you, I can't live without you, baby",
+                "prev": "But I do, I do",
+                "next": "I can't live without I can't live without you, baby",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I can't live without I can't live without you, baby",
+                "prev": "I can't live without you, I can't live without you, baby",
+                "next": "The highway don't care",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "The highway don't care",
+                "prev": "I can't live without I can't live without you, baby",
+                "next": "The highway don't care",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "But I do, I do",
+                "prev": "The highway don't care",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I can't live without you, I can't live without you, baby",
+                "prev": "",
+                "next": "",
+                "multiplicity": 1
+            }
+        ]
+    },
+    "Love Drunk": {
+        "Two Is Better Than One": [
+            {
+                "lyric": "I remember what you wore on the first day",
+                "prev": "",
+                "next": "You came into my life and I thought",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You came into my life and I thought",
+                "prev": "I remember what you wore on the first day",
+                "next": "Hey, you know, this could be something",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Hey, you know, this could be something",
+                "prev": "You came into my life and I thought",
+                "next": "'Cause everything you do and words you say",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "'Cause everything you do and words you say",
+                "prev": "Hey, you know, this could be something",
+                "next": "You know that it all takes my breath away",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You know that it all takes my breath away",
+                "prev": "'Cause everything you do and words you say",
+                "next": "And now I'm left with nothing",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And now I'm left with nothing",
+                "prev": "You know that it all takes my breath away",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "So maybe it's true that I can't live without you",
+                "prev": "",
+                "next": "And maybe two is better than one",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And maybe two is better than one",
+                "prev": "So maybe it's true that I can't live without you",
+                "next": "But there's so much time to figure out the rest of my life",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "But there's so much time to figure out the rest of my life",
+                "prev": "And maybe two is better than one",
+                "next": "And you've already got me coming undone",
+                "multiplicity": 3
+            },
+            {
+                "lyric": "And you've already got me coming undone",
+                "prev": "But there's so much time to figure out the rest of my life",
+                "next": "And I'm thinking two is better than one",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "And I'm thinking two is better than one",
+                "prev": "And you've already got me coming undone",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I remember every look upon your face",
+                "prev": "",
+                "next": "The way you roll your eyes, the way you taste",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "The way you roll your eyes, the way you taste",
+                "prev": "I remember every look upon your face",
+                "next": "You make it hard for breathing",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You make it hard for breathing",
+                "prev": "The way you roll your eyes, the way you taste",
+                "next": "'Cause when I close my eyes and drift away",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "'Cause when I close my eyes and drift away",
+                "prev": "You make it hard for breathing",
+                "next": "I think of you and everything's okay",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I think of you and everything's okay",
+                "prev": "'Cause when I close my eyes and drift away",
+                "next": "I'm finally now believing",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I'm finally now believing",
+                "prev": "I think of you and everything's okay",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Then maybe it's true that I can't live without you",
+                "prev": "",
+                "next": "And maybe two is better than one",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And maybe two is better than one",
+                "prev": "Then maybe it's true that I can't live without you",
+                "next": "But there's so much time to figure out the rest of my life",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And I'm thinking two is better than one",
+                "prev": "And you've already got me coming undone",
+                "next": "Yeah, yeah",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Yeah, yeah",
+                "prev": "And I'm thinking two is better than one",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I remember what you wore on the first day",
+                "prev": "",
+                "next": "You came into my life and I thought, hey (Hey, hey)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You came into my life and I thought, hey (Hey, hey)",
+                "prev": "I remember what you wore on the first day",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Maybe it's true that I can't live without you",
+                "prev": "",
+                "next": "And maybe two is better than one",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And maybe two is better than one",
+                "prev": "Maybe it's true that I can't live without you",
+                "next": "But there's so much time to figure out the rest of my life",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And you've already got me coming undone",
+                "prev": "But there's so much time to figure out the rest of my life",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And I'm thinking, ooh, I can't live without you",
+                "prev": "",
+                "next": "'Cause, baby, two is better than one",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "'Cause, baby, two is better than one",
+                "prev": "And I'm thinking, ooh, I can't live without you",
+                "next": "There's so much time to figure out the rest of my life",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "There's so much time to figure out the rest of my life",
+                "prev": "'Cause, baby, two is better than one",
+                "next": "But I'll figure out with all that's said and done",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "But I'll figure out with all that's said and done",
+                "prev": "There's so much time to figure out the rest of my life",
+                "next": "Two is better than one",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Two is better than one",
+                "prev": "But I'll figure out with all that's said and done",
+                "next": "Two is better than one ",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Two is better than one",
+                "prev": "Two is better than one",
                 "next": "",
                 "multiplicity": 1
             }
