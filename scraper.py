@@ -1,5 +1,6 @@
 import argparse
 import json
+import socket
 import lyricsgenius
 import math
 import pandas as pd
@@ -11,9 +12,12 @@ from local import *
 ALBUMS = [
     '1989', '1989 (Deluxe)', "1989 (Taylor’s Version)", 'Beautiful Eyes - EP',
     'Cats: Highlights From the Motion Picture Soundtrack',
+    'Carolina (From The Motion Picture “Where The Crawdads Sing”) - Single',
+    'Christmas Tree Farm',
     'Fearless (Taylor’s Version)',
     'Fifty Shades Darker (Original Motion Picture Soundtrack)',
     'Hannah Montana: The Movie', 'Lover (Target Exclusive)',
+    'Lover', 'Lover (Target Exclusive/Japanese Edition)',
     'How Long Do You Think It’s Gonna Last?',
     "Lily’s Driftwood Bay 2: One Crazy Summer (Original Motion Picture Soundtrack)",
     'One Chance (Original Motion Picture Soundtrack)',
@@ -34,7 +38,7 @@ OTHER_SONGS = [
     'Two Is Better Than One', 'Gasoline (Remix)'
 ]
 
-# Songs for which there is trouble retrieving them by name
+# Songs for which there is trouble retrieving them by name - some of these are probably no longer an issue anyways
 EXTRA_SONG_API_PATHS = {
     "/songs/542389": '1989 (Deluxe)',
     "/songs/187445": 'Fearless (Taylor’s Version)',
@@ -46,14 +50,24 @@ EXTRA_SONG_API_PATHS = {
     '/songs/132082': 'Taylor Swift',
     '/songs/132098': 'Taylor Swift',
     '/songs/186861': 'The Taylor Swift Holiday Collection - EP',
+    '/songs/6688270': '1989 (Taylor’s Version)',
+    '/songs/7823793': 'Carolina (From The Motion Picture “Where The Crawdads Sing”) - Single',
+    '/songs/5077615': 'Christmas Tree Farm',
+    '/songs/3306086': 'reputation',
+    '/songs/499725': '1989 (Deluxe)',
+    '/songs/3221550': 'reputation',
+    '/songs/62236': 'The Hunger Games: Songs from District 12 and Beyond',
+    '/songs/186846': 'The Taylor Swift Holiday Collection - EP',
 }
 
 # Songs that are somehow duplicates / etc.
 IGNORE_SONGS = [
-    'Wildest Dreams', 'Should’ve Said No (Alternate Version)',
-    'State Of Grace (Acoustic Version) [Taylor’s Version]',
+    'Wildest Dreams', 'This Love', 'Should’ve Said No (Alternate Version)',
+    'State Of Grace (Acoustic Version) (Taylor’s Version)',
     'Love Story (Taylor’s Version) [Elvira Remix]',
-    'Forever & Always (Piano Version) [Taylor’s Version]', 'Ronan'
+    'Forever & Always (Piano Version) [Taylor’s Version]', 'Ronan',
+    'Mine (Pop Mix)', 'Haunted (Acoustic Version)',
+    'Back To December (Acoustic)'
 ]
 
 ARTIST_ID = 1177
@@ -73,13 +87,14 @@ def main():
     parser.add_argument('--appendpaths', action='store_true')
     args = parser.parse_args()
     existing_df, existing_songs = None, []
-    if args.append:
+    if args.append or args.appendpaths:
         existing_df = pd.read_csv(CSV_PATH)
         existing_songs = list(existing_df['Title'])
-        [print(album) for album in existing_df.groupby('Album')['Title'].unique().index]
     genius = lyricsgenius.Genius(access_token)
     songs = get_songs() if not args.appendpaths else []
-    songs_by_album = sort_songs_by_album(genius, songs, existing_songs)
+    songs_by_album, has_failed, last_song = {}, True, ''
+    while has_failed:
+        songs_by_album, has_failed, last_song = sort_songs_by_album(genius, songs, songs_by_album, last_song, existing_songs)
     albums_to_songs_csv(songs_by_album, existing_df)
     songs_to_lyrics()
     lyrics_to_json()
@@ -102,7 +117,7 @@ def get_songs():
     ]
 
 
-def sort_songs_by_album(genius, songs, existing_songs=[]):
+def sort_songs_by_album(genius, songs, songs_by_album, last_song, existing_songs=[]):
     def get_song_data(api_path):
         request_url = API_PATH + api_path
         r = requests.get(request_url,
@@ -117,10 +132,9 @@ def sort_songs_by_album(genius, songs, existing_songs=[]):
         songs_by_album[album_name].append(s)
 
     print('Sorting songs by album...')
-    songs_by_album = {}
     for song in songs:
         lyrics = None
-        if song['title'] not in existing_songs and song[
+        if song['title'] > last_song and song['title'] not in existing_songs and song[
                 'title'] not in IGNORE_SONGS:
             try:
                 song_data = get_song_data(song['api_path'])
@@ -134,26 +148,26 @@ def sort_songs_by_album(genius, songs, existing_songs=[]):
                         album_name = "Uncategorized"
                     if album_name is None:
                         album_name = ""
-                    lyrics = genius.lyrics(song_data['url'])
-                    # Ensure that
+                    lyrics = genius.lyrics(song_id=song_data['id'])
+                    # Ensure that there are lyrics
                     if lyrics and has_song_identifier(lyrics) and (
-                            album_name or song['title'] in OTHER_SONGS):
+                            album_name or (song['title'] in OTHER_SONGS)):
                         clean_lyrics_and_append(song_data, album_name, lyrics,
                                                 songs_by_album)
-            except requests.exceptions.Timeout:
+            except requests.exceptions.Timeout or socket.timeout:
                 print('Failed receiving song', song['title'],
                       '-- saving songs so far')
-                return songs_by_album
+                return songs_by_album, True, song['title']
 
     for api_path in EXTRA_SONG_API_PATHS:
         song_data = get_song_data(api_path)
         if song_data['title'] not in existing_songs:
-            lyrics = genius.lyrics(song_data['url'])
+            lyrics = genius.lyrics(song_id=song_data['id'])
             album_name = EXTRA_SONG_API_PATHS[api_path]
             clean_lyrics_and_append(song_data, album_name, lyrics,
                                     songs_by_album)
 
-    return songs_by_album
+    return songs_by_album, False, ''
 
 
 def albums_to_songs_csv(songs_by_album, existing_df=None):
@@ -162,13 +176,14 @@ def albums_to_songs_csv(songs_by_album, existing_df=None):
     for album in songs_by_album:
         if album in ALBUMS:
             for song in songs_by_album[album]:
-                record = {
-                    'Title': song.title,
-                    'Album':
-                    album if album != 'Lover (Target Exclusive)' else 'Lover',
-                    'Lyrics': song.lyrics,
-                }
-                songs_records.append(record)
+                if song.title not in IGNORE_SONGS:
+                    record = {
+                        'Title': song.title,
+                        'Album':
+                        album if 'Lover (Target' not in album else 'Lover',
+                        'Lyrics': song.lyrics,
+                    }
+                    songs_records.append(record)
         else:
             for song in songs_by_album[album]:
                 if song in OTHER_SONGS:
@@ -182,18 +197,14 @@ def albums_to_songs_csv(songs_by_album, existing_df=None):
     song_df = pd.DataFrame.from_records(songs_records)
     if existing_df is not None:
         song_df = pd.concat([existing_df, song_df])
+        song_df = song_df[~song_df['Title'].isin(IGNORE_SONGS)]
     song_df.to_csv(CSV_PATH, index=False)
 
 
 def has_song_identifier(lyrics):
-    if lyrics[:len('[Intro')] == '[Intro':
-        return True
-    elif lyrics[:len('[Verse')] == '[Verse':
-        return True
-    elif lyrics[:len('[Chorus')] == '[Chorus':
+    if '[Intro' in lyrics or '[Verse' in lyrics or '[Chorus' in lyrics:
         return True
     return False
-
 
 class Lyric:
     def __init__(self, lyric, prev_lyric=None, next_lyric=None):
@@ -287,7 +298,9 @@ def lyrics_to_json():
         f.close()
 
 
-def clean_lyrics(lyrics):
+def clean_lyrics(lyrics: str) -> str:
+    # Remove first line (title + verse line)
+    lyrics = lyrics.split(sep='\n', maxsplit=1)[1]
     # Replace special quotes with normal quotes
     lyrics = re.sub(r'\u2018|\u2019', "'", lyrics)
     lyrics = re.sub(r'\u201C|\u201D', '"', lyrics)
@@ -299,7 +312,9 @@ def clean_lyrics(lyrics):
     lyrics = re.sub(r'\u2013|\u2014', " - ", lyrics)
     # Replace hyperlink text
     lyrics = re.sub(r"[0-9]*URLCopyEmbedCopy", '', lyrics)
+    lyrics = re.sub(r"[0-9]*Embed", '', lyrics)
     lyrics = re.sub(r"[0-9]*EmbedShare", '', lyrics)
+    lyrics = lyrics.replace('See Taylor Swift LiveGet tickets as low as $34You might also like', '\n')
     return lyrics
 
 
