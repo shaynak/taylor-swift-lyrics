@@ -28,7 +28,7 @@ ALBUMS = [
     'The Taylor Swift Holiday Collection - EP', 'Unreleased Songs', 'evermore',
     'evermore (deluxe version)', 'folklore', 'folklore (deluxe version)',
     'reputation', 'Two Lanes of Freedom (Accelerated Deluxe)', 'Love Drunk', 
-    'Women in Music Pt. III (Expanded Edition)', ''
+    'Women in Music Pt. III (Expanded Edition)', 'Midnights', ''
 ]
 
 # Songs that don't have an album or for which Taylor Swift is not the primary artist
@@ -111,10 +111,11 @@ def get_songs():
         song_data = json.loads(r.text)
         songs.extend(song_data['response']['songs'])
         next_page = song_data['response']['next_page']
-    return [
-        song for song in songs if song['primary_artist']['id'] == ARTIST_ID
-        or song['title'] in OTHER_SONGS
-    ]
+    returned_songs = []
+    for song in songs:
+        if song['primary_artist']['id'] == ARTIST_ID or song['title'] in OTHER_SONGS:
+            returned_songs.append(song)
+    return returned_songs
 
 
 def sort_songs_by_album(genius, songs, songs_by_album, last_song, existing_songs=[]):
@@ -138,7 +139,7 @@ def sort_songs_by_album(genius, songs, songs_by_album, last_song, existing_songs
                 'title'] not in IGNORE_SONGS:
             try:
                 song_data = get_song_data(song['api_path'])
-                if 'album' in song_data and song_data[
+                if song_data != None and 'album' in song_data and song_data[
                         'lyrics_state'] == 'complete':
                     album_name = song_data['album']['name'].strip(
                     ) if song_data['album'] else None
@@ -178,7 +179,7 @@ def albums_to_songs_csv(songs_by_album, existing_df=None):
             for song in songs_by_album[album]:
                 if song.title not in IGNORE_SONGS:
                     record = {
-                        'Title': song.title,
+                        'Title': song.title.strip('\u200b'),
                         'Album':
                         album if 'Lover (Target' not in album else 'Lover',
                         'Lyrics': song.lyrics,

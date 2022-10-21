@@ -73970,5 +73970,3279 @@
                 "multiplicity": 1
             }
         ]
+    },
+    "Midnights": {
+        "Anti-Hero": [
+            {
+                "lyric": "I have this thing where I get older",
+                "prev": "",
+                "next": "But just never wiser",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "But just never wiser",
+                "prev": "I have this thing where I get older",
+                "next": "Midnights become my afternoons",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Midnights become my afternoons",
+                "prev": "But just never wiser",
+                "next": "When my depression works",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "When my depression works",
+                "prev": "Midnights become my afternoons",
+                "next": "The graveyard shift, all of the people",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "The graveyard shift, all of the people",
+                "prev": "When my depression works",
+                "next": "I've ghosted stand there in the room",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I've ghosted stand there in the room",
+                "prev": "The graveyard shift, all of the people",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I should not be left to my own devices",
+                "prev": "",
+                "next": "They come with prices and vices, I end up in crisis",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "They come with prices and vices, I end up in crisis",
+                "prev": "I should not be left to my own devices",
+                "next": "(Tale as old as time)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "(Tale as old as time)",
+                "prev": "They come with prices and vices, I end up in crisis",
+                "next": "I wake up screaming from dreaming",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I wake up screaming from dreaming",
+                "prev": "(Tale as old as time)",
+                "next": "One day, I'll watch as you're leaving",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "One day, I'll watch as you're leaving",
+                "prev": "I wake up screaming from dreaming",
+                "next": "'Cause you got tired of my scheming",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "'Cause you got tired of my scheming",
+                "prev": "One day, I'll watch as you're leaving",
+                "next": "(For the last time)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "(For the last time)",
+                "prev": "'Cause you got tired of my scheming",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "It's me, hi, I'm the problem",
+                "prev": "",
+                "next": "It's me, at tea time, everybody agrees",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "It's me, at tea time, everybody agrees",
+                "prev": "It's me, hi, I'm the problem",
+                "next": "I'll stare directly at the sun but never in the mirror",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I'll stare directly at the sun but never in the mirror",
+                "prev": "It's me, at tea time, everybody agrees",
+                "next": "It must be exhausting always rooting for the anti-hero",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "It must be exhausting always rooting for the anti-hero",
+                "prev": "I'll stare directly at the sun but never in the mirror",
+                "next": "",
+                "multiplicity": 3
+            },
+            {
+                "lyric": "Sometimes, I feel like everybody is a sexy baby",
+                "prev": "",
+                "next": "And I'm a monster on the hill",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And I'm a monster on the hill",
+                "prev": "Sometimes, I feel like everybody is a sexy baby",
+                "next": "Too big to hang out, slowly lurching toward your favorite city",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Too big to hang out, slowly lurching toward your favorite city",
+                "prev": "And I'm a monster on the hill",
+                "next": "Pierced through the heart, but never killed",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Pierced through the heart, but never killed",
+                "prev": "Too big to hang out, slowly lurching toward your favorite city",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Did you hear my covert narcissism",
+                "prev": "",
+                "next": "I disguise as altruism, like some kind of congressman?",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I disguise as altruism, like some kind of congressman?",
+                "prev": "Did you hear my covert narcissism",
+                "next": "(I've realized all this time)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "(I've realized all this time)",
+                "prev": "I disguise as altruism, like some kind of congressman?",
+                "next": "I wake up screaming from dreaming",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I wake up screaming from dreaming",
+                "prev": "(I've realized all this time)",
+                "next": "One day, I'll watch as you're leaving",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "One day, I'll watch as you're leaving",
+                "prev": "I wake up screaming from dreaming",
+                "next": "And life will lose all its meaning",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And life will lose all its meaning",
+                "prev": "One day, I'll watch as you're leaving",
+                "next": "(For the last time)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "(For the last time)",
+                "prev": "And life will lose all its meaning",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "It's me, hi, I'm the problem (I'm the problem, it's me)",
+                "prev": "",
+                "next": "It's me, at tea time, everybody agrees",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "It's me, at tea time, everybody agrees",
+                "prev": "It's me, hi, I'm the problem (I'm the problem, it's me)",
+                "next": "I'll stare directly at the sun but never in the mirror",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I have this dream my daughter-in-law kills me for the money",
+                "prev": "",
+                "next": "She thinks I left them in the will",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "She thinks I left them in the will",
+                "prev": "I have this dream my daughter-in-law kills me for the money",
+                "next": "The family gathers around and reads it",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "The family gathers around and reads it",
+                "prev": "She thinks I left them in the will",
+                "next": "And then someone screams out",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And then someone screams out",
+                "prev": "The family gathers around and reads it",
+                "next": "\"She's laughing up at us from hell\"",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "\"She's laughing up at us from hell\"",
+                "prev": "And then someone screams out",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "It's me, hi, I'm the problem, it's me",
+                "prev": "",
+                "next": "It's me, hi, I'm the problem, it's me",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "It's me, hi, I'm the problem, it's me",
+                "prev": "It's me, hi, I'm the problem, it's me",
+                "next": "It's me, hi, everybody agrees, everybody agrees",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "It's me, hi, everybody agrees, everybody agrees",
+                "prev": "It's me, hi, I'm the problem, it's me",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "It's me, hi (Hi), I'm the problem (I'm the problem, it's me)",
+                "prev": "",
+                "next": "It's me, at tea (at tea) time (time), everybody agrees (everybody agrees)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "It's me, at tea (at tea) time (time), everybody agrees (everybody agrees)",
+                "prev": "It's me, hi (Hi), I'm the problem (I'm the problem, it's me)",
+                "next": "I'll stare directly at the sun but never in the mirror",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I'll stare directly at the sun but never in the mirror",
+                "prev": "It's me, at tea (at tea) time (time), everybody agrees (everybody agrees)",
+                "next": "It must be exhausting always rooting for the anti-hero",
+                "multiplicity": 1
+            }
+        ],
+        "Bejeweled": [
+            {
+                "lyric": "Baby love, I think I've been a little too kind",
+                "prev": "",
+                "next": "Didn't notice you walkin' all over my peace of mind",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Didn't notice you walkin' all over my peace of mind",
+                "prev": "Baby love, I think I've been a little too kind",
+                "next": "In the shoes I gave you as a present",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "In the shoes I gave you as a present",
+                "prev": "Didn't notice you walkin' all over my peace of mind",
+                "next": "Putting someone first only works when you're in their top five",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Putting someone first only works when you're in their top five",
+                "prev": "In the shoes I gave you as a present",
+                "next": "And by the way, I'm goin' out tonight",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And by the way, I'm goin' out tonight",
+                "prev": "Putting someone first only works when you're in their top five",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Best believe, I'm still bejeweled",
+                "prev": "",
+                "next": "When I walk in the room",
+                "multiplicity": 3
+            },
+            {
+                "lyric": "When I walk in the room",
+                "prev": "Best believe, I'm still bejeweled",
+                "next": "I can still make the whole place shimmer",
+                "multiplicity": 3
+            },
+            {
+                "lyric": "I can still make the whole place shimmer",
+                "prev": "When I walk in the room",
+                "next": "And when I meet the fan",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "And when I meet the fan",
+                "prev": "I can still make the whole place shimmer",
+                "next": "They ask, \"Do you have a man?\"",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "They ask, \"Do you have a man?\"",
+                "prev": "And when I meet the fan",
+                "next": "I can still say I don't remember",
+                "multiplicity": 3
+            },
+            {
+                "lyric": "I can still say I don't remember",
+                "prev": "They ask, \"Do you have a man?\"",
+                "next": "Familiarity brings contempt",
+                "multiplicity": 3
+            },
+            {
+                "lyric": "Familiarity brings contempt",
+                "prev": "I can still say I don't remember",
+                "next": "So put m\u0435 in the basement",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "So put m\u0435 in the basement",
+                "prev": "Familiarity brings contempt",
+                "next": "Wh\u0435n I'm in the penthouse of your heart",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Wh\u0435n I'm in the penthouse of your heart",
+                "prev": "So put m\u0435 in the basement",
+                "next": "Diamonds and my price",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Diamonds and my price",
+                "prev": "Wh\u0435n I'm in the penthouse of your heart",
+                "next": "I polish off real, I polish off real nice",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I polish off real, I polish off real nice",
+                "prev": "Diamonds and my price",
+                "next": "",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "Nice",
+                "prev": "",
+                "next": "",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "Baby boy, I think I've been too good of a girl (Too good of a girl)",
+                "prev": "",
+                "next": "Did all the extra credit, then got graded on curve",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Did all the extra credit, then got graded on curve",
+                "prev": "Baby boy, I think I've been too good of a girl (Too good of a girl)",
+                "next": "I think it's time to teach some lessons",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I think it's time to teach some lessons",
+                "prev": "Did all the extra credit, then got graded on curve",
+                "next": "I made you my world (Huh), have you heard? (Huh)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I made you my world (Huh), have you heard? (Huh)",
+                "prev": "I think it's time to teach some lessons",
+                "next": "I can reclaim the land",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I can reclaim the land",
+                "prev": "I made you my world (Huh), have you heard? (Huh)",
+                "next": "And I miss you (Miss you), but I miss sparkling (Nice)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And I miss you (Miss you), but I miss sparkling (Nice)",
+                "prev": "I can reclaim the land",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Familiarity brings contempt",
+                "prev": "I can still say I don't remember",
+                "next": "So put me in the basement",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "So put me in the basement",
+                "prev": "Familiarity brings contempt",
+                "next": "When I'm in the penthouse of your heart",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "When I'm in the penthouse of your heart",
+                "prev": "So put me in the basement",
+                "next": "Diamonds and my price",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "Diamonds and my price",
+                "prev": "When I'm in the penthouse of your heart",
+                "next": "I polish off real, I polish off real nice",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Sapphire tears on my face",
+                "prev": "",
+                "next": "Sadness became my whole sky",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Sadness became my whole sky",
+                "prev": "Sapphire tears on my face",
+                "next": "But some guy said my aura's moonstone",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "But some guy said my aura's moonstone",
+                "prev": "Sadness became my whole sky",
+                "next": "Just 'cause he was high",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Just 'cause he was high",
+                "prev": "But some guy said my aura's moonstone",
+                "next": "And we danced all night",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And we danced all night",
+                "prev": "Just 'cause he was high",
+                "next": "And you can try to change my mind",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And you can try to change my mind",
+                "prev": "And we danced all night",
+                "next": "But you might have to wait in line",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "But you might have to wait in line",
+                "prev": "And you can try to change my mind",
+                "next": "What's a girl gonna do?",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "What's a girl gonna do?",
+                "prev": "But you might have to wait in line",
+                "next": "A diamond's gotta shine",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "A diamond's gotta shine",
+                "prev": "What's a girl gonna do?",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "When I walk in the room",
+                "prev": "Best believe, I'm still bejeweled",
+                "next": "I can still make the whole place shimmer (Shimmer)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I can still make the whole place shimmer (Shimmer)",
+                "prev": "When I walk in the room",
+                "next": "And when I meet the fan",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And when I meet the fan",
+                "prev": "I can still make the whole place shimmer (Shimmer)",
+                "next": "They ask, \"Do you have a man?\"",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Diamonds and my price",
+                "prev": "When I'm in the penthouse of your heart",
+                "next": "I polish off real (Nice), I polish off real nice",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I polish off real (Nice), I polish off real nice",
+                "prev": "Diamonds and my price",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And we danced all night",
+                "prev": "",
+                "next": "And you can try to change my mind",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "But you might have to wait in line",
+                "prev": "And you can try to change my mind",
+                "next": "What's a girl gonna do? What's a girl gonna do?",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "What's a girl gonna do? What's a girl gonna do?",
+                "prev": "But you might have to wait in line",
+                "next": "I polish off nice",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I polish off nice",
+                "prev": "What's a girl gonna do? What's a girl gonna do?",
+                "next": "Best believe, I'm still bejeweled",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Best believe, I'm still bejeweled",
+                "prev": "I polish off nice",
+                "next": "When I walk in the room",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I can still make the whole place shimmer",
+                "prev": "When I walk in the room",
+                "next": "",
+                "multiplicity": 1
+            }
+        ],
+        "Karma": [
+            {
+                "lyric": "You're talking shit for the hell of it",
+                "prev": "",
+                "next": "Addicted to betrayal, but you're relevant",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Addicted to betrayal, but you're relevant",
+                "prev": "You're talking shit for the hell of it",
+                "next": "You're terrified to look down",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You're terrified to look down",
+                "prev": "Addicted to betrayal, but you're relevant",
+                "next": "'Cause if you dare, you'll see the glare",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "'Cause if you dare, you'll see the glare",
+                "prev": "You're terrified to look down",
+                "next": "Of everyone you burned just to get there",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Of everyone you burned just to get there",
+                "prev": "'Cause if you dare, you'll see the glare",
+                "next": "It's coming back around",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "It's coming back around",
+                "prev": "Of everyone you burned just to get there",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And I keep my side of the street clean",
+                "prev": "",
+                "next": "You wouldn't know what I mean",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "You wouldn't know what I mean",
+                "prev": "And I keep my side of the street clean",
+                "next": "",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "'Cause karma is my boyfriend",
+                "prev": "",
+                "next": "Karma is a God",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "Karma is a God",
+                "prev": "'Cause karma is my boyfriend",
+                "next": "Karma is the breeze in my hair on the weekend",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "Karma is the breeze in my hair on the weekend",
+                "prev": "Karma is a God",
+                "next": "Karma's a relaxing thought",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "Karma's a relaxing thought",
+                "prev": "Karma is the breeze in my hair on the weekend",
+                "next": "Aren't you envious that for you it's not",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "Aren't you envious that for you it's not",
+                "prev": "Karma's a relaxing thought",
+                "next": "Sweet like honey",
+                "multiplicity": 3
+            },
+            {
+                "lyric": "Sweet like honey",
+                "prev": "Aren't you envious that for you it's not",
+                "next": "Karma is a cat purring in my lap 'cause it loves me",
+                "multiplicity": 3
+            },
+            {
+                "lyric": "Karma is a cat purring in my lap 'cause it loves me",
+                "prev": "Sweet like honey",
+                "next": "Flexing like a goddamn acrobat",
+                "multiplicity": 3
+            },
+            {
+                "lyric": "Flexing like a goddamn acrobat",
+                "prev": "Karma is a cat purring in my lap 'cause it loves me",
+                "next": "Me and karma vibe like that",
+                "multiplicity": 3
+            },
+            {
+                "lyric": "Me and karma vibe like that",
+                "prev": "Flexing like a goddamn acrobat",
+                "next": "",
+                "multiplicity": 3
+            },
+            {
+                "lyric": "Spider boy, king of thieves",
+                "prev": "",
+                "next": "Weave your little webs of opacity",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Weave your little webs of opacity",
+                "prev": "Spider boy, king of thieves",
+                "next": "My pennies made your crown",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "My pennies made your crown",
+                "prev": "Weave your little webs of opacity",
+                "next": "Trick me once, trick me twice",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Trick me once, trick me twice",
+                "prev": "My pennies made your crown",
+                "next": "Don't you know the cash ain't the only price?",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Don't you know the cash ain't the only price?",
+                "prev": "Trick me once, trick me twice",
+                "next": "It's coming back around",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "It's coming back around",
+                "prev": "Don't you know the cash ain't the only price?",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Ask me what I learned from all those years",
+                "prev": "",
+                "next": "Ask me what I earned from all those tears",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Ask me what I earned from all those tears",
+                "prev": "Ask me what I learned from all those years",
+                "next": "Ask my why so many think that I'm still here",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Ask my why so many think that I'm still here",
+                "prev": "Ask me what I earned from all those tears",
+                "next": "(I'm still here, I'm still here)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "(I'm still here, I'm still here)",
+                "prev": "Ask my why so many think that I'm still here",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "'Cause karma is the thunder",
+                "prev": "",
+                "next": "Rattling your ground",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Rattling your ground",
+                "prev": "'Cause karma is the thunder",
+                "next": "Karma is on your scent like a bounty hunter",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Karma is on your scent like a bounty hunter",
+                "prev": "Rattling your ground",
+                "next": "Karma's gonna track you down",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Karma's gonna track you down",
+                "prev": "Karma is on your scent like a bounty hunter",
+                "next": "Step by step, from town to town",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Step by step, from town to town",
+                "prev": "Karma's gonna track you down",
+                "next": "Sweet like justice, karma is a queen",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Sweet like justice, karma is a queen",
+                "prev": "Step by step, from town to town",
+                "next": "Karma takes all my friends to the summit",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Karma takes all my friends to the summit",
+                "prev": "Sweet like justice, karma is a queen",
+                "next": "Karma is the guy on the screen",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Karma is the guy on the screen",
+                "prev": "Karma takes all my friends to the summit",
+                "next": "Coming straight home to me",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Coming straight home to me",
+                "prev": "Karma is the guy on the screen",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "'Cause karma is my boyfriend (Karma is my boyfriend)",
+                "prev": "",
+                "next": "Karma is a God",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Karma is a God",
+                "prev": "'Cause karma is my boyfriend (Karma is my boyfriend)",
+                "next": "Karma is the breeze in my hair on the weekend (Weekend)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Karma is the breeze in my hair on the weekend (Weekend)",
+                "prev": "Karma is a God",
+                "next": "Karma's a relaxing thought",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Karma's a relaxing thought",
+                "prev": "Karma is the breeze in my hair on the weekend (Weekend)",
+                "next": "Aren't you envious that for you it's not",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Karma is my boyfriend",
+                "prev": "",
+                "next": "Karma is a God (Ah)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Karma is a God (Ah)",
+                "prev": "Karma is my boyfriend",
+                "next": "Uh-huh, mm",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Uh-huh, mm",
+                "prev": "Karma is a God (Ah)",
+                "next": "Karma is a relaxing thought",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Karma is a relaxing thought",
+                "prev": "Uh-huh, mm",
+                "next": "",
+                "multiplicity": 1
+            }
+        ],
+        "Labyrinth": [
+            {
+                "lyric": "\"It only hurts this much right now\"",
+                "prev": "",
+                "next": "That's what I was thinkin' the whole time",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "That's what I was thinkin' the whole time",
+                "prev": "\"It only hurts this much right now\"",
+                "next": "Breathe in, breathe through, breathe deep, breathe out",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Breathe in, breathe through, breathe deep, breathe out",
+                "prev": "That's what I was thinkin' the whole time",
+                "next": "I'll be getting over you my whole life",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I'll be getting over you my whole life",
+                "prev": "Breathe in, breathe through, breathe deep, breathe out",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You know how scared I am of elevators",
+                "prev": "",
+                "next": "Never trusted it",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Never trusted it",
+                "prev": "You know how scared I am of elevators",
+                "next": "If it rises fast, it can't last",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "If it rises fast, it can't last",
+                "prev": "Never trusted it",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Uh-oh, I'm fallin' in love",
+                "prev": "",
+                "next": "Oh, no, I'm fallin' in love again",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "Oh, no, I'm fallin' in love again",
+                "prev": "Uh-oh, I'm fallin' in love",
+                "next": "Oh, I'm fallin' in love",
+                "multiplicity": 5
+            },
+            {
+                "lyric": "Oh, I'm fallin' in love",
+                "prev": "Oh, no, I'm fallin' in love again",
+                "next": "I thought the plane was going down",
+                "multiplicity": 5
+            },
+            {
+                "lyric": "I thought the plane was going down",
+                "prev": "Oh, I'm fallin' in love",
+                "next": "I should turn it right around",
+                "multiplicity": 5
+            },
+            {
+                "lyric": "I should turn it right around",
+                "prev": "I thought the plane was going down",
+                "next": "",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "It only feels this rough right now",
+                "prev": "",
+                "next": "Lost in the labyrinth of my mind (My mind)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Lost in the labyrinth of my mind (My mind)",
+                "prev": "It only feels this rough right now",
+                "next": "Break out, break free, break through, break down",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Break out, break free, break through, break down",
+                "prev": "Lost in the labyrinth of my mind (My mind)",
+                "next": "You would break your back to make me break a smile",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You would break your back to make me break a smile",
+                "prev": "Break out, break free, break through, break down",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You know how much I hate",
+                "prev": "",
+                "next": "That everybody just expects me to bounce back",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "That everybody just expects me to bounce back",
+                "prev": "You know how much I hate",
+                "next": "Just like that",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Just like that",
+                "prev": "That everybody just expects me to bounce back",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I should turn it right around",
+                "prev": "I thought the plane was going down",
+                "next": "Uh-oh, I'm fallin' in love",
+                "multiplicity": 3
+            },
+            {
+                "lyric": "Uh-oh, I'm fallin' in love",
+                "prev": "I should turn it right around",
+                "next": "Oh, no, I'm fallin' in love again",
+                "multiplicity": 3
+            }
+        ],
+        "Lavender Haze": [
+            {
+                "lyric": "Meet me at midnight",
+                "prev": "",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Staring at the ceiling with you",
+                "prev": "",
+                "next": "Oh, you don't ever say too much",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Oh, you don't ever say too much",
+                "prev": "Staring at the ceiling with you",
+                "next": "And you don't really read into",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And you don't really read into",
+                "prev": "Oh, you don't ever say too much",
+                "next": "My melancholia",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "My melancholia",
+                "prev": "And you don't really read into",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I've been under scrutiny (Yeah, oh, yeah)",
+                "prev": "",
+                "next": "You handled it beautifully (Yeah, oh, yeah)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You handled it beautifully (Yeah, oh, yeah)",
+                "prev": "I've been under scrutiny (Yeah, oh, yeah)",
+                "next": "All this shit is new to me (Yeah, oh, yeah)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "All this shit is new to me (Yeah, oh, yeah)",
+                "prev": "You handled it beautifully (Yeah, oh, yeah)",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I feel",
+                "prev": "",
+                "next": "The lavender haze creepin' up on me",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "The lavender haze creepin' up on me",
+                "prev": "I feel",
+                "next": "So real",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "So real",
+                "prev": "The lavender haze creepin' up on me",
+                "next": "I'm damned if I do give a damn what people say",
+                "multiplicity": 3
+            },
+            {
+                "lyric": "I'm damned if I do give a damn what people say",
+                "prev": "So real",
+                "next": "No deal",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "No deal",
+                "prev": "I'm damned if I do give a damn what people say",
+                "next": "The 1950s shit they want for me",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "The 1950s shit they want for me",
+                "prev": "No deal",
+                "next": "I just wanna stay in our lavender haze",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "I just wanna stay in our lavender haze",
+                "prev": "The 1950s shit they want for me",
+                "next": "",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "All they keep asking me (All they keep asking me)",
+                "prev": "",
+                "next": "Is if I'm gonna be your bride",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Is if I'm gonna be your bride",
+                "prev": "All they keep asking me (All they keep asking me)",
+                "next": "The only kinda girl they see (Only kinda girl they see)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "The only kinda girl they see (Only kinda girl they see)",
+                "prev": "Is if I'm gonna be your bride",
+                "next": "Is a one-night or a wife",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Is a one-night or a wife",
+                "prev": "The only kinda girl they see (Only kinda girl they see)",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I find it dizzying (Yeah, oh, yeah)",
+                "prev": "",
+                "next": "They're bringin' up my history (Yeah, oh, yeah)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "They're bringin' up my history (Yeah, oh, yeah)",
+                "prev": "I find it dizzying (Yeah, oh, yeah)",
+                "next": "But you aren't even listening (Yeah, oh, yeah)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "But you aren't even listening (Yeah, oh, yeah)",
+                "prev": "They're bringin' up my history (Yeah, oh, yeah)",
+                "next": "Oh",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Oh",
+                "prev": "But you aren't even listening (Yeah, oh, yeah)",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "The lavender haze",
+                "prev": "",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Talk your talking, go viral",
+                "prev": "",
+                "next": "I just need this love spiral",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I just need this love spiral",
+                "prev": "Talk your talking, go viral",
+                "next": "Get it off your chest",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "Get it off your chest",
+                "prev": "I just need this love spiral",
+                "next": "Get it off my desk (Get it off my desk)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Get it off my desk (Get it off my desk)",
+                "prev": "Get it off your chest",
+                "next": "Talk your talking, go viral",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Talk your talking, go viral",
+                "prev": "Get it off my desk (Get it off my desk)",
+                "next": "I just need this love spiral",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Get it off your chest",
+                "prev": "I just need this love spiral",
+                "next": "Get it off my desk",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Get it off my desk",
+                "prev": "Get it off your chest",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I feel (I feel)",
+                "prev": "",
+                "next": "The lavender haze creepin' up on me",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "The lavender haze creepin' up on me",
+                "prev": "I feel (I feel)",
+                "next": "So real",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I'm damned if I do give a damn what people say",
+                "prev": "So real",
+                "next": "No deal (No deal)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "No deal (No deal)",
+                "prev": "I'm damned if I do give a damn what people say",
+                "next": "The 1950s shit they want for me",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "The 1950s shit they want for me",
+                "prev": "No deal (No deal)",
+                "next": "I just wanna stay in our lavender haze (Oh)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I just wanna stay in our lavender haze (Oh)",
+                "prev": "The 1950s shit they want for me",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Get it off your chest",
+                "prev": "",
+                "next": "Get it off my desk",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Get it off my desk",
+                "prev": "Get it off your chest",
+                "next": "The lavender haze",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "The lavender haze",
+                "prev": "Get it off my desk",
+                "next": "I just wanna stay",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I just wanna stay",
+                "prev": "The lavender haze",
+                "next": "I just wanna stay in our lavender haze",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I just wanna stay in our lavender haze",
+                "prev": "I just wanna stay",
+                "next": "",
+                "multiplicity": 1
+            }
+        ],
+        "Maroon": [
+            {
+                "lyric": "When the morning came",
+                "prev": "",
+                "next": "We were cleaning incense off your vinyl shelf",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "We were cleaning incense off your vinyl shelf",
+                "prev": "When the morning came",
+                "next": "'Cause we lost track of time again",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "'Cause we lost track of time again",
+                "prev": "We were cleaning incense off your vinyl shelf",
+                "next": "Laughing with my feet in your lap",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Laughing with my feet in your lap",
+                "prev": "'Cause we lost track of time again",
+                "next": "Like you were my closest friend",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Like you were my closest friend",
+                "prev": "Laughing with my feet in your lap",
+                "next": "How'd we end up on the floor, anyway?",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "How'd we end up on the floor, anyway?",
+                "prev": "Like you were my closest friend",
+                "next": "You say, \"Your roommate's cheap-ass screw top Ros\u00e9,\" that's how",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You say, \"Your roommate's cheap-ass screw top Ros\u00e9,\" that's how",
+                "prev": "How'd we end up on the floor, anyway?",
+                "next": "I see you everyday now",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I see you everyday now",
+                "prev": "You say, \"Your roommate's cheap-ass screw top Ros\u00e9,\" that's how",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And I chose you",
+                "prev": "",
+                "next": "The one I was dancing with",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "The one I was dancing with",
+                "prev": "And I chose you",
+                "next": "In New York, no shoes",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "In New York, no shoes",
+                "prev": "The one I was dancing with",
+                "next": "Looked up at the sky, and it was",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Looked up at the sky, and it was",
+                "prev": "In New York, no shoes",
+                "next": "The burgundy on my T-shirt",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "The burgundy on my T-shirt",
+                "prev": "Looked up at the sky, and it was",
+                "next": "When you splashed your wine onto me",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "When you splashed your wine onto me",
+                "prev": "The burgundy on my T-shirt",
+                "next": "And how the blood rushed into my cheeks",
+                "multiplicity": 3
+            },
+            {
+                "lyric": "And how the blood rushed into my cheeks",
+                "prev": "When you splashed your wine onto me",
+                "next": "So scarlet, it was",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "So scarlet, it was",
+                "prev": "And how the blood rushed into my cheeks",
+                "next": "The mark you saw on my collarbon\u0435",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "The mark you saw on my collarbon\u0435",
+                "prev": "So scarlet, it was",
+                "next": "The rust that grew between t\u0435lephones",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "The rust that grew between t\u0435lephones",
+                "prev": "The mark you saw on my collarbon\u0435",
+                "next": "The lips I used to call \"home\"",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "The lips I used to call \"home\"",
+                "prev": "The rust that grew between t\u0435lephones",
+                "next": "So scarlet, it was maroon",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "So scarlet, it was maroon",
+                "prev": "The lips I used to call \"home\"",
+                "next": "",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "When my silence came",
+                "prev": "",
+                "next": "We were shaking, blind, and hazy",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "We were shaking, blind, and hazy",
+                "prev": "When my silence came",
+                "next": "How the hell did we lose sight of us again?",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "How the hell did we lose sight of us again?",
+                "prev": "We were shaking, blind, and hazy",
+                "next": "Sobbing with your head in your hands",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Sobbing with your head in your hands",
+                "prev": "How the hell did we lose sight of us again?",
+                "next": "Ain't that the way shit always ends?",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Ain't that the way shit always ends?",
+                "prev": "Sobbing with your head in your hands",
+                "next": "You were standing hollow-eyed in the hallway",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You were standing hollow-eyed in the hallway",
+                "prev": "Ain't that the way shit always ends?",
+                "next": "Carnations you had thought were roses, that's us",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Carnations you had thought were roses, that's us",
+                "prev": "You were standing hollow-eyed in the hallway",
+                "next": "I feel you, no matter what",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I feel you, no matter what",
+                "prev": "Carnations you had thought were roses, that's us",
+                "next": "The rubies that I gave up",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "The rubies that I gave up",
+                "prev": "I feel you, no matter what",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "When I lost you",
+                "prev": "",
+                "next": "The one I was dancing with",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "The one I was dancing with",
+                "prev": "When I lost you",
+                "next": "In New York, no shoes",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "In New York, no shoes",
+                "prev": "The one I was dancing with",
+                "next": "Looked up at the sky, and it was maroon",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Looked up at the sky, and it was maroon",
+                "prev": "In New York, no shoes",
+                "next": "The burgundy on my T-shirt",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "The burgundy on my T-shirt",
+                "prev": "Looked up at the sky, and it was maroon",
+                "next": "When you splashed your wine onto me",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And how the blood rushed into my cheeks",
+                "prev": "When you splashed your wine onto me",
+                "next": "So scarlet, it was maroon",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "So scarlet, it was maroon",
+                "prev": "And how the blood rushed into my cheeks",
+                "next": "The mark you saw on my collarbone",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "The mark you saw on my collarbone",
+                "prev": "So scarlet, it was maroon",
+                "next": "The rust that grew between telephones",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "The rust that grew between telephones",
+                "prev": "The mark you saw on my collarbone",
+                "next": "The lips I used to call \"home\"",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "The lips I used to call \"home\"",
+                "prev": "The rust that grew between telephones",
+                "next": "So scarlet, it was (Was) maroon",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "So scarlet, it was (Was) maroon",
+                "prev": "The lips I used to call \"home\"",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Awake, with your memory over me",
+                "prev": "",
+                "next": "That's a real fucking legacy, legacy",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "That's a real fucking legacy, legacy",
+                "prev": "Awake, with your memory over me",
+                "next": "Awake with your memory over me",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Awake with your memory over me",
+                "prev": "That's a real fucking legacy, legacy",
+                "next": "That's a real fucking legacy to leave",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "That's a real fucking legacy to leave",
+                "prev": "Awake with your memory over me",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "The burgundy on my T-shirt",
+                "prev": "",
+                "next": "When you splashed your wine onto me",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "The lips I used to call \"home\"",
+                "prev": "The rust that grew between telephones",
+                "next": "So scarlet, it was maroon",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And it was maroon",
+                "prev": "",
+                "next": "And it was maroon",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And it was maroon",
+                "prev": "And it was maroon",
+                "next": "",
+                "multiplicity": 1
+            }
+        ],
+        "Mastermind": [
+            {
+                "lyric": "Once upon a time, the planets and the fates",
+                "prev": "",
+                "next": "And all the stars aligned",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And all the stars aligned",
+                "prev": "Once upon a time, the planets and the fates",
+                "next": "You and I ended up in the same room",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You and I ended up in the same room",
+                "prev": "And all the stars aligned",
+                "next": "At the same time",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "At the same time",
+                "prev": "You and I ended up in the same room",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And the touch of a hand lit the fuse",
+                "prev": "",
+                "next": "Of a chain reaction of counter moves",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Of a chain reaction of counter moves",
+                "prev": "And the touch of a hand lit the fuse",
+                "next": "To excess the equation of you",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "To excess the equation of you",
+                "prev": "Of a chain reaction of counter moves",
+                "next": "Checkmate, I couldn't lose",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Checkmate, I couldn't lose",
+                "prev": "To excess the equation of you",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "What if I told you none of it was accidental?",
+                "prev": "",
+                "next": "In the first night that you saw me",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "In the first night that you saw me",
+                "prev": "What if I told you none of it was accidental?",
+                "next": "Nothing was gonna stop me",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Nothing was gonna stop me",
+                "prev": "In the first night that you saw me",
+                "next": "I laid the groundwork, and then",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "I laid the groundwork, and then",
+                "prev": "Nothing was gonna stop me",
+                "next": "Just like clockwork",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Just like clockwork",
+                "prev": "I laid the groundwork, and then",
+                "next": "The dominoes cascated in the line",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "The dominoes cascated in the line",
+                "prev": "Just like clockwork",
+                "next": "What if I told you I'm a mastermind?",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "What if I told you I'm a mastermind?",
+                "prev": "The dominoes cascated in the line",
+                "next": "And now you'r\u0435 mine",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And now you'r\u0435 mine",
+                "prev": "What if I told you I'm a mastermind?",
+                "next": "It was all by design",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "It was all by design",
+                "prev": "And now you'r\u0435 mine",
+                "next": "'Cause I'm a mast\u0435rmind",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "'Cause I'm a mast\u0435rmind",
+                "prev": "It was all by design",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You see, all the wisest women",
+                "prev": "",
+                "next": "Had to do it this way",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Had to do it this way",
+                "prev": "You see, all the wisest women",
+                "next": "'Cause we were born to be the pawn",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "'Cause we were born to be the pawn",
+                "prev": "Had to do it this way",
+                "next": "Of every lover's game",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Of every lover's game",
+                "prev": "'Cause we were born to be the pawn",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "If you fail to plan, you plan to fail",
+                "prev": "",
+                "next": "Strategy sets the scene for the tail",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Strategy sets the scene for the tail",
+                "prev": "If you fail to plan, you plan to fail",
+                "next": "I'm the wind and I'm free, flowing sails",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I'm the wind and I'm free, flowing sails",
+                "prev": "Strategy sets the scene for the tail",
+                "next": "In the liquor of our cocktails",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "In the liquor of our cocktails",
+                "prev": "I'm the wind and I'm free, flowing sails",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "In the first night that you saw me",
+                "prev": "What if I told you none of it was accidental?",
+                "next": "I knew that I wanted you, buddy",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I knew that I wanted you, buddy",
+                "prev": "In the first night that you saw me",
+                "next": "I laid the groundwork, and then",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I laid the groundwork, and then",
+                "prev": "I knew that I wanted you, buddy",
+                "next": "Just like clockwork",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "What if I told you I'm a mastermind?",
+                "prev": "The dominoes cascated in the line",
+                "next": "And now you're mine",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And now you're mine",
+                "prev": "What if I told you I'm a mastermind?",
+                "next": "It was all my design",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "It was all my design",
+                "prev": "And now you're mine",
+                "next": "'Cause I'm a mastermind",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "'Cause I'm a mastermind",
+                "prev": "It was all my design",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "No one wanted to play with me as a little kid",
+                "prev": "",
+                "next": "So I've been scheming like a criminal ever since",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "So I've been scheming like a criminal ever since",
+                "prev": "No one wanted to play with me as a little kid",
+                "next": "To make them love me and make it seem effortless",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "To make them love me and make it seem effortless",
+                "prev": "So I've been scheming like a criminal ever since",
+                "next": "This is the first time I've felt the need to confess",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "This is the first time I've felt the need to confess",
+                "prev": "To make them love me and make it seem effortless",
+                "next": "And I swear",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And I swear",
+                "prev": "This is the first time I've felt the need to confess",
+                "next": "I'm only cryptic in my gear of valley",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I'm only cryptic in my gear of valley",
+                "prev": "And I swear",
+                "next": "'Cause I can",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "'Cause I can",
+                "prev": "I'm only cryptic in my gear of valley",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "So I told you none of it was accidental",
+                "prev": "",
+                "next": "In the first night that you saw me",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "In the first night that you saw me",
+                "prev": "So I told you none of it was accidental",
+                "next": "Nothing was gonna stop me",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I laid the groundwork, and then",
+                "prev": "Nothing was gonna stop me",
+                "next": "Saw a white smirk on your face",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Saw a white smirk on your face",
+                "prev": "I laid the groundwork, and then",
+                "next": "You knew the entire time",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You knew the entire time",
+                "prev": "Saw a white smirk on your face",
+                "next": "You knew that I'm a mastermind",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You knew that I'm a mastermind",
+                "prev": "You knew the entire time",
+                "next": "And now you're mine",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And now you're mine",
+                "prev": "You knew that I'm a mastermind",
+                "next": "Yeah, all you did was smile",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Yeah, all you did was smile",
+                "prev": "And now you're mine",
+                "next": "'Cause I'm a mastermind",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "'Cause I'm a mastermind",
+                "prev": "Yeah, all you did was smile",
+                "next": "",
+                "multiplicity": 1
+            }
+        ],
+        "Midnight Rain": [
+            {
+                "lyric": "Rain",
+                "prev": "",
+                "next": "He wanted it comfortable, I wanted that pain",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "He wanted it comfortable, I wanted that pain",
+                "prev": "Rain",
+                "next": "He wanted a bride, I was making my own name",
+                "multiplicity": 3
+            },
+            {
+                "lyric": "He wanted a bride, I was making my own name",
+                "prev": "He wanted it comfortable, I wanted that pain",
+                "next": "Chasing that fame, he stayed the same",
+                "multiplicity": 4
+            },
+            {
+                "lyric": "Chasing that fame, he stayed the same",
+                "prev": "He wanted a bride, I was making my own name",
+                "next": "All of me changed like midnight",
+                "multiplicity": 3
+            },
+            {
+                "lyric": "All of me changed like midnight",
+                "prev": "Chasing that fame, he stayed the same",
+                "next": "",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "My town was a wasteland",
+                "prev": "",
+                "next": "Full of cages, full of fences",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Full of cages, full of fences",
+                "prev": "My town was a wasteland",
+                "next": "Pageant queens and big pretenders",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Pageant queens and big pretenders",
+                "prev": "Full of cages, full of fences",
+                "next": "But for some, it was paradise",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "But for some, it was paradise",
+                "prev": "Pageant queens and big pretenders",
+                "next": "My boy was a montage",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "My boy was a montage",
+                "prev": "But for some, it was paradise",
+                "next": "A slow-motion, love potion",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "A slow-motion, love potion",
+                "prev": "My boy was a montage",
+                "next": "Jumping off things in the ocean",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Jumping off things in the ocean",
+                "prev": "A slow-motion, love potion",
+                "next": "I broke his heart 'cause he was nice",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I broke his heart 'cause he was nice",
+                "prev": "Jumping off things in the ocean",
+                "next": "He was sunshine, I was midnight",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "He was sunshine, I was midnight",
+                "prev": "I broke his heart 'cause he was nice",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Chasing that fame, he stayed the same",
+                "prev": "He wanted a bride, I was making my own name",
+                "next": "All of me change like midnight",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "All of me change like midnight",
+                "prev": "Chasing that fame, he stayed the same",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "It came like a postcard",
+                "prev": "",
+                "next": "Picture perfect shiny family",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Picture perfect shiny family",
+                "prev": "It came like a postcard",
+                "next": "Holiday peppermint candy",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Holiday peppermint candy",
+                "prev": "Picture perfect shiny family",
+                "next": "But for him, it's every day",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "But for him, it's every day",
+                "prev": "Holiday peppermint candy",
+                "next": "So I peered through a window",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "So I peered through a window",
+                "prev": "But for him, it's every day",
+                "next": "A deep portal, time travel",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "A deep portal, time travel",
+                "prev": "So I peered through a window",
+                "next": "All the love we unravel",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "All the love we unravel",
+                "prev": "A deep portal, time travel",
+                "next": "And the life I gave away",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And the life I gave away",
+                "prev": "All the love we unravel",
+                "next": "'Cause he was sunshine, I was midnight rain",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "'Cause he was sunshine, I was midnight rain",
+                "prev": "And the life I gave away",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "He wanted it comfortable, I wanted that pain",
+                "prev": "",
+                "next": "He wanted a bride, I was making my own name",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "All of me changed like midnight",
+                "prev": "Chasing that fame, he stayed the same",
+                "next": "Rain",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Rain",
+                "prev": "All of me changed like midnight",
+                "next": "He wanted it comfortable, I wanted that pain",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I guess sometimes we all get",
+                "prev": "",
+                "next": "Just what we wanted, just what we wanted",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Just what we wanted, just what we wanted",
+                "prev": "I guess sometimes we all get",
+                "next": "And he never thinks of me",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And he never thinks of me",
+                "prev": "Just what we wanted, just what we wanted",
+                "next": "Except when I'm on TV",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Except when I'm on TV",
+                "prev": "And he never thinks of me",
+                "next": "I guess sometimes we all get",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I guess sometimes we all get",
+                "prev": "Except when I'm on TV",
+                "next": "Some kind of haunted, some kind of haunted",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Some kind of haunted, some kind of haunted",
+                "prev": "I guess sometimes we all get",
+                "next": "And I never think of him",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And I never think of him",
+                "prev": "Some kind of haunted, some kind of haunted",
+                "next": "Except on midnights like this",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Except on midnights like this",
+                "prev": "And I never think of him",
+                "next": "(Midnights like this, midnights like this)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "(Midnights like this, midnights like this)",
+                "prev": "Except on midnights like this",
+                "next": "",
+                "multiplicity": 1
+            }
+        ],
+        "Question...?": [
+            {
+                "lyric": "I remember",
+                "prev": "",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Good girl, sad boy",
+                "prev": "",
+                "next": "Big city, wrong choices",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Big city, wrong choices",
+                "prev": "Good girl, sad boy",
+                "next": "We had one thing goin' on",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "We had one thing goin' on",
+                "prev": "Big city, wrong choices",
+                "next": "I swear that it was somethin'",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I swear that it was somethin'",
+                "prev": "We had one thing goin' on",
+                "next": "'Cause I don't remember who I was",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "'Cause I don't remember who I was",
+                "prev": "I swear that it was somethin'",
+                "next": "Before you painted all my nights",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Before you painted all my nights",
+                "prev": "'Cause I don't remember who I was",
+                "next": "A color I've searched for since",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "A color I've searched for since",
+                "prev": "Before you painted all my nights",
+                "next": "But one thing after another",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "But one thing after another",
+                "prev": "A color I've searched for since",
+                "next": "Fucking situation, circumstances, miscommunications",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Fucking situation, circumstances, miscommunications",
+                "prev": "But one thing after another",
+                "next": "And I have to say, by the way",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And I have to say, by the way",
+                "prev": "Fucking situation, circumstances, miscommunications",
+                "next": "I just made life some explanations",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I just made life some explanations",
+                "prev": "And I have to say, by the way",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Can I ask you a question?",
+                "prev": "",
+                "next": "Did you ever have someone kiss you in a crowded room",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "Did you ever have someone kiss you in a crowded room",
+                "prev": "Can I ask you a question?",
+                "next": "And every single one of your friends was making fun of you",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "And every single one of your friends was making fun of you",
+                "prev": "Did you ever have someone kiss you in a crowded room",
+                "next": "But fifteen seconds lat\u0435r, they were clapping, too?",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "But fifteen seconds lat\u0435r, they were clapping, too?",
+                "prev": "And every single one of your friends was making fun of you",
+                "next": "Th\u0435n what did you do?",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Th\u0435n what did you do?",
+                "prev": "But fifteen seconds lat\u0435r, they were clapping, too?",
+                "next": "Did you leave her house in the middle of the night? Oh",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Did you leave her house in the middle of the night? Oh",
+                "prev": "Th\u0435n what did you do?",
+                "next": "Did you wish you'd put up more of a fight? Oh",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Did you wish you'd put up more of a fight? Oh",
+                "prev": "Did you leave her house in the middle of the night? Oh",
+                "next": "When she said it was too much",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "When she said it was too much",
+                "prev": "Did you wish you'd put up more of a fight? Oh",
+                "next": "Do you wish you could still touch her?",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "Do you wish you could still touch her?",
+                "prev": "When she said it was too much",
+                "next": "It's just a question",
+                "multiplicity": 3
+            },
+            {
+                "lyric": "It's just a question",
+                "prev": "Do you wish you could still touch her?",
+                "next": "",
+                "multiplicity": 3
+            },
+            {
+                "lyric": "Half-moon eyes, bad surprise",
+                "prev": "",
+                "next": "Did you realize out of time?",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Did you realize out of time?",
+                "prev": "Half-moon eyes, bad surprise",
+                "next": "She was on your mind",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "She was on your mind",
+                "prev": "Did you realize out of time?",
+                "next": "With some dickhead guy",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "With some dickhead guy",
+                "prev": "She was on your mind",
+                "next": "That you saw that night",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "That you saw that night",
+                "prev": "With some dickhead guy",
+                "next": "But you were on something",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "But you were on something",
+                "prev": "That you saw that night",
+                "next": "It was one drink after another",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "It was one drink after another",
+                "prev": "But you were on something",
+                "next": "Fucking politics and gender roles",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Fucking politics and gender roles",
+                "prev": "It was one drink after another",
+                "next": "And you're not sure and I don't know",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And you're not sure and I don't know",
+                "prev": "Fucking politics and gender roles",
+                "next": "Got swept away in the grey",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Got swept away in the grey",
+                "prev": "And you're not sure and I don't know",
+                "next": "I just may like to have a conversation",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I just may like to have a conversation",
+                "prev": "Got swept away in the grey",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And every single one of your friends was making fun of you",
+                "prev": "Did you ever have someone kiss you in a crowded room",
+                "next": "But fifteen seconds later, they were clapping, too?",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "But fifteen seconds later, they were clapping, too?",
+                "prev": "And every single one of your friends was making fun of you",
+                "next": "Then what did you do?",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Then what did you do?",
+                "prev": "But fifteen seconds later, they were clapping, too?",
+                "next": "Did you leave her house in the middle of the night? Oh",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Did you leave her house in the middle of the night? Oh",
+                "prev": "Then what did you do?",
+                "next": "Did you wish you'd put up more of a fight? Oh",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Does it feel like everything's just like second best",
+                "prev": "",
+                "next": "After that meteor strike?",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "After that meteor strike?",
+                "prev": "Does it feel like everything's just like second best",
+                "next": "And what's that that I heard",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And what's that that I heard",
+                "prev": "After that meteor strike?",
+                "next": "That you're still with her? That's nice",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "That you're still with her? That's nice",
+                "prev": "And what's that that I heard",
+                "next": "I'm sure that's what's suitable",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I'm sure that's what's suitable",
+                "prev": "That you're still with her? That's nice",
+                "next": "And right, but tonight",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And right, but tonight",
+                "prev": "I'm sure that's what's suitable",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Can I ask you a question? (Can I ask you a question?)",
+                "prev": "",
+                "next": "Did you ever have someone kiss you in a crowded room (In a crowded room)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Did you ever have someone kiss you in a crowded room (In a crowded room)",
+                "prev": "Can I ask you a question? (Can I ask you a question?)",
+                "next": "And every single one of your friends was making fun of you (Was making fun of you)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And every single one of your friends was making fun of you (Was making fun of you)",
+                "prev": "Did you ever have someone kiss you in a crowded room (In a crowded room)",
+                "next": "But fifteen seconds later, they were clapping, too?",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "But fifteen seconds later, they were clapping, too?",
+                "prev": "And every single one of your friends was making fun of you (Was making fun of you)",
+                "next": "Then what did you do? (Do)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Then what did you do? (Do)",
+                "prev": "But fifteen seconds later, they were clapping, too?",
+                "next": "Did you leave her house in the middle of the night? Oh",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Did you leave her house in the middle of the night? Oh",
+                "prev": "Then what did you do? (Do)",
+                "next": "Did you wish you'd put up more of a fight? Oh (More of a fight)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Did you wish you'd put up more of a fight? Oh (More of a fight)",
+                "prev": "Did you leave her house in the middle of the night? Oh",
+                "next": "When she said it was too much",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "When she said it was too much",
+                "prev": "Did you wish you'd put up more of a fight? Oh (More of a fight)",
+                "next": "Do you wish you could still touch her?",
+                "multiplicity": 1
+            }
+        ],
+        "Snow On The Beach": [
+            {
+                "lyric": "One night, a few moons ago",
+                "prev": "",
+                "next": "I saw flecks of what could've been lights",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I saw flecks of what could've been lights",
+                "prev": "One night, a few moons ago",
+                "next": "But it might just have been you",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "But it might just have been you",
+                "prev": "I saw flecks of what could've been lights",
+                "next": "Passing by, unbeknownst to me",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Passing by, unbeknownst to me",
+                "prev": "But it might just have been you",
+                "next": "Life is emotionally abusive",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Life is emotionally abusive",
+                "prev": "Passing by, unbeknownst to me",
+                "next": "And time can't stop me quite like you did",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And time can't stop me quite like you did",
+                "prev": "Life is emotionally abusive",
+                "next": "And my flight was awful, thanks for asking",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And my flight was awful, thanks for asking",
+                "prev": "And time can't stop me quite like you did",
+                "next": "I'm unglued, thanks to you",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I'm unglued, thanks to you",
+                "prev": "And my flight was awful, thanks for asking",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And it's like snow at the beach",
+                "prev": "",
+                "next": "Weird but fucking beautiful",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Weird but fucking beautiful",
+                "prev": "And it's like snow at the beach",
+                "next": "Flyin' in a dream",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Flyin' in a dream",
+                "prev": "Weird but fucking beautiful",
+                "next": "Stars by the pocket full",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "Stars by the pocket full",
+                "prev": "Flyin' in a dream",
+                "next": "You wantin' me",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You wantin' me",
+                "prev": "Stars by the pocket full",
+                "next": "Tonight, feels impossible",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Tonight, feels impossible",
+                "prev": "You wantin' me",
+                "next": "But it's comin' down",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "But it's comin' down",
+                "prev": "Tonight, feels impossible",
+                "next": "No sound and it's all around",
+                "multiplicity": 3
+            },
+            {
+                "lyric": "No sound and it's all around",
+                "prev": "But it's comin' down",
+                "next": "",
+                "multiplicity": 4
+            },
+            {
+                "lyric": "Like snow on the beach",
+                "prev": "",
+                "next": "Like snow on the beach",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "Like snow on the beach",
+                "prev": "Like snow on the beach",
+                "next": "Like snow on the beach",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "Like snow on the beach",
+                "prev": "Like snow on the beach",
+                "next": "Like snow, uh-huh, uh-huh, ah",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "Like snow, uh-huh, uh-huh, ah",
+                "prev": "Like snow on the beach",
+                "next": "",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "This scene feels like what I once saw on a screen",
+                "prev": "",
+                "next": "I searched aurora borealis green",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I searched aurora borealis green",
+                "prev": "This scene feels like what I once saw on a screen",
+                "next": "I've never seen someone live from within",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I've never seen someone live from within",
+                "prev": "I searched aurora borealis green",
+                "next": "Blurrin' out my periphery",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Blurrin' out my periphery",
+                "prev": "I've never seen someone live from within",
+                "next": "My smile is like I've won a contest",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "My smile is like I've won a contest",
+                "prev": "Blurrin' out my periphery",
+                "next": "And to hide that would be so dishonest",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And to hide that would be so dishonest",
+                "prev": "My smile is like I've won a contest",
+                "next": "And it's fine to fake it 'til you make it",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And it's fine to fake it 'til you make it",
+                "prev": "And to hide that would be so dishonest",
+                "next": "'Til you do, 'til it's true",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "'Til you do, 'til it's true",
+                "prev": "And it's fine to fake it 'til you make it",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And now it's like snow at the beach",
+                "prev": "",
+                "next": "Weird but fucking beautiful",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Weird but fucking beautiful",
+                "prev": "And now it's like snow at the beach",
+                "next": "Flyin' in a dream",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Stars by the pocket full",
+                "prev": "Flyin' in a dream",
+                "next": "You wanting me",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You wanting me",
+                "prev": "Stars by the pocket full",
+                "next": "Tonight, feels impossible",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Tonight, feels impossible",
+                "prev": "You wanting me",
+                "next": "But it's comin' down",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I (I) can't (Can't) speak, afraid to jinx it",
+                "prev": "",
+                "next": "I (I) don't (Don't) even dare to wish it",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I (I) don't (Don't) even dare to wish it",
+                "prev": "I (I) can't (Can't) speak, afraid to jinx it",
+                "next": "But your eyes are flyin' saucers from another planet",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "But your eyes are flyin' saucers from another planet",
+                "prev": "I (I) don't (Don't) even dare to wish it",
+                "next": "Now I'm all for you like Janet",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Now I'm all for you like Janet",
+                "prev": "But your eyes are flyin' saucers from another planet",
+                "next": "Can this be your real thing? Can it?",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Can this be your real thing? Can it?",
+                "prev": "Now I'm all for you like Janet",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Are we falling like snow at the beach? (Snow at the beach)",
+                "prev": "",
+                "next": "Weird but fuckin' beautiful",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Weird but fuckin' beautiful",
+                "prev": "Are we falling like snow at the beach? (Snow at the beach)",
+                "next": "Flying in a dream (Flyin' in a dream)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Flying in a dream (Flyin' in a dream)",
+                "prev": "Weird but fuckin' beautiful",
+                "next": "Stars by the pocket full",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Stars by the pocket full",
+                "prev": "Flying in a dream (Flyin' in a dream)",
+                "next": "You wanting me (You wantin' me)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You wanting me (You wantin' me)",
+                "prev": "Stars by the pocket full",
+                "next": "Tonight, feels impossible",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Tonight, feels impossible",
+                "prev": "You wanting me (You wantin' me)",
+                "next": "But it's comin' down",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Like snow on the beach (Snow on the beach)",
+                "prev": "",
+                "next": "Like snow on the beach (Snow on the beach)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Like snow on the beach (Snow on the beach)",
+                "prev": "Like snow on the beach (Snow on the beach)",
+                "next": "Like snow on the beach (Snow on the beach)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Like snow on the beach (Snow on the beach)",
+                "prev": "Like snow on the beach (Snow on the beach)",
+                "next": "Like snow, uh-huh",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Like snow, uh-huh",
+                "prev": "Like snow on the beach (Snow on the beach)",
+                "next": "But it's comin' down",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "But it's comin' down",
+                "prev": "Like snow, uh-huh",
+                "next": "No sound and it's all around",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Like snow on the beach",
+                "prev": "",
+                "next": "(It's comin' down, it's comin' down)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "(It's comin' down, it's comin' down)",
+                "prev": "Like snow on the beach",
+                "next": "(It's comin' down, it's comin' down)",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "(It's comin' down, it's comin' down)",
+                "prev": "(It's comin' down, it's comin' down)",
+                "next": "Like snow on the beach",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Like snow on the beach",
+                "prev": "(It's comin' down, it's comin' down)",
+                "next": "(It's comin' down, it's comin' down)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "(It's comin' down, it's comin' down)",
+                "prev": "(It's comin' down, it's comin' down)",
+                "next": "(It's comin' down, it's comin' down)",
+                "multiplicity": 4
+            },
+            {
+                "lyric": "(It's comin' down, it's comin' down)",
+                "prev": "(It's comin' down, it's comin' down)",
+                "next": "",
+                "multiplicity": 1
+            }
+        ],
+        "Sweet Nothing": [
+            {
+                "lyric": "I spy with my little tired eye",
+                "prev": "",
+                "next": "Tiny as a firefly, a pebble",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Tiny as a firefly, a pebble",
+                "prev": "I spy with my little tired eye",
+                "next": "That we picked up last July",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "That we picked up last July",
+                "prev": "Tiny as a firefly, a pebble",
+                "next": "Down deep inside your pocket",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Down deep inside your pocket",
+                "prev": "That we picked up last July",
+                "next": "We almost forgot it",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "We almost forgot it",
+                "prev": "Down deep inside your pocket",
+                "next": "Does it ever miss Wicklow sometimes?",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Does it ever miss Wicklow sometimes?",
+                "prev": "We almost forgot it",
+                "next": "Ooh, ooh",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Ooh, ooh",
+                "prev": "Does it ever miss Wicklow sometimes?",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "They said the end is coming",
+                "prev": "",
+                "next": "Everyone's up to something",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "Everyone's up to something",
+                "prev": "They said the end is coming",
+                "next": "I found myself around and into your sweet nothings",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "I found myself around and into your sweet nothings",
+                "prev": "Everyone's up to something",
+                "next": "I'll take their pushing, shoving",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "I'll take their pushing, shoving",
+                "prev": "I found myself around and into your sweet nothings",
+                "next": "You're in the kitchen, humming",
+                "multiplicity": 3
+            },
+            {
+                "lyric": "You're in the kitchen, humming",
+                "prev": "I'll take their pushing, shoving",
+                "next": "All that you ever wanted from me was sweet nothing",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "All that you ever wanted from me was sweet nothing",
+                "prev": "You're in the kitchen, humming",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "On the way home",
+                "prev": "",
+                "next": "I wrote a poem",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I wrote a poem",
+                "prev": "On the way home",
+                "next": "You say, \"What a mind\"",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You say, \"What a mind\"",
+                "prev": "I wrote a poem",
+                "next": "This happens all the time",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "This happens all the time",
+                "prev": "You say, \"What a mind\"",
+                "next": "Ooh, ooh",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Ooh, ooh",
+                "prev": "This happens all the time",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "'Cause they said th\u0435 end is coming",
+                "prev": "",
+                "next": "Everyone's up to som\u0435thing",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Everyone's up to som\u0435thing",
+                "prev": "'Cause they said th\u0435 end is coming",
+                "next": "I found myself around and into your sweet nothings",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I found myself around and into your sweet nothings",
+                "prev": "Everyone's up to som\u0435thing",
+                "next": "I'll take their pushing, shoving",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You're in the kitchen, humming",
+                "prev": "I'll take their pushing, shoving",
+                "next": "All that you ever wanted from me was nothing",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "All that you ever wanted from me was nothing",
+                "prev": "You're in the kitchen, humming",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Industry disruptors and soul desconstructors",
+                "prev": "",
+                "next": "And smooth-talking hucksters out glad-handing each other",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And smooth-talking hucksters out glad-handing each other",
+                "prev": "Industry disruptors and soul desconstructors",
+                "next": "And the voices that implore you should be doing more",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And the voices that implore you should be doing more",
+                "prev": "And smooth-talking hucksters out glad-handing each other",
+                "next": "To you, I can admit that I'm just too soft for all of it",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "To you, I can admit that I'm just too soft for all of it",
+                "prev": "And the voices that implore you should be doing more",
+                "next": "Ooh",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Ooh",
+                "prev": "To you, I can admit that I'm just too soft for all of it",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "All that you ever wanted from me was sweet nothing",
+                "prev": "You're in the kitchen, humming",
+                "next": "They said the end is coming",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "They said the end is coming",
+                "prev": "All that you ever wanted from me was sweet nothing",
+                "next": "(They said the end is coming)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "(They said the end is coming)",
+                "prev": "They said the end is coming",
+                "next": "Everyone's up to something",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Everyone's up to something",
+                "prev": "(They said the end is coming)",
+                "next": "(Everyone's up to something)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "(Everyone's up to something)",
+                "prev": "Everyone's up to something",
+                "next": "I found myself around and into your sweet nothings",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I found myself around and into your sweet nothings",
+                "prev": "(Everyone's up to something)",
+                "next": "I'll take their pushing, shoving",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I'll take their pushing, shoving",
+                "prev": "I found myself around and into your sweet nothings",
+                "next": "(I'll take their pushing, shoving)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "(I'll take their pushing, shoving)",
+                "prev": "I'll take their pushing, shoving",
+                "next": "You're in the kitchen, humming",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You're in the kitchen, humming",
+                "prev": "(I'll take their pushing, shoving)",
+                "next": "(You're in the kitchen, humming)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "(You're in the kitchen, humming)",
+                "prev": "You're in the kitchen, humming",
+                "next": "All that you ever wanted from me was sweet nothing",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "All that you ever wanted from me was sweet nothing",
+                "prev": "(You're in the kitchen, humming)",
+                "next": "",
+                "multiplicity": 1
+            }
+        ],
+        "Vigilante Shit": [
+            {
+                "lyric": "Draw the cat eye, sharp enough to kill a man",
+                "prev": "",
+                "next": "You did some bad things, but I'm the worst of them",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You did some bad things, but I'm the worst of them",
+                "prev": "Draw the cat eye, sharp enough to kill a man",
+                "next": "Sometimes I wonder, which one will be your last lie?",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Sometimes I wonder, which one will be your last lie?",
+                "prev": "You did some bad things, but I'm the worst of them",
+                "next": "They say looks can kill and I might try",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "They say looks can kill and I might try",
+                "prev": "Sometimes I wonder, which one will be your last lie?",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I don't dress for women, I don't dress for men",
+                "prev": "",
+                "next": "Lately I've been dressing for revenge",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Lately I've been dressing for revenge",
+                "prev": "I don't dress for women, I don't dress for men",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I don't start shit, but I can tell you how it ends",
+                "prev": "",
+                "next": "Don't get sad, get even",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "Don't get sad, get even",
+                "prev": "I don't start shit, but I can tell you how it ends",
+                "next": "So on the weekends, I don't dress for friends",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "So on the weekends, I don't dress for friends",
+                "prev": "Don't get sad, get even",
+                "next": "Lately I've been dressing for revenge",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "Lately I've been dressing for revenge",
+                "prev": "So on the weekends, I don't dress for friends",
+                "next": "",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "She needed a cold heart proof, so I gave her some",
+                "prev": "",
+                "next": "She had the envelope, where you think she got it from?",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "She had the envelope, where you think she got it from?",
+                "prev": "She needed a cold heart proof, so I gave her some",
+                "next": "Now she gets the house, gets the kids, gets the pride",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Now she gets the house, gets the kids, gets the pride",
+                "prev": "She had the envelope, where you think she got it from?",
+                "next": "Picture me thick as thieves with your ex-wife",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Picture me thick as thieves with your ex-wife",
+                "prev": "Now she gets the house, gets the kids, gets the pride",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And she looks so pretty drivin' in your Benz",
+                "prev": "",
+                "next": "Lately she's been dressing for revenge",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Lately she's been dressing for revenge",
+                "prev": "And she looks so pretty drivin' in your Benz",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "She don't start shit, but she can tell you how it ends",
+                "prev": "",
+                "next": "Don't get sad, get even",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Don't get sad, get even",
+                "prev": "She don't start shit, but she can tell you how it ends",
+                "next": "So on the weekends, she don't dress for friends",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "So on the weekends, she don't dress for friends",
+                "prev": "Don't get sad, get even",
+                "next": "Lately she's been dressing for revenge",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Lately she's been dressing for revenge",
+                "prev": "So on the weekends, she don't dress for friends",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Ladies always rise above",
+                "prev": "",
+                "next": "Ladies know what people want",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Ladies know what people want",
+                "prev": "Ladies always rise above",
+                "next": "Someone sweet and kind and fun",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Someone sweet and kind and fun",
+                "prev": "Ladies know what people want",
+                "next": "The ladies simply had enough",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "The ladies simply had enough",
+                "prev": "Someone sweet and kind and fun",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Well, he was doing lines",
+                "prev": "",
+                "next": "And crossin' all of mine",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And crossin' all of mine",
+                "prev": "Well, he was doing lines",
+                "next": "Someone told his white collar crimes",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Someone told his white collar crimes",
+                "prev": "And crossin' all of mine",
+                "next": "To the FBI",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "To the FBI",
+                "prev": "Someone told his white collar crimes",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And I don't dress for villains or for innocents",
+                "prev": "",
+                "next": "I'm a vigilante shit again",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I'm a vigilante shit again",
+                "prev": "And I don't dress for villains or for innocents",
+                "next": "",
+                "multiplicity": 1
+            }
+        ],
+        "You\u2019re On Your Own, Kid": [
+            {
+                "lyric": "Summer went away, still the yearning stays",
+                "prev": "",
+                "next": "I play it cool with the best of them",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I play it cool with the best of them",
+                "prev": "Summer went away, still the yearning stays",
+                "next": "I wait patiently, he's gonna notice me",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I wait patiently, he's gonna notice me",
+                "prev": "I play it cool with the best of them",
+                "next": "It's okay, we're the best of friends anyway",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "It's okay, we're the best of friends anyway",
+                "prev": "I wait patiently, he's gonna notice me",
+                "next": "I hear it in your voice, you're smoking with your boys",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I hear it in your voice, you're smoking with your boys",
+                "prev": "It's okay, we're the best of friends anyway",
+                "next": "I touch my phone as if it's your face",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I touch my phone as if it's your face",
+                "prev": "I hear it in your voice, you're smoking with your boys",
+                "next": "I didn't choose this town, I dream of getting out",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I didn't choose this town, I dream of getting out",
+                "prev": "I touch my phone as if it's your face",
+                "next": "There's just one who could make me stay all my days",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "There's just one who could make me stay all my days",
+                "prev": "I didn't choose this town, I dream of getting out",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "From sprinkler splashes to fireplace ashes",
+                "prev": "",
+                "next": "I waited ages to see you there",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I waited ages to see you there",
+                "prev": "From sprinkler splashes to fireplace ashes",
+                "next": "I search the party who've better bodies",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I search the party who've better bodies",
+                "prev": "I waited ages to see you there",
+                "next": "Just to learn that you never cared",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Just to learn that you never cared",
+                "prev": "I search the party who've better bodies",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You're on your own, kid",
+                "prev": "",
+                "next": "You always have been",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "You always have been",
+                "prev": "You're on your own, kid",
+                "next": "",
+                "multiplicity": 3
+            },
+            {
+                "lyric": "I see the great escape, so long Daisy Mae",
+                "prev": "",
+                "next": "I picked the petals, he loves me not",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I picked the petals, he loves me not",
+                "prev": "I see the great escape, so long Daisy Mae",
+                "next": "Something different bloomed, writing in my room",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Something different bloomed, writing in my room",
+                "prev": "I picked the petals, he loves me not",
+                "next": "I play my songs in the parking lot, I'll run away",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I play my songs in the parking lot, I'll run away",
+                "prev": "Something different bloomed, writing in my room",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "From sprinkler splashes to fireplace ashes",
+                "prev": "",
+                "next": "I called a taxi to take me there",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I called a taxi to take me there",
+                "prev": "From sprinkler splashes to fireplace ashes",
+                "next": "I search the party who've better bodies",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I search the party who've better bodies",
+                "prev": "I called a taxi to take me there",
+                "next": "Just to learn that my dreams aren't rare",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Just to learn that my dreams aren't rare",
+                "prev": "I search the party who've better bodies",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "From sprinkler splashes to fireplace ashes",
+                "prev": "",
+                "next": "I gave my blood, sweat, and tears for this",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I gave my blood, sweat, and tears for this",
+                "prev": "From sprinkler splashes to fireplace ashes",
+                "next": "I hosted parties and starved my body",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I hosted parties and starved my body",
+                "prev": "I gave my blood, sweat, and tears for this",
+                "next": "Like I'd be saved by a perfect kiss",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Like I'd be saved by a perfect kiss",
+                "prev": "I hosted parties and starved my body",
+                "next": "The jokes weren't funny, I took the money",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "The jokes weren't funny, I took the money",
+                "prev": "Like I'd be saved by a perfect kiss",
+                "next": "My friends from home don't know what to say",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "My friends from home don't know what to say",
+                "prev": "The jokes weren't funny, I took the money",
+                "next": "I looked around in a blood-soaked gown",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I looked around in a blood-soaked gown",
+                "prev": "My friends from home don't know what to say",
+                "next": "And I saw something they can't take away",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And I saw something they can't take away",
+                "prev": "I looked around in a blood-soaked gown",
+                "next": "'Cause there were pages turned with the bridges burned",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "'Cause there were pages turned with the bridges burned",
+                "prev": "And I saw something they can't take away",
+                "next": "Everything you lose is a step you take",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Everything you lose is a step you take",
+                "prev": "'Cause there were pages turned with the bridges burned",
+                "next": "To make the friendship raise, let's take the moment and taste it",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "To make the friendship raise, let's take the moment and taste it",
+                "prev": "Everything you lose is a step you take",
+                "next": "You've got no reason to be afraid",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You've got no reason to be afraid",
+                "prev": "To make the friendship raise, let's take the moment and taste it",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You're on your own, kid (Ah)",
+                "prev": "",
+                "next": "Yeah, you can face this (Ah)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Yeah, you can face this (Ah)",
+                "prev": "You're on your own, kid (Ah)",
+                "next": "You're on your own, kid",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You're on your own, kid",
+                "prev": "Yeah, you can face this (Ah)",
+                "next": "You always have been",
+                "multiplicity": 1
+            }
+        ]
     }
 }
