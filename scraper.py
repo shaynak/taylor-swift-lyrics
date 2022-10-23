@@ -28,7 +28,8 @@ ALBUMS = [
     'The Taylor Swift Holiday Collection - EP', 'Unreleased Songs', 'evermore',
     'evermore (deluxe version)', 'folklore', 'folklore (deluxe version)',
     'reputation', 'Two Lanes of Freedom (Accelerated Deluxe)', 'Love Drunk', 
-    'Women in Music Pt. III (Expanded Edition)', 'Midnights', ''
+    'Women in Music Pt. III (Expanded Edition)', 'Midnights', 
+    'Midnights (3am Edition)', 'Midnights (Target Exclusive)', ''
 ]
 
 # Songs that don't have an album or for which Taylor Swift is not the primary artist
