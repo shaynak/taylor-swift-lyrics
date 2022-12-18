@@ -59,6 +59,8 @@ EXTRA_SONG_API_PATHS = {
     '/songs/3221550': 'reputation',
     '/songs/62236': 'The Hunger Games: Songs from District 12 and Beyond',
     '/songs/186846': 'The Taylor Swift Holiday Collection - EP',
+    '/songs/3283025': 'reputation',
+    '/songs/187197': 'The Hunger Games: Songs from District 12 and Beyond',
 }
 
 # Songs that are somehow duplicates / etc.
@@ -68,7 +70,8 @@ IGNORE_SONGS = [
     'Love Story (Taylor’s Version) [Elvira Remix]',
     'Forever & Always (Piano Version) [Taylor’s Version]', 'Ronan',
     'Mine (Pop Mix)', 'Haunted (Acoustic Version)',
-    'Back To December (Acoustic)'
+    'Back To December (Acoustic)', 'Sweet Nothing (Piano Remix)', 
+    'You’re On Your Own, Kid (Strings Remix)'
 ]
 
 ARTIST_ID = 1177
@@ -317,6 +320,7 @@ def clean_lyrics(lyrics: str) -> str:
     lyrics = re.sub(r"[0-9]*Embed", '', lyrics)
     lyrics = re.sub(r"[0-9]*EmbedShare", '', lyrics)
     lyrics = lyrics.replace('See Taylor Swift LiveGet tickets as low as $34You might also like', '\n')
+    lyrics = lyrics.replace('See Taylor Swift LiveGet tickets as low as $200You might also like', '\n')
     return lyrics
 
 
