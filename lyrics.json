@@ -64685,7 +64685,7 @@
             }
         ]
     },
-    "NaN": {
+    "Only The Young": {
         "Only The Young": [
             {
                 "lyric": "It keeps me awake, the look on your face",
@@ -64963,7 +64963,9 @@
                 "next": "",
                 "multiplicity": 1
             }
-        ],
+        ]
+    },
+    "Renegade": {
         "Renegade": [
             {
                 "lyric": "I tapped on your window on your darkest night",

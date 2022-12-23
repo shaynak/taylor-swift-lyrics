@@ -283,6 +283,8 @@ def lyrics_to_json():
     lyric_data = pd.read_csv(LYRIC_PATH)
     for lyric in lyric_data.to_records(index=False):
         title, album, lyric, prev_lyric, next_lyric, multiplicity = lyric
+        if album != album: # handling for NaN
+            album = title
         if album not in lyric_dict:
             lyric_dict[album] = {}
         if title not in lyric_dict[album]:
