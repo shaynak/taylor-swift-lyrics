@@ -95,10 +95,10 @@ def main():
         existing_df = pd.read_csv(CSV_PATH)
         existing_songs = list(existing_df['Title'])
     genius = lyricsgenius.Genius(access_token)
-    songs = get_songs() if not args.appendpaths else []
+    # songs = get_songs() if not args.appendpaths else []
     songs_by_album, has_failed, last_song = {}, True, ''
-    while has_failed:
-        songs_by_album, has_failed, last_song = sort_songs_by_album(genius, songs, songs_by_album, last_song, existing_songs)
+    # while has_failed:
+    #     songs_by_album, has_failed, last_song = sort_songs_by_album(genius, songs, songs_by_album, last_song, existing_songs)
     albums_to_songs_csv(songs_by_album, existing_df)
     songs_to_lyrics()
     lyrics_to_json()
@@ -178,10 +178,11 @@ def sort_songs_by_album(genius, songs, songs_by_album, last_song, existing_songs
 def albums_to_songs_csv(songs_by_album, existing_df=None):
     print('Saving songs to CSV...')
     songs_records = []
+    songs_titles = []
     for album in songs_by_album:
         if album in ALBUMS:
             for song in songs_by_album[album]:
-                if song.title not in IGNORE_SONGS:
+                if song.title not in IGNORE_SONGS and song.title not in songs_titles:
                     record = {
                         'Title': song.title.strip('\u200b'),
                         'Album':
@@ -189,20 +190,23 @@ def albums_to_songs_csv(songs_by_album, existing_df=None):
                         'Lyrics': song.lyrics,
                     }
                     songs_records.append(record)
+                    songs_titles.append(song.title)
         else:
             for song in songs_by_album[album]:
-                if song in OTHER_SONGS:
+                if song in OTHER_SONGS and song.title not in songs_titles:
                     record = {
                         'Title': song.title,
                         'Album': album,
                         'Lyrics': song.lyrics,
                     }
                     songs_records.append(record)
+                    songs_titles.append(song.title)
 
     song_df = pd.DataFrame.from_records(songs_records)
     if existing_df is not None:
         song_df = pd.concat([existing_df, song_df])
         song_df = song_df[~song_df['Title'].isin(IGNORE_SONGS)]
+        song_df = song_df.drop_duplicates('Title', keep="last")
     song_df.to_csv(CSV_PATH, index=False)
 
 
@@ -234,18 +238,19 @@ def songs_to_lyrics():
     song_titles = []
     for song in song_data.to_records(index=False):
         title, album, lyrics = song
-        song_titles.append(title)
-        lyric_dict = get_lyric_list(lyrics)
-        for lyric in lyric_dict:
-            lyric_record = {
-                'Song': title,
-                'Album': album,
-                'Lyric': lyric.lyric,
-                'Previous Lyric': lyric.prev,
-                'Next Lyric': lyric.next,
-                'Multiplicity': lyric_dict[lyric]
-            }
-            lyric_records.append(lyric_record)
+        if title not in song_titles:
+            song_titles.append(title)
+            lyric_dict = get_lyric_list(lyrics)
+            for lyric in lyric_dict:
+                lyric_record = {
+                    'Song': title,
+                    'Album': album,
+                    'Lyric': lyric.lyric,
+                    'Previous Lyric': lyric.prev,
+                    'Next Lyric': lyric.next,
+                    'Multiplicity': lyric_dict[lyric]
+                }
+                lyric_records.append(lyric_record)
     lyric_df = pd.DataFrame.from_records(lyric_records)
     lyric_df.to_csv(LYRIC_PATH, index=False)
     # Writing song list to make it easy to compare changes
