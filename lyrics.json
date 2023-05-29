@@ -12779,6 +12779,278 @@
                 "next": "",
                 "multiplicity": 1
             }
+        ],
+        "All Of The Girls You Loved Before": [
+            {
+                "lyric": "When you think of all the late nights",
+                "prev": "",
+                "next": "Lame fights over the phone",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Lame fights over the phone",
+                "prev": "When you think of all the late nights",
+                "next": "Wake up in the mornin' with someone",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Wake up in the mornin' with someone",
+                "prev": "Lame fights over the phone",
+                "next": "But feelin' alone",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "But feelin' alone",
+                "prev": "Wake up in the mornin' with someone",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "A heart is drawn around your name",
+                "prev": "",
+                "next": "In someone's handwriting, not mine",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "In someone's handwriting, not mine",
+                "prev": "A heart is drawn around your name",
+                "next": "Sneakin' out into town",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Sneakin' out into town",
+                "prev": "In someone's handwriting, not mine",
+                "next": "Holdin' hands, just killin' time",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Holdin' hands, just killin' time",
+                "prev": "Sneakin' out into town",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Your past and mine are parallel lines",
+                "prev": "",
+                "next": "Stars all aligned and they intertwined",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Stars all aligned and they intertwined",
+                "prev": "Your past and mine are parallel lines",
+                "next": "And taught you",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And taught you",
+                "prev": "Stars all aligned and they intertwined",
+                "next": "The way you call me \"baby\"",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "The way you call me \"baby\"",
+                "prev": "And taught you",
+                "next": "Treat me like a lady",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Treat me like a lady",
+                "prev": "The way you call me \"baby\"",
+                "next": "All that I can say is",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "All that I can say is",
+                "prev": "Treat me like a lady",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "All of the girls you loved before (Ooh)",
+                "prev": "",
+                "next": "Made you the one I've fallen for",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "Made you the one I've fallen for",
+                "prev": "All of the girls you loved before (Ooh)",
+                "next": "Every dead-end street led you straight to me",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "Every dead-end street led you straight to me",
+                "prev": "Made you the one I've fallen for",
+                "next": "Now you're all I need, I'm so thankful for",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "Now you're all I need, I'm so thankful for",
+                "prev": "Every dead-end street led you straight to me",
+                "next": "All of the girls you loved before",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "All of the girls you loved before",
+                "prev": "Now you're all I need, I'm so thankful for",
+                "next": "But I love you more",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "But I love you more",
+                "prev": "All of the girls you loved before",
+                "next": "See Taylor Swift LiveGet tickets as low as $1,111You might also like[Verse 2]",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "See Taylor Swift LiveGet tickets as low as $1,111You might also like[Verse 2]",
+                "prev": "But I love you more",
+                "next": "When I think of all the makeup",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "When I think of all the makeup",
+                "prev": "See Taylor Swift LiveGet tickets as low as $1,111You might also like[Verse 2]",
+                "next": "Fake love out on the town (Ooh)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Fake love out on the town (Ooh)",
+                "prev": "When I think of all the makeup",
+                "next": "Cryin' in the bathroom for some dude",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Cryin' in the bathroom for some dude",
+                "prev": "Fake love out on the town (Ooh)",
+                "next": "Whose name I cannot remember now",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Whose name I cannot remember now",
+                "prev": "Cryin' in the bathroom for some dude",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Secret jokes all alone",
+                "prev": "",
+                "next": "No one's home, sixteen and wild (Ooh)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "No one's home, sixteen and wild (Ooh)",
+                "prev": "Secret jokes all alone",
+                "next": "Breakin' up, makin' up",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Breakin' up, makin' up",
+                "prev": "No one's home, sixteen and wild (Ooh)",
+                "next": "Leave without sayin' goodbye (Ooh)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Leave without sayin' goodbye (Ooh)",
+                "prev": "Breakin' up, makin' up",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And just know that",
+                "prev": "",
+                "next": "It's everything that made me",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "It's everything that made me",
+                "prev": "And just know that",
+                "next": "Now I call you \"baby\"",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Now I call you \"baby\"",
+                "prev": "It's everything that made me",
+                "next": "It's why you're so amazing",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "It's why you're so amazing",
+                "prev": "Now I call you \"baby\"",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "But I love you more",
+                "prev": "All of the girls you loved before",
+                "next": "",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "Your mother brought you up loyal and kind",
+                "prev": "",
+                "next": "Teenage love taught you there's good in goodbye",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Teenage love taught you there's good in goodbye",
+                "prev": "Your mother brought you up loyal and kind",
+                "next": "Every woman that you knew brought you here",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Every woman that you knew brought you here",
+                "prev": "Teenage love taught you there's good in goodbye",
+                "next": "I wanna teach you how forever feels like",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I wanna teach you how forever feels like",
+                "prev": "Every woman that you knew brought you here",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "The girls you loved before (Ooh)",
+                "prev": "",
+                "next": "Made you the one I've fallen for",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Made you the one I've fallen for",
+                "prev": "The girls you loved before (Ooh)",
+                "next": "Every dead-end street (Dead-end street) led you straight to me (Straight to me)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Every dead-end street (Dead-end street) led you straight to me (Straight to me)",
+                "prev": "Made you the one I've fallen for",
+                "next": "Now you're all I need (All I need), I'm so thankful for",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Now you're all I need (All I need), I'm so thankful for",
+                "prev": "Every dead-end street (Dead-end street) led you straight to me (Straight to me)",
+                "next": "All of the girls you loved before",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "All of the girls you loved before",
+                "prev": "Now you're all I need (All I need), I'm so thankful for",
+                "next": "But I love you more",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "(I love you more)",
+                "prev": "",
+                "next": "(I love you more)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "(I love you more)",
+                "prev": "(I love you more)",
+                "next": "",
+                "multiplicity": 1
+            }
         ]
     },
     "1989 (Deluxe)": {
@@ -52770,12 +53042,18 @@
             {
                 "lyric": "You left me no choice but to stay here forever",
                 "prev": "You left me, you left me no, oh, you left me no",
-                "next": "",
+                "next": "See Taylor Swift LiveGet tickets as low as $1,111You might also like[Verse 2]",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "See Taylor Swift LiveGet tickets as low as $1,111You might also like[Verse 2]",
+                "prev": "You left me no choice but to stay here forever",
+                "next": "Did you ever hear about the girl who got frozen?",
                 "multiplicity": 1
             },
             {
                 "lyric": "Did you ever hear about the girl who got frozen?",
-                "prev": "",
+                "prev": "See Taylor Swift LiveGet tickets as low as $1,111You might also like[Verse 2]",
                 "next": "Time went on for everybody else, she won't know it",
                 "multiplicity": 1
             },
@@ -52920,18 +53198,12 @@
             {
                 "lyric": "But if you ever think you got it wrong",
                 "prev": "And it's been so long",
-                "next": "See Taylor Swift LiveGet tickets as low as $280You might also like[Chorus]",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "See Taylor Swift LiveGet tickets as low as $280You might also like[Chorus]",
-                "prev": "But if you ever think you got it wrong",
-                "next": "I'm right where",
+                "next": "",
                 "multiplicity": 1
             },
             {
                 "lyric": "I'm right where",
-                "prev": "See Taylor Swift LiveGet tickets as low as $280You might also like[Chorus]",
+                "prev": "",
                 "next": "You left me",
                 "multiplicity": 1
             },
@@ -53031,7 +53303,7 @@
                 "lyric": "You know when it's time to go",
                 "prev": "The snaps from the same little breaks in your soul",
                 "next": "",
-                "multiplicity": 2
+                "multiplicity": 1
             },
             {
                 "lyric": "Twenty years at your job",
@@ -53058,10 +53330,22 @@
                 "multiplicity": 1
             },
             {
+                "lyric": "You know when it's time to go",
+                "prev": "The snaps from the same little breaks in your soul",
+                "next": "See Taylor Swift LiveGet tickets as low as $1,111You might also like[Post-Chorus]",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "See Taylor Swift LiveGet tickets as low as $1,111You might also like[Post-Chorus]",
+                "prev": "You know when it's time to go",
+                "next": "Sometimes giving up is the strong thing",
+                "multiplicity": 1
+            },
+            {
                 "lyric": "Sometimes giving up is the strong thing",
-                "prev": "",
+                "prev": "See Taylor Swift LiveGet tickets as low as $1,111You might also like[Post-Chorus]",
                 "next": "Sometimes to run is the brave thing",
-                "multiplicity": 2
+                "multiplicity": 1
             },
             {
                 "lyric": "Sometimes to run is the brave thing",
@@ -53138,18 +53422,12 @@
             {
                 "lyric": "But I've got me",
                 "prev": "He's got my past frozen behind glass",
-                "next": "See Taylor Swift LiveGet tickets as low as $280You might also like[Chorus]",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "See Taylor Swift LiveGet tickets as low as $280You might also like[Chorus]",
-                "prev": "But I've got me",
-                "next": "That old familiar body ache",
+                "next": "",
                 "multiplicity": 1
             },
             {
                 "lyric": "That old familiar body ache",
-                "prev": "See Taylor Swift LiveGet tickets as low as $280You might also like[Chorus]",
+                "prev": "",
                 "next": "The snaps from the same little breaks in my soul",
                 "multiplicity": 1
             },
@@ -53163,6 +53441,12 @@
                 "lyric": "I know when it's time to go",
                 "prev": "The snaps from the same little breaks in my soul",
                 "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Sometimes giving up is the strong thing",
+                "prev": "",
+                "next": "Sometimes to run is the brave thing",
                 "multiplicity": 1
             },
             {
@@ -53216,6 +53500,316 @@
             {
                 "lyric": "You just go",
                 "prev": "Then you go",
+                "next": "",
+                "multiplicity": 1
+            }
+        ]
+    },
+    "Midnights": {
+        "You\u2019re Losing Me (From The Vault)": [
+            {
+                "lyric": "You say, \"I don't understand,\" and I say, \"I know you don't\"",
+                "prev": "",
+                "next": "We thought a cure would come through in time, now, I fear it won't",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "We thought a cure would come through in time, now, I fear it won't",
+                "prev": "You say, \"I don't understand,\" and I say, \"I know you don't\"",
+                "next": "Remember lookin' at this room, we loved it 'cause of the light",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Remember lookin' at this room, we loved it 'cause of the light",
+                "prev": "We thought a cure would come through in time, now, I fear it won't",
+                "next": "Now, I just sit in the dark and wonder if it's time",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Now, I just sit in the dark and wonder if it's time",
+                "prev": "Remember lookin' at this room, we loved it 'cause of the light",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Do I throw out everything we built or keep it?",
+                "prev": "",
+                "next": "I'm getting tired even for a phoenix",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I'm getting tired even for a phoenix",
+                "prev": "Do I throw out everything we built or keep it?",
+                "next": "Always risin' from the ashes",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Always risin' from the ashes",
+                "prev": "I'm getting tired even for a phoenix",
+                "next": "Mendin' all her gashes",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Mendin' all her gashes",
+                "prev": "Always risin' from the ashes",
+                "next": "You might just have dealt the final blow",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You might just have dealt the final blow",
+                "prev": "Mendin' all her gashes",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Stop, you're losin' me",
+                "prev": "",
+                "next": "Stop, you're losin' me",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "Stop, you're losin' me",
+                "prev": "Stop, you're losin' me",
+                "next": "Stop, you're losin' me",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "Stop, you're losin' me",
+                "prev": "Stop, you're losin' me",
+                "next": "I can't find a pulse",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "I can't find a pulse",
+                "prev": "Stop, you're losin' me",
+                "next": "My heart won't start anymore for you",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "My heart won't start anymore for you",
+                "prev": "I can't find a pulse",
+                "next": "'Cause you're losin' me",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "'Cause you're losin' me",
+                "prev": "My heart won't start anymore for you",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Every mornin', I glared at you with storms in my eyes",
+                "prev": "",
+                "next": "How can you say that you love someone you can't tell is dyin'?",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "How can you say that you love someone you can't tell is dyin'?",
+                "prev": "Every mornin', I glared at you with storms in my eyes",
+                "next": "I sent you signals and bit my nails down to the quick",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I sent you signals and bit my nails down to the quick",
+                "prev": "How can you say that you love someone you can't tell is dyin'?",
+                "next": "My face was gray, but you wouldn't admit that we were sick",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "My face was gray, but you wouldn't admit that we were sick",
+                "prev": "I sent you signals and bit my nails down to the quick",
+                "next": "See Taylor Swift LiveGet tickets as low as $1,111You might also like[Pre-Chorus]",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "See Taylor Swift LiveGet tickets as low as $1,111You might also like[Pre-Chorus]",
+                "prev": "My face was gray, but you wouldn't admit that we were sick",
+                "next": "And the air is thick with loss and indecision",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And the air is thick with loss and indecision",
+                "prev": "See Taylor Swift LiveGet tickets as low as $1,111You might also like[Pre-Chorus]",
+                "next": "I know my pain is such an imposition",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I know my pain is such an imposition",
+                "prev": "And the air is thick with loss and indecision",
+                "next": "Now, you're runnin' down the hallway",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Now, you're runnin' down the hallway",
+                "prev": "I know my pain is such an imposition",
+                "next": "And you know what they all say",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And you know what they all say",
+                "prev": "Now, you're runnin' down the hallway",
+                "next": "\"You don't know what you got until it's gone\"",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "\"You don't know what you got until it's gone\"",
+                "prev": "And you know what they all say",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "'Cause you're losin' me",
+                "prev": "My heart won't start anymore for you",
+                "next": "'Cause you're losin' me",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "'Cause you're losin' me",
+                "prev": "'Cause you're losin' me",
+                "next": "Stop (Stop) 'cause you're losin' me",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Stop (Stop) 'cause you're losin' me",
+                "prev": "'Cause you're losin' me",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "My heart won't start anymore",
+                "prev": "",
+                "next": "(Stop 'cause you're losin' me)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "(Stop 'cause you're losin' me)",
+                "prev": "My heart won't start anymore",
+                "next": "My heart won't start anymore",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "My heart won't start anymore",
+                "prev": "(Stop 'cause you're losin' me)",
+                "next": "(Stop 'cause you're losin' me)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "(Stop 'cause you're losin' me)",
+                "prev": "My heart won't start anymore",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "How long could we be a sad song",
+                "prev": "",
+                "next": "'Til we were too far gone to bring back to life?",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "'Til we were too far gone to bring back to life?",
+                "prev": "How long could we be a sad song",
+                "next": "I gave you all my best me's, my endless empathy",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I gave you all my best me's, my endless empathy",
+                "prev": "'Til we were too far gone to bring back to life?",
+                "next": "And all I did was bleed as I tried to be the bravest soldier",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And all I did was bleed as I tried to be the bravest soldier",
+                "prev": "I gave you all my best me's, my endless empathy",
+                "next": "Fighting in only your army, frontlines, don't you ignore me",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Fighting in only your army, frontlines, don't you ignore me",
+                "prev": "And all I did was bleed as I tried to be the bravest soldier",
+                "next": "I'm the best thing at this party (You're losin' me)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I'm the best thing at this party (You're losin' me)",
+                "prev": "Fighting in only your army, frontlines, don't you ignore me",
+                "next": "And I wouldn't marry me either",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And I wouldn't marry me either",
+                "prev": "I'm the best thing at this party (You're losin' me)",
+                "next": "A pathological people pleaser",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "A pathological people pleaser",
+                "prev": "And I wouldn't marry me either",
+                "next": "Who only wanted you to see her",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Who only wanted you to see her",
+                "prev": "A pathological people pleaser",
+                "next": "And I'm fadin', thinkin'",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And I'm fadin', thinkin'",
+                "prev": "Who only wanted you to see her",
+                "next": "\"Do something, babe, say something\" (Say something)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "\"Do something, babe, say something\" (Say something)",
+                "prev": "And I'm fadin', thinkin'",
+                "next": "\"Lose something, babe, risk something\" (You're losin' me)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "\"Lose something, babe, risk something\" (You're losin' me)",
+                "prev": "\"Do something, babe, say something\" (Say something)",
+                "next": "\"Choose something, babe, I got nothing\" (I got nothing)",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "\"Choose something, babe, I got nothing\" (I got nothing)",
+                "prev": "\"Lose something, babe, risk something\" (You're losin' me)",
+                "next": "\"To believe, unless you're choosin' me\"",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "\"To believe, unless you're choosin' me\"",
+                "prev": "\"Choose something, babe, I got nothing\" (I got nothing)",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You're losin' me",
+                "prev": "",
+                "next": "Stop (Stop, stop), you're losin' me",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Stop (Stop, stop), you're losin' me",
+                "prev": "You're losin' me",
+                "next": "Stop (Stop, stop), you're losin' me",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Stop (Stop, stop), you're losin' me",
+                "prev": "Stop (Stop, stop), you're losin' me",
+                "next": "I can't find a pulse",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I can't find a pulse",
+                "prev": "Stop (Stop, stop), you're losin' me",
+                "next": "My heart won't start anymore",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "My heart won't start anymore",
+                "prev": "I can't find a pulse",
                 "next": "",
                 "multiplicity": 1
             }

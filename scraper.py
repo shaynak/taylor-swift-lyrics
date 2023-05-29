@@ -61,6 +61,8 @@ EXTRA_SONG_API_PATHS = {
     '/songs/186846': 'The Taylor Swift Holiday Collection - EP',
     '/songs/3283025': 'reputation',
     '/songs/187197': 'The Hunger Games: Songs from District 12 and Beyond',
+    '/songs/9157489': 'Midnights',
+    '/songs/5651833': 'Lover'
 }
 
 # Songs that are somehow duplicates / etc.
@@ -95,10 +97,10 @@ def main():
         existing_df = pd.read_csv(CSV_PATH)
         existing_songs = list(existing_df['Title'])
     genius = lyricsgenius.Genius(access_token)
-    # songs = get_songs() if not args.appendpaths else []
+    songs = get_songs() if not args.appendpaths else []
     songs_by_album, has_failed, last_song = {}, True, ''
-    # while has_failed:
-    #     songs_by_album, has_failed, last_song = sort_songs_by_album(genius, songs, songs_by_album, last_song, existing_songs)
+    while has_failed:
+        songs_by_album, has_failed, last_song = sort_songs_by_album(genius, songs, songs_by_album, last_song, existing_songs)
     albums_to_songs_csv(songs_by_album, existing_df)
     songs_to_lyrics()
     lyrics_to_json()
