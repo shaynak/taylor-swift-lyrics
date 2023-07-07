@@ -20,11 +20,13 @@ ALBUMS = [
     'Lover', 'Lover (Target Exclusive/Japanese Edition)',
     'How Long Do You Think It’s Gonna Last?',
     "Lily’s Driftwood Bay 2: One Crazy Summer (Original Motion Picture Soundtrack)",
+    'Miss Americana',
     'One Chance (Original Motion Picture Soundtrack)',
-    'Red (Taylor’s Version)', 'Speak Now', 'Speak Now (Deluxe)',
+    'Red (Taylor’s Version)', 'Speak Now (Taylor’s Version)',
     'Taylor Swift', 'Taylor Swift (Deluxe)',
     "Taylor Swift (Best Buy Exclusive)",
     'The Hunger Games: Songs from District 12 and Beyond',
+    'The More Fearless (Taylor’s Version) Chapter by Taylor Swift',
     'The Taylor Swift Holiday Collection - EP', 'Unreleased Songs', 'evermore',
     'evermore (deluxe version)', 'folklore', 'folklore (deluxe version)',
     'reputation', 'Two Lanes of Freedom (Accelerated Deluxe)', 'Love Drunk', 
@@ -62,7 +64,8 @@ EXTRA_SONG_API_PATHS = {
     '/songs/3283025': 'reputation',
     '/songs/187197': 'The Hunger Games: Songs from District 12 and Beyond',
     '/songs/9157489': 'Midnights',
-    '/songs/5651833': 'Lover'
+    '/songs/5651833': 'Lover',
+    '/songs/5191847': 'Miss Americana'
 }
 
 # Songs that are somehow duplicates / etc.
@@ -139,6 +142,7 @@ def sort_songs_by_album(genius, songs, songs_by_album, last_song, existing_songs
         songs_by_album[album_name].append(s)
 
     print('Sorting songs by album...')
+    songs_so_far = []
     for song in songs:
         lyrics = None
         if song['title'] > last_song and song['title'] not in existing_songs and song[
@@ -159,6 +163,7 @@ def sort_songs_by_album(genius, songs, songs_by_album, last_song, existing_songs
                     # Ensure that there are lyrics
                     if lyrics and has_song_identifier(lyrics) and (
                             album_name or (song['title'] in OTHER_SONGS)):
+                        songs_so_far.append(song['title'])
                         clean_lyrics_and_append(song_data, album_name, lyrics,
                                                 songs_by_album)
             except requests.exceptions.Timeout or socket.timeout:
@@ -167,8 +172,9 @@ def sort_songs_by_album(genius, songs, songs_by_album, last_song, existing_songs
                 return songs_by_album, True, song['title']
 
     for api_path in EXTRA_SONG_API_PATHS:
+        print(api_path)
         song_data = get_song_data(api_path)
-        if song_data['title'] not in existing_songs:
+        if song_data['title'] not in existing_songs and song_data['title'] not in songs_so_far:
             lyrics = genius.lyrics(song_id=song_data['id'])
             album_name = EXTRA_SONG_API_PATHS[api_path]
             clean_lyrics_and_append(song_data, album_name, lyrics,
@@ -206,6 +212,7 @@ def albums_to_songs_csv(songs_by_album, existing_df=None):
 
     song_df = pd.DataFrame.from_records(songs_records)
     if existing_df is not None:
+        existing_df = existing_df[existing_df['Album'].isin(ALBUMS)]
         song_df = pd.concat([existing_df, song_df])
         song_df = song_df[~song_df['Title'].isin(IGNORE_SONGS)]
         song_df = song_df.drop_duplicates('Title', keep="last")
@@ -328,8 +335,8 @@ def clean_lyrics(lyrics: str) -> str:
     lyrics = re.sub(r"[0-9]*URLCopyEmbedCopy", '', lyrics)
     lyrics = re.sub(r"[0-9]*Embed", '', lyrics)
     lyrics = re.sub(r"[0-9]*EmbedShare", '', lyrics)
-    lyrics = lyrics.replace('See Taylor Swift LiveGet tickets as low as $34You might also like', '\n')
-    lyrics = lyrics.replace('See Taylor Swift LiveGet tickets as low as $200You might also like', '\n')
+    lyrics = re.sub(r"See [\w\s]* LiveGet tickets as low as \$\d*You might also like", '\n', lyrics)
+
     return lyrics
 
 
