@@ -65,7 +65,8 @@ EXTRA_SONG_API_PATHS = {
     '/songs/187197': 'The Hunger Games: Songs from District 12 and Beyond',
     '/songs/9157489': 'Midnights',
     '/songs/5651833': 'Lover',
-    '/songs/5191847': 'Miss Americana'
+    '/songs/5191847': 'Miss Americana',
+    '/songs/6688373': 'The More Fearless (Taylor’s Version) Chapter by Taylor Swift'
 }
 
 # Songs that are somehow duplicates / etc.
@@ -172,7 +173,6 @@ def sort_songs_by_album(genius, songs, songs_by_album, last_song, existing_songs
                 return songs_by_album, True, song['title']
 
     for api_path in EXTRA_SONG_API_PATHS:
-        print(api_path)
         song_data = get_song_data(api_path)
         if song_data['title'] not in existing_songs and song_data['title'] not in songs_so_far:
             lyrics = genius.lyrics(song_id=song_data['id'])

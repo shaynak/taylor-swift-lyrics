@@ -40187,588 +40187,6 @@
             }
         ]
     },
-    "evermore (deluxe version)": {
-        "r\u200bight where you left me": [
-            {
-                "lyric": "Friends break up, friends get married",
-                "prev": "",
-                "next": "Strangers get born, strangers get buried",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "Strangers get born, strangers get buried",
-                "prev": "Friends break up, friends get married",
-                "next": "Trends change, rumors fly through new skies",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "Trends change, rumors fly through new skies",
-                "prev": "Strangers get born, strangers get buried",
-                "next": "But I'm right where you left me",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "But I'm right where you left me",
-                "prev": "Trends change, rumors fly through new skies",
-                "next": "Matches burn after the other",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "Matches burn after the other",
-                "prev": "But I'm right where you left me",
-                "next": "Pages turn and stick to each other",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "Pages turn and stick to each other",
-                "prev": "Matches burn after the other",
-                "next": "Wages earned and lessons learned",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "Wages earned and lessons learned",
-                "prev": "Pages turn and stick to each other",
-                "next": "But I, I'm right where you left me",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "But I, I'm right where you left me",
-                "prev": "Wages earned and lessons learned",
-                "next": "",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "Help, I'm still at the restaurant",
-                "prev": "",
-                "next": "Still sitting in a corner I haunt",
-                "multiplicity": 2
-            },
-            {
-                "lyric": "Still sitting in a corner I haunt",
-                "prev": "Help, I'm still at the restaurant",
-                "next": "Cross-legged in the dim light",
-                "multiplicity": 2
-            },
-            {
-                "lyric": "Cross-legged in the dim light",
-                "prev": "Still sitting in a corner I haunt",
-                "next": "They say, \"What a sad sight\"",
-                "multiplicity": 2
-            },
-            {
-                "lyric": "They say, \"What a sad sight\"",
-                "prev": "Cross-legged in the dim light",
-                "next": "I, I swear you could hear a hair pin drop",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "I, I swear you could hear a hair pin drop",
-                "prev": "They say, \"What a sad sight\"",
-                "next": "Right when I felt the moment stop",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "Right when I felt the moment stop",
-                "prev": "I, I swear you could hear a hair pin drop",
-                "next": "Glass shattered on the white cloth",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "Glass shattered on the white cloth",
-                "prev": "Right when I felt the moment stop",
-                "next": "Everybody moved on, I, I stayed there",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "Everybody moved on, I, I stayed there",
-                "prev": "Glass shattered on the white cloth",
-                "next": "Dust collected on my pinned-up hair",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "Dust collected on my pinned-up hair",
-                "prev": "Everybody moved on, I, I stayed there",
-                "next": "They expected me to find somewhere",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "They expected me to find somewhere",
-                "prev": "Dust collected on my pinned-up hair",
-                "next": "Some perspective, but I sat and stared",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "Some perspective, but I sat and stared",
-                "prev": "They expected me to find somewhere",
-                "next": "",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "Right where you left me",
-                "prev": "",
-                "next": "You left me no, you left me no",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "You left me no, you left me no",
-                "prev": "Right where you left me",
-                "next": "You left me no choice but to stay here forever",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "You left me no choice but to stay here forever",
-                "prev": "You left me no, you left me no",
-                "next": "You left me, you left me no, oh, you left me no",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "You left me, you left me no, oh, you left me no",
-                "prev": "You left me no choice but to stay here forever",
-                "next": "You left me no choice but to stay here forever",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "You left me no choice but to stay here forever",
-                "prev": "You left me, you left me no, oh, you left me no",
-                "next": "",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "Did you ever hear about the girl who got frozen?",
-                "prev": "",
-                "next": "Time went on for everybody else, she won't know it",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "Time went on for everybody else, she won't know it",
-                "prev": "Did you ever hear about the girl who got frozen?",
-                "next": "She's still twenty-three inside her fantasy",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "She's still twenty-three inside her fantasy",
-                "prev": "Time went on for everybody else, she won't know it",
-                "next": "How it was supposed to be",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "How it was supposed to be",
-                "prev": "She's still twenty-three inside her fantasy",
-                "next": "Did you hear about the girl who lives in delusion?",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "Did you hear about the girl who lives in delusion?",
-                "prev": "How it was supposed to be",
-                "next": "Breakups happen every day, you don't have to lose it",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "Breakups happen every day, you don't have to lose it",
-                "prev": "Did you hear about the girl who lives in delusion?",
-                "next": "She's still twenty-three inside her fantasy",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "She's still twenty-three inside her fantasy",
-                "prev": "Breakups happen every day, you don't have to lose it",
-                "next": "And you're sitting in front of me",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "And you're sitting in front of me",
-                "prev": "She's still twenty-three inside her fantasy",
-                "next": "",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "At the restaurant when I was still the one you want",
-                "prev": "",
-                "next": "Cross-legged in the dim light, everything was just right",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "Cross-legged in the dim light, everything was just right",
-                "prev": "At the restaurant when I was still the one you want",
-                "next": "I, I could feel the mascara run",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "I, I could feel the mascara run",
-                "prev": "Cross-legged in the dim light, everything was just right",
-                "next": "You told me that you met someone",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "You told me that you met someone",
-                "prev": "I, I could feel the mascara run",
-                "next": "Glass shattered on the white cloth",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "Glass shattered on the white cloth",
-                "prev": "You told me that you met someone",
-                "next": "Everybody moved on",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "Everybody moved on",
-                "prev": "Glass shattered on the white cloth",
-                "next": "",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "They say, \"What a sad sight\"",
-                "prev": "Cross-legged in the dim light",
-                "next": "I, I stayed there",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "I, I stayed there",
-                "prev": "They say, \"What a sad sight\"",
-                "next": "Dust collected on my pinned-up hair",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "Dust collected on my pinned-up hair",
-                "prev": "I, I stayed there",
-                "next": "I'm sure that you got a wife out there",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "I'm sure that you got a wife out there",
-                "prev": "Dust collected on my pinned-up hair",
-                "next": "Kids and Christmas, but I'm unaware",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "Kids and Christmas, but I'm unaware",
-                "prev": "I'm sure that you got a wife out there",
-                "next": "'Cause I'm right where I cause no harm",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "'Cause I'm right where I cause no harm",
-                "prev": "Kids and Christmas, but I'm unaware",
-                "next": "Mind my business",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "Mind my business",
-                "prev": "'Cause I'm right where I cause no harm",
-                "next": "If our love died young",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "If our love died young",
-                "prev": "Mind my business",
-                "next": "I can't bear witness",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "I can't bear witness",
-                "prev": "If our love died young",
-                "next": "And it's been so long",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "And it's been so long",
-                "prev": "I can't bear witness",
-                "next": "But if you ever think you got it wrong",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "But if you ever think you got it wrong",
-                "prev": "And it's been so long",
-                "next": "",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "I'm right where",
-                "prev": "",
-                "next": "You left me",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "You left me",
-                "prev": "I'm right where",
-                "next": "You left me no, oh, you left me no",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "You left me no, oh, you left me no",
-                "prev": "You left me",
-                "next": "You left me no choice but to stay here forever",
-                "multiplicity": 2
-            },
-            {
-                "lyric": "You left me no choice but to stay here forever",
-                "prev": "You left me no, oh, you left me no",
-                "next": "You left me",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "You left me",
-                "prev": "You left me no choice but to stay here forever",
-                "next": "You left me no, oh, you left me no",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "You left me no choice but to stay here forever",
-                "prev": "You left me no, oh, you left me no",
-                "next": "",
-                "multiplicity": 1
-            }
-        ],
-        "it\u2019s time to go": [
-            {
-                "lyric": "When the dinner is cold and the chatter gets old",
-                "prev": "",
-                "next": "You ask for the tab",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "You ask for the tab",
-                "prev": "When the dinner is cold and the chatter gets old",
-                "next": "Or that moment again, he's insisting that friends",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "Or that moment again, he's insisting that friends",
-                "prev": "You ask for the tab",
-                "next": "Look at each other like that",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "Look at each other like that",
-                "prev": "Or that moment again, he's insisting that friends",
-                "next": "When the words of a sister come back in whispers",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "When the words of a sister come back in whispers",
-                "prev": "Look at each other like that",
-                "next": "That prove she was not in fact what she seemed",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "That prove she was not in fact what she seemed",
-                "prev": "When the words of a sister come back in whispers",
-                "next": "Not a twin from your dreams",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "Not a twin from your dreams",
-                "prev": "That prove she was not in fact what she seemed",
-                "next": "She's a crook who was caught",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "She's a crook who was caught",
-                "prev": "Not a twin from your dreams",
-                "next": "",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "That old familiar body ache",
-                "prev": "",
-                "next": "The snaps from the same little breaks in your soul",
-                "multiplicity": 2
-            },
-            {
-                "lyric": "The snaps from the same little breaks in your soul",
-                "prev": "That old familiar body ache",
-                "next": "You know when it's time to go",
-                "multiplicity": 2
-            },
-            {
-                "lyric": "You know when it's time to go",
-                "prev": "The snaps from the same little breaks in your soul",
-                "next": "",
-                "multiplicity": 2
-            },
-            {
-                "lyric": "Twenty years at your job",
-                "prev": "",
-                "next": "Then the son of the boss gets the spot that was yours",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "Then the son of the boss gets the spot that was yours",
-                "prev": "Twenty years at your job",
-                "next": "Or trying to stay for the kids",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "Or trying to stay for the kids",
-                "prev": "Then the son of the boss gets the spot that was yours",
-                "next": "When keeping it how it is will only break their hearts worse",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "When keeping it how it is will only break their hearts worse",
-                "prev": "Or trying to stay for the kids",
-                "next": "",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "Sometimes giving up is the strong thing",
-                "prev": "",
-                "next": "Sometimes to run is the brave thing",
-                "multiplicity": 2
-            },
-            {
-                "lyric": "Sometimes to run is the brave thing",
-                "prev": "Sometimes giving up is the strong thing",
-                "next": "Sometimes walking out is the one thing",
-                "multiplicity": 4
-            },
-            {
-                "lyric": "Sometimes walking out is the one thing",
-                "prev": "Sometimes to run is the brave thing",
-                "next": "That will find you the right thing",
-                "multiplicity": 4
-            },
-            {
-                "lyric": "That will find you the right thing",
-                "prev": "Sometimes walking out is the one thing",
-                "next": "Sometimes giving up is the strong thing",
-                "multiplicity": 2
-            },
-            {
-                "lyric": "Sometimes giving up is the strong thing",
-                "prev": "That will find you the right thing",
-                "next": "Sometimes to run is the brave thing",
-                "multiplicity": 2
-            },
-            {
-                "lyric": "That will find you the right thing",
-                "prev": "Sometimes walking out is the one thing",
-                "next": "",
-                "multiplicity": 2
-            },
-            {
-                "lyric": "Fifteen years, fifteen million tears",
-                "prev": "",
-                "next": "Begging 'til my knees bled",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "Begging 'til my knees bled",
-                "prev": "Fifteen years, fifteen million tears",
-                "next": "I gave it my all, he gave me nothing at all",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "I gave it my all, he gave me nothing at all",
-                "prev": "Begging 'til my knees bled",
-                "next": "Then wondered why I left",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "Then wondered why I left",
-                "prev": "I gave it my all, he gave me nothing at all",
-                "next": "Now he sits on his throne in his palace of bones",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "Now he sits on his throne in his palace of bones",
-                "prev": "Then wondered why I left",
-                "next": "Praying to his greed",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "Praying to his greed",
-                "prev": "Now he sits on his throne in his palace of bones",
-                "next": "He's got my past frozen behind glass",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "He's got my past frozen behind glass",
-                "prev": "Praying to his greed",
-                "next": "But I've got me",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "But I've got me",
-                "prev": "He's got my past frozen behind glass",
-                "next": "",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "That old familiar body ache",
-                "prev": "",
-                "next": "The snaps from the same little breaks in my soul",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "The snaps from the same little breaks in my soul",
-                "prev": "That old familiar body ache",
-                "next": "I know when it's time to go",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "I know when it's time to go",
-                "prev": "The snaps from the same little breaks in my soul",
-                "next": "",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "That will find you the right thing",
-                "prev": "",
-                "next": "And you know in your soul",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "And you know in your soul",
-                "prev": "That will find you the right thing",
-                "next": "You know in your soul",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "You know in your soul",
-                "prev": "And you know in your soul",
-                "next": "When it's time to go",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "When it's time to go",
-                "prev": "You know in your soul",
-                "next": "You know, you know, you know, you know",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "You know, you know, you know, you know",
-                "prev": "When it's time to go",
-                "next": "When it's time to go",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "When it's time to go",
-                "prev": "You know, you know, you know, you know",
-                "next": "So then you go",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "So then you go",
-                "prev": "When it's time to go",
-                "next": "Then you go",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "Then you go",
-                "prev": "So then you go",
-                "next": "You just go",
-                "multiplicity": 1
-            },
-            {
-                "lyric": "You just go",
-                "prev": "Then you go",
-                "next": "",
-                "multiplicity": 1
-            }
-        ]
-    },
     "Midnights": {
         "You\u2019re Losing Me (From The Vault)": [
             {
@@ -55090,6 +54508,814 @@
             {
                 "lyric": "Only the young",
                 "prev": "Only the young",
+                "next": "",
+                "multiplicity": 1
+            }
+        ]
+    },
+    "evermore (deluxe version)": {
+        "r\u200bight where you left me": [
+            {
+                "lyric": "Friends break up, friends get married",
+                "prev": "",
+                "next": "Strangers get born, strangers get buried",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Strangers get born, strangers get buried",
+                "prev": "Friends break up, friends get married",
+                "next": "Trends change, rumors fly through new skies",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Trends change, rumors fly through new skies",
+                "prev": "Strangers get born, strangers get buried",
+                "next": "But I'm right where you left me",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "But I'm right where you left me",
+                "prev": "Trends change, rumors fly through new skies",
+                "next": "Matches burn after the other",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Matches burn after the other",
+                "prev": "But I'm right where you left me",
+                "next": "Pages turn and stick to each other",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Pages turn and stick to each other",
+                "prev": "Matches burn after the other",
+                "next": "Wages earned and lessons learned",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Wages earned and lessons learned",
+                "prev": "Pages turn and stick to each other",
+                "next": "But I, I'm right where you left me",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "But I, I'm right where you left me",
+                "prev": "Wages earned and lessons learned",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Help, I'm still at the restaurant",
+                "prev": "",
+                "next": "Still sitting in a corner I haunt",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "Still sitting in a corner I haunt",
+                "prev": "Help, I'm still at the restaurant",
+                "next": "Cross-legged in the dim light",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "Cross-legged in the dim light",
+                "prev": "Still sitting in a corner I haunt",
+                "next": "They say, \"What a sad sight\"",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "They say, \"What a sad sight\"",
+                "prev": "Cross-legged in the dim light",
+                "next": "I, I swear you could hear a hair pin drop",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I, I swear you could hear a hair pin drop",
+                "prev": "They say, \"What a sad sight\"",
+                "next": "Right when I felt the moment stop",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Right when I felt the moment stop",
+                "prev": "I, I swear you could hear a hair pin drop",
+                "next": "Glass shattered on the white cloth",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Glass shattered on the white cloth",
+                "prev": "Right when I felt the moment stop",
+                "next": "Everybody moved on, I, I stayed there",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Everybody moved on, I, I stayed there",
+                "prev": "Glass shattered on the white cloth",
+                "next": "Dust collected on my pinned-up hair",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Dust collected on my pinned-up hair",
+                "prev": "Everybody moved on, I, I stayed there",
+                "next": "They expected me to find somewhere",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "They expected me to find somewhere",
+                "prev": "Dust collected on my pinned-up hair",
+                "next": "Some perspective, but I sat and stared",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Some perspective, but I sat and stared",
+                "prev": "They expected me to find somewhere",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Right where you left me",
+                "prev": "",
+                "next": "You left me no, you left me no",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You left me no, you left me no",
+                "prev": "Right where you left me",
+                "next": "You left me no choice but to stay here forever",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You left me no choice but to stay here forever",
+                "prev": "You left me no, you left me no",
+                "next": "You left me, you left me no, oh, you left me no",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You left me, you left me no, oh, you left me no",
+                "prev": "You left me no choice but to stay here forever",
+                "next": "You left me no choice but to stay here forever",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You left me no choice but to stay here forever",
+                "prev": "You left me, you left me no, oh, you left me no",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Did you ever hear about the girl who got frozen?",
+                "prev": "",
+                "next": "Time went on for everybody else, she won't know it",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Time went on for everybody else, she won't know it",
+                "prev": "Did you ever hear about the girl who got frozen?",
+                "next": "She's still twenty-three inside her fantasy",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "She's still twenty-three inside her fantasy",
+                "prev": "Time went on for everybody else, she won't know it",
+                "next": "How it was supposed to be",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "How it was supposed to be",
+                "prev": "She's still twenty-three inside her fantasy",
+                "next": "Did you hear about the girl who lives in delusion?",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Did you hear about the girl who lives in delusion?",
+                "prev": "How it was supposed to be",
+                "next": "Breakups happen every day, you don't have to lose it",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Breakups happen every day, you don't have to lose it",
+                "prev": "Did you hear about the girl who lives in delusion?",
+                "next": "She's still twenty-three inside her fantasy",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "She's still twenty-three inside her fantasy",
+                "prev": "Breakups happen every day, you don't have to lose it",
+                "next": "And you're sitting in front of me",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And you're sitting in front of me",
+                "prev": "She's still twenty-three inside her fantasy",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "At the restaurant when I was still the one you want",
+                "prev": "",
+                "next": "Cross-legged in the dim light, everything was just right",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Cross-legged in the dim light, everything was just right",
+                "prev": "At the restaurant when I was still the one you want",
+                "next": "I, I could feel the mascara run",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I, I could feel the mascara run",
+                "prev": "Cross-legged in the dim light, everything was just right",
+                "next": "You told me that you met someone",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You told me that you met someone",
+                "prev": "I, I could feel the mascara run",
+                "next": "Glass shattered on the white cloth",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Glass shattered on the white cloth",
+                "prev": "You told me that you met someone",
+                "next": "Everybody moved on",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Everybody moved on",
+                "prev": "Glass shattered on the white cloth",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "They say, \"What a sad sight\"",
+                "prev": "Cross-legged in the dim light",
+                "next": "I, I stayed there",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I, I stayed there",
+                "prev": "They say, \"What a sad sight\"",
+                "next": "Dust collected on my pinned-up hair",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Dust collected on my pinned-up hair",
+                "prev": "I, I stayed there",
+                "next": "I'm sure that you got a wife out there",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I'm sure that you got a wife out there",
+                "prev": "Dust collected on my pinned-up hair",
+                "next": "Kids and Christmas, but I'm unaware",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Kids and Christmas, but I'm unaware",
+                "prev": "I'm sure that you got a wife out there",
+                "next": "'Cause I'm right where I cause no harm",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "'Cause I'm right where I cause no harm",
+                "prev": "Kids and Christmas, but I'm unaware",
+                "next": "Mind my business",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Mind my business",
+                "prev": "'Cause I'm right where I cause no harm",
+                "next": "If our love died young",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "If our love died young",
+                "prev": "Mind my business",
+                "next": "I can't bear witness",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I can't bear witness",
+                "prev": "If our love died young",
+                "next": "And it's been so long",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And it's been so long",
+                "prev": "I can't bear witness",
+                "next": "But if you ever think you got it wrong",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "But if you ever think you got it wrong",
+                "prev": "And it's been so long",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I'm right where",
+                "prev": "",
+                "next": "You left me",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You left me",
+                "prev": "I'm right where",
+                "next": "You left me no, oh, you left me no",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You left me no, oh, you left me no",
+                "prev": "You left me",
+                "next": "You left me no choice but to stay here forever",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "You left me no choice but to stay here forever",
+                "prev": "You left me no, oh, you left me no",
+                "next": "You left me",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You left me",
+                "prev": "You left me no choice but to stay here forever",
+                "next": "You left me no, oh, you left me no",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You left me no choice but to stay here forever",
+                "prev": "You left me no, oh, you left me no",
+                "next": "",
+                "multiplicity": 1
+            }
+        ],
+        "it\u2019s time to go": [
+            {
+                "lyric": "When the dinner is cold and the chatter gets old",
+                "prev": "",
+                "next": "You ask for the tab",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You ask for the tab",
+                "prev": "When the dinner is cold and the chatter gets old",
+                "next": "Or that moment again, he's insisting that friends",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Or that moment again, he's insisting that friends",
+                "prev": "You ask for the tab",
+                "next": "Look at each other like that",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Look at each other like that",
+                "prev": "Or that moment again, he's insisting that friends",
+                "next": "When the words of a sister come back in whispers",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "When the words of a sister come back in whispers",
+                "prev": "Look at each other like that",
+                "next": "That prove she was not in fact what she seemed",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "That prove she was not in fact what she seemed",
+                "prev": "When the words of a sister come back in whispers",
+                "next": "Not a twin from your dreams",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Not a twin from your dreams",
+                "prev": "That prove she was not in fact what she seemed",
+                "next": "She's a crook who was caught",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "She's a crook who was caught",
+                "prev": "Not a twin from your dreams",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "That old familiar body ache",
+                "prev": "",
+                "next": "The snaps from the same little breaks in your soul",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "The snaps from the same little breaks in your soul",
+                "prev": "That old familiar body ache",
+                "next": "You know when it's time to go",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "You know when it's time to go",
+                "prev": "The snaps from the same little breaks in your soul",
+                "next": "",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "Twenty years at your job",
+                "prev": "",
+                "next": "Then the son of the boss gets the spot that was yours",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Then the son of the boss gets the spot that was yours",
+                "prev": "Twenty years at your job",
+                "next": "Or trying to stay for the kids",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Or trying to stay for the kids",
+                "prev": "Then the son of the boss gets the spot that was yours",
+                "next": "When keeping it how it is will only break their hearts worse",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "When keeping it how it is will only break their hearts worse",
+                "prev": "Or trying to stay for the kids",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Sometimes giving up is the strong thing",
+                "prev": "",
+                "next": "Sometimes to run is the brave thing",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "Sometimes to run is the brave thing",
+                "prev": "Sometimes giving up is the strong thing",
+                "next": "Sometimes walking out is the one thing",
+                "multiplicity": 4
+            },
+            {
+                "lyric": "Sometimes walking out is the one thing",
+                "prev": "Sometimes to run is the brave thing",
+                "next": "That will find you the right thing",
+                "multiplicity": 4
+            },
+            {
+                "lyric": "That will find you the right thing",
+                "prev": "Sometimes walking out is the one thing",
+                "next": "Sometimes giving up is the strong thing",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "Sometimes giving up is the strong thing",
+                "prev": "That will find you the right thing",
+                "next": "Sometimes to run is the brave thing",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "That will find you the right thing",
+                "prev": "Sometimes walking out is the one thing",
+                "next": "",
+                "multiplicity": 2
+            },
+            {
+                "lyric": "Fifteen years, fifteen million tears",
+                "prev": "",
+                "next": "Begging 'til my knees bled",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Begging 'til my knees bled",
+                "prev": "Fifteen years, fifteen million tears",
+                "next": "I gave it my all, he gave me nothing at all",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I gave it my all, he gave me nothing at all",
+                "prev": "Begging 'til my knees bled",
+                "next": "Then wondered why I left",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Then wondered why I left",
+                "prev": "I gave it my all, he gave me nothing at all",
+                "next": "Now he sits on his throne in his palace of bones",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Now he sits on his throne in his palace of bones",
+                "prev": "Then wondered why I left",
+                "next": "Praying to his greed",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Praying to his greed",
+                "prev": "Now he sits on his throne in his palace of bones",
+                "next": "He's got my past frozen behind glass",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "He's got my past frozen behind glass",
+                "prev": "Praying to his greed",
+                "next": "But I've got me",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "But I've got me",
+                "prev": "He's got my past frozen behind glass",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "That old familiar body ache",
+                "prev": "",
+                "next": "The snaps from the same little breaks in my soul",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "The snaps from the same little breaks in my soul",
+                "prev": "That old familiar body ache",
+                "next": "I know when it's time to go",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I know when it's time to go",
+                "prev": "The snaps from the same little breaks in my soul",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "That will find you the right thing",
+                "prev": "",
+                "next": "And you know in your soul",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And you know in your soul",
+                "prev": "That will find you the right thing",
+                "next": "You know in your soul",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You know in your soul",
+                "prev": "And you know in your soul",
+                "next": "When it's time to go",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "When it's time to go",
+                "prev": "You know in your soul",
+                "next": "You know, you know, you know, you know",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You know, you know, you know, you know",
+                "prev": "When it's time to go",
+                "next": "When it's time to go",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "When it's time to go",
+                "prev": "You know, you know, you know, you know",
+                "next": "So then you go",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "So then you go",
+                "prev": "When it's time to go",
+                "next": "Then you go",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Then you go",
+                "prev": "So then you go",
+                "next": "You just go",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You just go",
+                "prev": "Then you go",
+                "next": "",
+                "multiplicity": 1
+            }
+        ]
+    },
+    "The More Fearless (Taylor\u2019s Version) Chapter by Taylor Swift": {
+        "If This Was a Movie (Taylor\u2019s Version)": [
+            {
+                "lyric": "Last night, I heard my own heart beatin'",
+                "prev": "",
+                "next": "Sounded like footsteps on my stairs",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Sounded like footsteps on my stairs",
+                "prev": "Last night, I heard my own heart beatin'",
+                "next": "Six months gone and I'm still reachin'",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Six months gone and I'm still reachin'",
+                "prev": "Sounded like footsteps on my stairs",
+                "next": "Even though I know you're not there",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Even though I know you're not there",
+                "prev": "Six months gone and I'm still reachin'",
+                "next": "I was playin' back a thousand memories, baby",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I was playin' back a thousand memories, baby",
+                "prev": "Even though I know you're not there",
+                "next": "Thinkin' 'bout everything we've been through",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Thinkin' 'bout everything we've been through",
+                "prev": "I was playin' back a thousand memories, baby",
+                "next": "Maybe I've been going back too much lately",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Maybe I've been going back too much lately",
+                "prev": "Thinkin' 'bout everything we've been through",
+                "next": "When time stood still and I had you",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "When time stood still and I had you",
+                "prev": "Maybe I've been going back too much lately",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Come back, come back, come back to me like",
+                "prev": "",
+                "next": "You would, you would if this was a movie",
+                "multiplicity": 3
+            },
+            {
+                "lyric": "You would, you would if this was a movie",
+                "prev": "Come back, come back, come back to me like",
+                "next": "Stand in the rain outside 'til I came out",
+                "multiplicity": 3
+            },
+            {
+                "lyric": "Stand in the rain outside 'til I came out",
+                "prev": "You would, you would if this was a movie",
+                "next": "Come back, come back, come back to me like",
+                "multiplicity": 3
+            },
+            {
+                "lyric": "Come back, come back, come back to me like",
+                "prev": "Stand in the rain outside 'til I came out",
+                "next": "You could, you could if you just said you're sorry",
+                "multiplicity": 3
+            },
+            {
+                "lyric": "You could, you could if you just said you're sorry",
+                "prev": "Come back, come back, come back to me like",
+                "next": "I know that we could work it out somehow",
+                "multiplicity": 3
+            },
+            {
+                "lyric": "I know that we could work it out somehow",
+                "prev": "You could, you could if you just said you're sorry",
+                "next": "But if this was a movie, you'd be here by now",
+                "multiplicity": 3
+            },
+            {
+                "lyric": "But if this was a movie, you'd be here by now",
+                "prev": "I know that we could work it out somehow",
+                "next": "",
+                "multiplicity": 3
+            },
+            {
+                "lyric": "I know people change and these things happen",
+                "prev": "",
+                "next": "But I remember how it was back then",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "But I remember how it was back then",
+                "prev": "I know people change and these things happen",
+                "next": "Wrapped up in your arms and our friends are laughin'",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Wrapped up in your arms and our friends are laughin'",
+                "prev": "But I remember how it was back then",
+                "next": "'Cause nothing like this ever happened to them",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "'Cause nothing like this ever happened to them",
+                "prev": "Wrapped up in your arms and our friends are laughin'",
+                "next": "Now I'm pacing down the hall, chasing down your street",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Now I'm pacing down the hall, chasing down your street",
+                "prev": "'Cause nothing like this ever happened to them",
+                "next": "Flashback to the night when you said to me",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Flashback to the night when you said to me",
+                "prev": "Now I'm pacing down the hall, chasing down your street",
+                "next": "Nothing's gonna change, not for me and you",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Nothing's gonna change, not for me and you",
+                "prev": "Flashback to the night when you said to me",
+                "next": "Back before I knew how much I had to lose",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Back before I knew how much I had to lose",
+                "prev": "Nothing's gonna change, not for me and you",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "If you're out there, if you're somewhere, if you're moving on",
+                "prev": "",
+                "next": "I've been waiting for you every day since you've been gone",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I've been waiting for you every day since you've been gone",
+                "prev": "If you're out there, if you're somewhere, if you're moving on",
+                "next": "I just want it back the way it was before",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "I just want it back the way it was before",
+                "prev": "I've been waiting for you every day since you've been gone",
+                "next": "And I just wanna see you back at my front door",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And I just wanna see you back at my front door",
+                "prev": "I just want it back the way it was before",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "And I say, \"Come back, come back, come back to me like",
+                "prev": "",
+                "next": "You would before you said it's not that easy",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You would before you said it's not that easy",
+                "prev": "And I say, \"Come back, come back, come back to me like",
+                "next": "Before the fight, before I locked you out\"",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Before the fight, before I locked you out\"",
+                "prev": "You would before you said it's not that easy",
+                "next": "But I take it all back now",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "But I take it all back now",
+                "prev": "Before the fight, before I locked you out\"",
+                "next": "",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "You'd be here by now",
+                "prev": "",
+                "next": "It's not the kind of ending you wanna see now",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "It's not the kind of ending you wanna see now",
+                "prev": "You'd be here by now",
+                "next": "Baby, what about the ending?",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Baby, what about the ending?",
+                "prev": "It's not the kind of ending you wanna see now",
+                "next": "Oh, I thought that you'd be here by now",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Oh, I thought that you'd be here by now",
+                "prev": "Baby, what about the ending?",
+                "next": "Oh, oh",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Oh, oh",
+                "prev": "Oh, I thought that you'd be here by now",
+                "next": "Thought you'd be here by now",
+                "multiplicity": 1
+            },
+            {
+                "lyric": "Thought you'd be here by now",
+                "prev": "Oh, oh",
                 "next": "",
                 "multiplicity": 1
             }
