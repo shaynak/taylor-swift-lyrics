@@ -1,6 +1,9 @@
 {
   "1989 (Deluxe)": ["1989"],
   "1989 (Taylor’s Version)": ["1989"],
+  "1989 (Taylor’s Version) [Deluxe]": ["1989"],
+  "1989 (Taylor’s Version) [Tangerine Edition]": ["1989"],
+  "2004–2005 Demo CD": ["Taylor Swift"],
   "Beautiful Eyes - EP": ["Beautiful Eyes"],
   "Carolina (From The Motion Picture “Where The Crawdads Sing”) - Single": ["Movie Soundtracks"],
   "Christmas Tree Farm": ["Holiday Music"],
@@ -12,6 +15,7 @@
   ],
   "Hannah Montana: The Movie": ["Movie Soundtracks"],
   "How Long Do You Think It’s Gonna Last?": ["Collaborations"],
+  "iTunes Essentials": ["Movie Soundtracks"],
   "Renegade": ["Collaborations"],
   "Lily’s Driftwood Bay 2: One Crazy Summer (Original Motion Picture Soundtrack)": [
     "Movie Soundtracks"
@@ -26,11 +30,18 @@
   "Speak Now (Taylor’s Version)": ["Speak Now"],
   "The More Fearless (Taylor’s Version) Chapter by Taylor Swift": ["Speak Now"],
   "Taylor Swift": ["Taylor Swift"],
+  "Taylor Swift (Deluxe)": ["Taylor Swift"],
+  "Taylor Swift (Big Machine Radio Release Special)": ["Taylor Swift"],
   "Taylor Swift (Best Buy Exclusive)": ["Taylor Swift"],
   "The Hunger Games: Songs from District 12 and Beyond": ["Movie Soundtracks"],
+  "The Hunger Games": ["Movie Soundtracks"],
+  "The More Red (Taylor’s Version) Chapter": ["Movie Soundtracks"],
+  "The More Fearless (Taylor’s Version) Chapter": ["Fearless"],
+  "The More Lover Chapter": ["Lover"],
   "The Taylor Swift Holiday Collection - EP": ["Holiday Music"],
   "evermore": ["evermore"],
   "evermore (deluxe version)": ["evermore"],
+  "evermore (Japanese Edition)": ["evermore"],
   "folklore": ["folklore"],
   "folklore (deluxe version)": ["folklore"],
   "reputation": ["reputation"],
@@ -39,5 +50,6 @@
   "Women in Music Pt. III (Expanded Edition)": ["Collaborations"],
   "Midnights": ["Midnights"],
   "Midnights (3am Edition)": ["Midnights"],
-  "Midnights (Target Exclusive)": ["Midnights"]
+  "Midnights (Target Exclusive)": ["Midnights"],
+  "Midnights (The Late Night Edition)": ["Midnights"]
 }

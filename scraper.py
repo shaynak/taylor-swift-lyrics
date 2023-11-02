@@ -10,74 +10,72 @@ from lyricsgenius.types import Song
 from local import *
 
 ALBUMS = [
-    '1989', '1989 (Deluxe)', "1989 (Taylor’s Version)", 'Beautiful Eyes - EP',
-    'Cats: Highlights From the Motion Picture Soundtrack',
+    "1989 (Taylor’s Version)", "1989 (Taylor’s Version) [Deluxe]",
+    '1989 (Taylor’s Version) [Tangerine Edition]', 'Beautiful Eyes - EP', 
+    'Christmas Tree Farm', 'Cats: Highlights From the Motion Picture Soundtrack',
     'Carolina (From The Motion Picture “Where The Crawdads Sing”) - Single',
-    'Christmas Tree Farm',
     'Fearless (Taylor’s Version)',
     'Fifty Shades Darker (Original Motion Picture Soundtrack)',
-    'Hannah Montana: The Movie', 'Lover (Target Exclusive)',
-    'Lover', 'Lover (Target Exclusive/Japanese Edition)',
-    'How Long Do You Think It’s Gonna Last?',
-    "Lily’s Driftwood Bay 2: One Crazy Summer (Original Motion Picture Soundtrack)",
-    'Miss Americana',
-    'One Chance (Original Motion Picture Soundtrack)',
-    'Red (Taylor’s Version)', 'Speak Now (Taylor’s Version)',
-    'Taylor Swift', 'Taylor Swift (Deluxe)',
-    "Taylor Swift (Best Buy Exclusive)",
-    'The Hunger Games: Songs from District 12 and Beyond',
-    'The More Fearless (Taylor’s Version) Chapter by Taylor Swift',
+    'Hannah Montana: The Movie', 'Lover',
+    'How Long Do You Think It’s Gonna Last?', 'Miss Americana',
+    'Red (Taylor’s Version)', 'Speak Now (Taylor’s Version)', 'Taylor Swift',
+    'Taylor Swift (Deluxe)', "Taylor Swift (Best Buy Exclusive)",
+    'Taylor Swift (Big Machine Radio Release Special)',
     'The Taylor Swift Holiday Collection - EP', 'Unreleased Songs', 'evermore',
-    'evermore (deluxe version)', 'folklore', 'folklore (deluxe version)',
-    'reputation', 'Two Lanes of Freedom (Accelerated Deluxe)', 'Love Drunk', 
-    'Women in Music Pt. III (Expanded Edition)', 'Midnights', 
-    'Midnights (3am Edition)', 'Midnights (Target Exclusive)', ''
+    'evermore (deluxe version)', "evermore (Japanese Edition)", 'folklore',
+    'folklore (deluxe version)', 'reputation',
+    'Two Lanes of Freedom (Accelerated Deluxe)', 'Love Drunk',
+    'Women in Music Pt. III (Expanded Edition)', 'Midnights',
+    'Midnights (3am Edition)', 'Midnights (Target Exclusive)',
+    'Midnights (The Late Night Edition)', '2004–2005 Demo CD',
+    'The More Lover Chapter', 'iTunes Essentials',
+    'The More Red (Taylor’s Version) Chapter',
+    'The More Fearless (Taylor’s Version) Chapter', ''
 ]
 
 # Songs that don't have an album or for which Taylor Swift is not the primary artist
 OTHER_SONGS = [
-    'Only The Young', 'Christmas Tree Farm', 'Renegade',
+    'Only The Young', 'Christmas Tree Farm', 'Renegade', 'Carolina',
     "I Don’t Wanna Live Forever", 'Beautiful Eyes', "Highway Don’t Care",
     'Two Is Better Than One', 'Gasoline (Remix)'
 ]
 
 # Songs for which there is trouble retrieving them by name - some of these are probably no longer an issue anyways
 EXTRA_SONG_API_PATHS = {
-    "/songs/542389": '1989 (Deluxe)',
-    "/songs/187445": 'Fearless (Taylor’s Version)',
     '/songs/187017': 'Beautiful Eyes - EP',
-    '/songs/132092': 'Taylor Swift',
-    '/songs/6263242': 'evermore (deluxe version)',
-    '/songs/6260178': 'evermore (deluxe version)',
-    '/songs/187143': 'Hannah Montana: The Movie',
-    '/songs/132082': 'Taylor Swift',
-    '/songs/132098': 'Taylor Swift',
     '/songs/186861': 'The Taylor Swift Holiday Collection - EP',
-    '/songs/6688270': '1989 (Taylor’s Version)',
+    '/songs/6959851': 'How Long Do You Think It’s Gonna Last?',
+    '/songs/4968964': 'Cats: Highlights From the Motion Picture Soundtrack',
+    '/songs/5114093': 'Cats: Highlights From the Motion Picture Soundtrack',
     '/songs/7823793': 'Carolina (From The Motion Picture “Where The Crawdads Sing”) - Single',
     '/songs/5077615': 'Christmas Tree Farm',
-    '/songs/3306086': 'reputation',
-    '/songs/499725': '1989 (Deluxe)',
-    '/songs/3221550': 'reputation',
-    '/songs/62236': 'The Hunger Games: Songs from District 12 and Beyond',
-    '/songs/186846': 'The Taylor Swift Holiday Collection - EP',
-    '/songs/3283025': 'reputation',
-    '/songs/187197': 'The Hunger Games: Songs from District 12 and Beyond',
-    '/songs/9157489': 'Midnights',
-    '/songs/5651833': 'Lover',
-    '/songs/5191847': 'Miss Americana',
-    '/songs/6688373': 'The More Fearless (Taylor’s Version) Chapter by Taylor Swift'
+    '/songs/8924411': 'The More Red (Taylor’s Version) Chapter',
 }
 
 # Songs that are somehow duplicates / etc.
 IGNORE_SONGS = [
-    'Wildest Dreams', 'This Love', 'Should’ve Said No (Alternate Version)',
+    'Should’ve Said No (Alternate Version)',
     'State Of Grace (Acoustic Version) (Taylor’s Version)',
     'Love Story (Taylor’s Version) [Elvira Remix]',
-    'Forever & Always (Piano Version) [Taylor’s Version]', 'Ronan',
-    'Mine (Pop Mix)', 'Haunted (Acoustic Version)',
-    'Back To December (Acoustic)', 'Sweet Nothing (Piano Remix)', 
-    'You’re On Your Own, Kid (Strings Remix)'
+    'Forever & Always (Piano Version) [Taylor’s Version]',
+    'Ronan',
+    'Mine (Pop Mix)',
+    'Haunted (Acoustic Version)',
+    'Back To December (Acoustic)',
+    'Sweet Nothing (Piano Remix)',
+    'You’re On Your Own, Kid (Strings Remix)',
+    'Need You Now',
+    'Sweet Tea and God’s Graces',
+    'What Do You Say',
+    'Welcome Distraction',
+    'Dark Blue Tennessee',
+    'Never Mind',
+    'Who I’ve Always Been',
+    'Umbrella (Live from SoHo)',
+    'willow (dancing witch version) [Elvira Remix]',
+    'willow (lonely witch version)',
+    'Teardrops On My Guitar (Cahill Radio Edit)',
+    'Teardrops on My Guitar (Pop Version)',
 ]
 
 ARTIST_ID = 1177
@@ -101,16 +99,17 @@ def main():
         existing_df = pd.read_csv(CSV_PATH)
         existing_songs = list(existing_df['Title'])
     genius = lyricsgenius.Genius(access_token)
-    songs = get_songs() if not args.appendpaths else []
+    songs = get_songs(existing_songs) if not args.appendpaths else []
     songs_by_album, has_failed, last_song = {}, True, ''
     while has_failed:
-        songs_by_album, has_failed, last_song = sort_songs_by_album(genius, songs, songs_by_album, last_song, existing_songs)
+        songs_by_album, has_failed, last_song = sort_songs_by_album(
+            genius, songs, songs_by_album, last_song, existing_songs)
     albums_to_songs_csv(songs_by_album, existing_df)
     songs_to_lyrics()
     lyrics_to_json()
 
 
-def get_songs():
+def get_songs(existing_songs):
     print('Getting songs...')
     songs = []
     next_page = 1
@@ -123,12 +122,21 @@ def get_songs():
         next_page = song_data['response']['next_page']
     returned_songs = []
     for song in songs:
-        if song['primary_artist']['id'] == ARTIST_ID or song['title'] in OTHER_SONGS:
+        if song['title'] not in existing_songs and song[
+                'title'] + " (Taylor’s Version)" not in existing_songs and song[
+                    'release_date_components'] != None and song[
+                        'lyrics_state'] == 'complete' and (
+                            song['primary_artist']['id'] == ARTIST_ID
+                            or song['title'] in OTHER_SONGS):
             returned_songs.append(song)
     return returned_songs
 
 
-def sort_songs_by_album(genius, songs, songs_by_album, last_song, existing_songs=[]):
+def sort_songs_by_album(genius,
+                        songs,
+                        songs_by_album,
+                        last_song,
+                        existing_songs=[]):
     def get_song_data(api_path):
         request_url = API_PATH + api_path
         r = requests.get(request_url,
@@ -146,8 +154,9 @@ def sort_songs_by_album(genius, songs, songs_by_album, last_song, existing_songs
     songs_so_far = []
     for song in songs:
         lyrics = None
-        if song['title'] > last_song and song['title'] not in existing_songs and song[
-                'title'] not in IGNORE_SONGS:
+        if song['title'] > last_song and song[
+                'title'] not in existing_songs and song[
+                    'title'] not in IGNORE_SONGS:
             try:
                 song_data = get_song_data(song['api_path'])
                 if song_data != None and 'album' in song_data and song_data[
@@ -158,6 +167,10 @@ def sort_songs_by_album(genius, songs, songs_by_album, last_song, existing_songs
                     if album_name == "Taylor Swift" and album_name != song_data[
                             'album']['name']:
                         album_name = "Uncategorized"
+                    # Some of the 2004-2005 Demo CD songs are on Fearless TV, some are on Debut
+                    if album_name == "2004–2005 Demo CD" and "(Taylor’s Version)" in song[
+                            'title']:
+                        album_name = "Fearless (Taylor’s Version)"
                     if album_name is None:
                         album_name = ""
                     lyrics = genius.lyrics(song_id=song_data['id'])
@@ -174,7 +187,8 @@ def sort_songs_by_album(genius, songs, songs_by_album, last_song, existing_songs
 
     for api_path in EXTRA_SONG_API_PATHS:
         song_data = get_song_data(api_path)
-        if song_data['title'] not in existing_songs and song_data['title'] not in songs_so_far:
+        if song_data['title'] not in existing_songs and song_data[
+                'title'] not in songs_so_far:
             lyrics = genius.lyrics(song_id=song_data['id'])
             album_name = EXTRA_SONG_API_PATHS[api_path]
             clean_lyrics_and_append(song_data, album_name, lyrics,
@@ -223,6 +237,7 @@ def has_song_identifier(lyrics):
     if '[Intro' in lyrics or '[Verse' in lyrics or '[Chorus' in lyrics:
         return True
     return False
+
 
 class Lyric:
     def __init__(self, lyric, prev_lyric=None, next_lyric=None):
@@ -297,7 +312,7 @@ def lyrics_to_json():
     lyric_data = pd.read_csv(LYRIC_PATH)
     for lyric in lyric_data.to_records(index=False):
         title, album, lyric, prev_lyric, next_lyric, multiplicity = lyric
-        if album != album: # handling for NaN
+        if album != album:  # handling for NaN
             album = title
         if album not in lyric_dict:
             lyric_dict[album] = {}
@@ -335,7 +350,9 @@ def clean_lyrics(lyrics: str) -> str:
     lyrics = re.sub(r"[0-9]*URLCopyEmbedCopy", '', lyrics)
     lyrics = re.sub(r"[0-9]*Embed", '', lyrics)
     lyrics = re.sub(r"[0-9]*EmbedShare", '', lyrics)
-    lyrics = re.sub(r"See [\w\s]* LiveGet tickets as low as \$\d*You might also like", '\n', lyrics)
+    lyrics = re.sub(
+        r"See [\w\s]* LiveGet tickets as low as \$\d*You might also like",
+        '\n', lyrics)
 
     return lyrics
 
