@@ -1,2 +1,5 @@
 local.py
 .vscode/*
+.env
+.DS_Store
+myenv/
