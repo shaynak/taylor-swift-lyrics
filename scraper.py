@@ -28,7 +28,7 @@ ALBUMS = {
     '/albums/1040217': 'Midnights',
     '/albums/962334': 'Midnights',
     '/albums/1171508': 'The Tortured Poets Department',
-    '/albums/11806118': 'The Life of a Showgirl',
+    '/albums/1459351': 'The Life of a Showgirl',
     '/albums/39094': 'The Taylor Swift Holiday Collection',
     '/albums/1013719': 'The Hunger Games',
 }
@@ -142,12 +142,14 @@ def get_songs_by_album(genius, songs_by_album, last_album, songs_so_far, append_
                             "/tracks?page=" + str(next_page)
                         r = requests.get(request_url,
                                          headers={'Authorization': "Bearer " + access_token})
+                        if r.status_code != 200:
+                            raise Exception(f"HTTP {r.status_code}: {r.text}")
                         track_data = json.loads(r.text)
                         tracks.extend(track_data['response']['tracks'])
                         next_page = track_data['response']['next_page']
                     except Exception as e:
                         print('Failed getting album', album_name,
-                              '-- saving songs so far ', e)
+                              '-- saving songs so far: ', e)
                         return songs_by_album, True, album_api_path
                 for track in tracks:
                     song = track['song']
