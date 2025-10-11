@@ -6,7 +6,11 @@ import pandas as pd
 import re
 import requests
 from lyricsgenius.types import Song
-from local import *
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+access_token = os.getenv('GENIUS_API_KEY')
 
 ALBUMS = {
     '/albums/12682': 'Taylor Swift',
@@ -24,6 +28,7 @@ ALBUMS = {
     '/albums/1040217': 'Midnights',
     '/albums/962334': 'Midnights',
     '/albums/1171508': 'The Tortured Poets Department',
+    '/albums/11806118': 'The Life of a Showgirl',
     '/albums/39094': 'The Taylor Swift Holiday Collection',
     '/albums/1013719': 'The Hunger Games',
 }
@@ -117,7 +122,7 @@ def get_songs_by_album(genius, songs_by_album, last_album, songs_so_far, append_
 
     def clean_lyrics_and_append(song_data, album_name, lyrics, songs_by_album):
         cleaned_lyrics = clean_lyrics(lyrics)
-        s = Song(genius, song_data, cleaned_lyrics)
+        s = Song(cleaned_lyrics, song_data)
         if album_name not in songs_by_album:
             songs_by_album[album_name] = []
         songs_by_album[album_name].append(s)
@@ -140,9 +145,9 @@ def get_songs_by_album(genius, songs_by_album, last_album, songs_so_far, append_
                         track_data = json.loads(r.text)
                         tracks.extend(track_data['response']['tracks'])
                         next_page = track_data['response']['next_page']
-                    except Exception:
+                    except Exception as e:
                         print('Failed getting album', album_name,
-                              '-- saving songs so far')
+                              '-- saving songs so far ', e)
                         return songs_by_album, True, album_api_path
                 for track in tracks:
                     song = track['song']
